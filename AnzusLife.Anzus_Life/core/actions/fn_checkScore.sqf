@@ -1,0 +1,1 @@
+["Score", { hint parseText format["<t size='1.9'><t color='#FF0000'>Score</t></t><br/><br/> Northside %1 <br/><br/>Southside %2",scorer getVariable["score",0],scorer getVariable["score2",0]];}]

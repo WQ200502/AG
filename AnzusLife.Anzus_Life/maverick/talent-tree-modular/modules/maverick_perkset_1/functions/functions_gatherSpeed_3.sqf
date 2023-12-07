@@ -1,0 +1,1 @@
+AnzusLife_GatherSpeed = 0.80;

@@ -1,0 +1,1 @@
+AnzusLife_GarbageChance = 1.1;
