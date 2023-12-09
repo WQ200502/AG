@@ -1,0 +1,420 @@
+author = "LA";
+onLoadName = "Sunrise Life";//версия
+onLoadMission = "失落天堂RPG lfie";
+LoadScreen  = "\sunrise_config\sunrise_logo.paa";
+
+skipLobby = 1;
+
+saving = 0;
+disabledAI = 1;
+disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{3,true,true},{4,true,true},{5,true,true},{6,true,true}};
+enableDebugConsole[] = {"76561198953940231","76561198207021187"};
+
+disableRandomization[] = {"All"};
+onPauseScript[] = {"SunriseClient_system_escInterupt"};
+
+showGroupIndicator = 0;
+forceRotorLibSimulation = 0;
+respawn = 3;
+respawndelay = 5;
+respawnDialog = 0;
+respawnButton = 0;
+respawnTemplates[] = {};
+UnsafeCVL = 1;
+
+class Header {
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 150;
+};
+class Extended_DisplayLoad_EventHandlers {
+	class RscDisplayDebriefing {
+		Lobby_noDebriefing = "_this spawn {(_this select 0) closedisplay 2};";
+	};
+	class RscDisplayInventory {
+		Inventory_onLoad = "_this call SunriseClient_evh_inventoryOnLoad";
+	};
+	class RscDisplayInsertMarker {
+		InsertMarker_onLoad = "_this spawn SunriseClient_evh_insertMarkerOnLoad";
+	};
+};
+showHUD[] = {
+	1,	// Scripted HUD (same as showHUD command)
+	1,	// Vehicle + soldier info
+	0,	// Vehicle radar [HIDDEN]
+	0,	// Vehicle compass [HIDDEN]
+	0,	// Tank direction indicator
+	0,	// Commanding menu
+	0,	// Group Bar
+	1	// HUD Weapon Cursors
+};
+
+corpseManagerMode = 0;
+wreckManagerMode = 0;
+
+#include "infiSTAR_AdminMenu.hpp"
+#include "config\Config_Master.hpp"
+#include "dialog\common.hpp"
+#include "dialog\Dialog_Master.hpp"
+class RscTitles
+{
+	#include "dialog\ui.h"
+	#include "dialog\deathScreenV2.h"
+	#include "dialog\progress.h"
+	#include "dialog\hud_nameTags.h"
+	#include "dialog\CrimeList.h"
+	#include "dialog\mouseTarget.h"
+	#include "dialog\ExperienceAdded.h"
+	#include "dialog\PerkUnlocked.h"
+	#include "dialog\compass.h"
+};
+
+class CfgFunctions
+{
+	class Bootstrap
+	{
+		class Functions
+		{
+			file = "bootstrap";
+			class adminInit {preInit = 1;};
+			class preInit {preInit = 1;};
+			class postInit {postInit = 1;};
+		};
+	};
+};
+class CfgHints
+{
+	class Jobs
+	{
+		displayName = "Работа";
+		class DHL
+		{
+			displayName = "Работа курьером DHL";
+			displayNameShort = "Работа курьером DHL";
+			description = "Чтобы начать работу курьером DHL купите униформу и возьмите машину. Сядьте в машину и воспользуйтесь меню доставки.";
+			tip = "Использование разгрузки запрещено курьерам DHL";
+			arguments[] = {};
+			// Optional image
+			image = "";
+			// optional parameter for not showing of image in context hint in mission (default false))
+			noImage = true;
+		};
+		class Delivery
+		{
+			displayName = "Работа дальнобойщиком";
+			displayNameShort = "Работа дальнобойщиком";
+			description = "Чтобы начать работу дальнобойщиком отправьтесь на станцию и возьмите машину. Сядьте в машину и направляйтесь грузовой терминал.";
+			tip = "Использование разгрузки запрещено курьерам DHL";
+			arguments[] = {};
+			// Optional image
+			image = "";
+			// optional parameter for not showing of image in context hint in mission (default false))
+			noImage = true;
+		};
+	};
+};
+class CfgDebriefing
+{
+
+	class ModsReq
+	{
+		title = "Отсутствуют моды";
+		subtitle = "Вы были исключены из игры";
+		description = "Для игры на сервере Sunrise необходимо запустить Arma 3 со следующими модами: Community Base Addons, Task Force Arrowhead Radio и Sunrise Altis Life. Всю необходимую информацию по установке и настройке вы можете найти на нашем сайте: sunriserp.ru/install.html";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class TaskForce
+	{
+		title = "Ошибка";
+		subtitle = "Вы были исключены из игры";
+		description = "Для игры на сервере Sunrise необходимо настроить TeamSpeak 3 и мод Task Force Arma 3. Во время игры вы должны находиться на нашем TeamSpeak сервере, в соответствующем канале.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class Aborted
+	{
+		title = "Выход из игры";
+		subtitle = "Вы вышли с сервера.";
+		description = "Ваши данные были сохранены на сервере.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class NotWhitelisted
+	{
+		title = "Ошибка";
+		subtitle = "Вы не можете занимать этот слот";
+		description = "Вы не можете играть за этот слот, так как не прописаны в нем. Зайдите за другой слот.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class NotWhitelistedReb
+	{
+		title = "Ошибка";
+		subtitle = "Вы не можете занимать повстанческий слот";
+		description = "Вы не можете играть за фракцию повстанцев, так как не вступили в ряды сопротивления. Зайдите за гражданский слот и завербуйтесь на КПП Скопос.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class NotWhitelistedCiv
+	{
+		title = "Ошибка";
+		subtitle = "Вы не можете занимать гражданский слот";
+		description = "Вы не можете играть за фракцию гражданских, так как вступили в ряды сопротивления. Зайдите за повстанческий слот и купите паспорт в посольстве.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class NotYouServerMap_Altis
+	{
+		title = "Ошибка";
+		subtitle = "Закрепление на другом острове";
+		description = "Вы закреплены на острове Altis. Чтобы зайти на Tanoa вам неопходимо посетить офис туристической фирмы и оформить путевку";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	class NotYouServerMap_Tanoa
+	{
+		title = "Ошибка";
+		subtitle = "Закрепление на другом острове";
+		description = "Вы закреплены на острове Tanoa. Чтобы зайти на Altis вам неопходимо посетить офис туристической фирмы и оформить путевку";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class BetaTestOnlyForVip
+	{
+		title = "Ошибка";
+		subtitle = "Закрытый тест";
+		description = "К сожалению доступ к закрытому бета-тесту есть только у членов VIP-клуба. Вам придется дождаться выхода обновления на основной сервер.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class Blacklisted
+	{
+		title = "Mission Failed";
+		subtitle = "You are blacklisted from cops";
+		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlass
+	{
+		title = "The SpyGlass sees you";
+		subTitle = "You were detected by the SpyGlass";
+		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlassAddons
+	{
+		title = "The SpyGlass sees you";
+		subTitle = "You were detected by the SpyGlass";
+		description = "Ошибка инициализации аддонов! Попробуйте перезапустить клиент и проверить актуальная ли версия мода у вас установлена.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlassAddonsMissed
+	{
+		title = "Ошибка";
+		subTitle = "Проблема с файлами";
+		description = "У вас отсутствуют необходимые файлы. Убедитесь, что у вас установлена последняя версия и включен мод Sunrise";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlassAddonsNotWhite
+	{
+		title = "Ошибка";
+		subTitle = "Проблема с файлами";
+		description = "У вас есть лишние файлы. Убедитесь, что у вас установлена последняя версия мода Sunrise и не включены сторонние моды.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class SpyGlassAddonsVersion
+	{
+		title = "The SpyGlass sees you";
+		subTitle = "You were detected by the SpyGlass";
+		description = "У вас устаревшая версия мода Sunrise! Проверьте наличие обновлений через Arma3Sync!";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class NameExists
+	{
+		title = "Изменение имени";
+		subTitle = "";
+		description = "За вашим PID закреплёно другое имя, обратитесь к администрации для решения этого проблемы!";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class WrongServer
+	{
+		title = "Смена сервера";
+		subTitle = "";
+		description = "Вы уже закреплены на одном из наших серверов и не сможете сменить его до следующего рестарта. Вам придется подождать или вы можете вернуться и играть на предыдущем сервере";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class NameAlreadyInBasa
+	{
+		title = "Имя занято";
+		subTitle = "";
+		description = "На острове уже есть житель с таким же именем. Измените его в своем профиле на уникальное";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class BadProfileName
+	{
+		title = "Недопустимое имя";
+		subTitle = "";
+		description = "Имя персонажа содержит кириллицу, цифры, недопустимые символы, двойной пробел или пробел в конце! Имя может содержать только латинские буквы от A до Z и пробелы!";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
+	class LoadingError
+	{
+		title = "Ошибка";
+		subTitle = "";
+		description = "Во время загрузки произошла ошибка. Попробуйте присоединиться еще раз, если ошибка повторится - обратитесь к администрации!";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	/*class Banned
+	{
+		title = "BANNED";
+		subTitle = "";
+		description = "У вас бан на сервере Sunrise. Подробнее о причинах бана и его сроке вы можете узнать в личном кабинете: http://lk.sunriserp.ru";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};*/
+};
+
+class CfgNotifications
+{
+	class MedicalRequestEmerg
+	{
+		title = "EMS Requested";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 5;
+		priority = 7;
+	};
+
+	class DeliveryAssigned
+	{
+		title = "Delivery Job Accepted";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
+		description = "%1";
+		duration = 10;
+		priority = 7;
+	};
+
+	class DeliveryFailed
+	{
+		title = "Delivery Job Failed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
+		description = "%1";
+		duration = 7;
+		priority = 7;
+	};
+
+	class DeliverySucceeded
+	{
+		title = "Delivery Job Completed";
+		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
+		description = "%1";
+		duration = 6;
+		priority = 6;
+	};
+
+	class TextMessage
+	{
+		title = "Received A Text Message";
+		iconPicture = "\sunrise_pack\icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class PoliceDispatch
+	{
+		title = "Police Message";
+		iconPicture = "\sunrise_pack\icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class AdminDispatch
+	{
+		title = "Admin Dispatch Center";
+		iconPicture = "\sunrise_pack\icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class AdminMessage
+	{
+		title = "Admin Message";
+		iconPicture = "\sunrise_pack\icons\messageadmin.paa";
+		description = "%1";
+		duration = 10;
+		priority = 5;
+	};
+
+	class MedicMessage
+	{
+		title = "Medic Message";
+		iconPicture = "\sunrise_pack\icons\messagepolice.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+
+	class TaxiMessage
+	{
+		title = "Taxi Dispatch Center";
+		iconPicture = "\sunrise_pack\icons\messagenew.paa";
+		description = "%1";
+		duration = 10;
+		priority = 6;
+	};
+};

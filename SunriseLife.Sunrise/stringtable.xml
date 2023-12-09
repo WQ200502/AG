@@ -1,0 +1,5601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Altis Life RPG">
+	<Package name="Global">
+		<Key ID="STR_Global_Close">
+			<Original>关闭</Original>
+			<Russian>Закрыть</Russian>
+		</Key>
+		<Key ID="STR_Global_Sell">
+			<Original>卖</Original>
+			<Russian>Продать</Russian>
+		</Key>
+		<Key ID="STR_Global_Buy">
+			<Original>买</Original>
+			<Russian>Купить</Russian>
+		</Key>
+		<Key ID="STR_Global_Give">
+			<Original>给</Original>
+			<Russian>Передать</Russian>
+		</Key>
+		<Key ID="STR_Global_Use">
+			<Original>利用</Original>
+			<Russian>Использовать</Russian>
+		</Key>
+		<Key ID="STR_Global_Remove">
+			<Original>消除</Original>
+			<Russian>Удалить</Russian>
+		</Key>
+		<Key ID="STR_Global_Settings">
+			<Original>设置</Original>
+			<Russian>Настройки</Russian>
+		</Key>
+		<Key ID="STR_Global_RentVeh">
+			<Original>租</Original>
+			<Russian>Аренда</Russian>
+		</Key>
+		<Key ID="STR_Global_Retrieve">
+			<Original>取回</Original>
+			<Russian>Получить</Russian>
+		</Key>
+		<Key ID="STR_Global_NoSelection">
+			<Original>你没有选择任何东西.</Original>
+			<Russian>Вы ничего не выбрали</Russian>
+		</Key>
+		<Key ID="STR_Global_Yes">
+			<Original>是的</Original>
+			<Russian>Да</Russian>
+		</Key>
+		<Key ID="STR_Global_No">
+			<Original>否</Original>
+			<Russian>Нет</Russian>
+		</Key>
+		<Key ID="STR_Global_Cancel">
+			<Original>取消</Original>
+			<Russian>Отменить</Russian>
+		</Key>
+		<Key ID="STR_Global_Error">
+			<Original>错误</Original>			
+			<Russian>Ошибка</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="MissionFile">
+		<Key ID="STR_MF_FoodMarket">
+			<Original>食品超市</Original>
+			<Russian>Скупка пищ-ресурсов</Russian>
+		</Key>
+		<Key ID="STR_MF_PolicePier">
+			<Original>警察码头</Original>
+			<Russian>Полицейский причал</Russian>
+		</Key>
+		<Key ID="STR_MF_eatmarket1">
+			<Original>食品商店</Original>
+			<Russian>Продуктовый Магазин</Russian>
+		</Key>
+		<Key ID="STR_MF_FishMarket">
+			<Original>捕鱼装置</Original>
+			<Russian>Рыболовные снасти</Russian>
+		</Key>
+		<Key ID="STR_MF_OutKitchen">
+			<Original>户外厨房</Original>
+			<Russian>Полевая кухня</Russian>
+		</Key>
+		<Key ID="STR_MF_DepStore">
+			<Original>百货商店</Original>
+			<Russian>Универмаг</Russian>
+		</Key>
+		<Key ID="STR_MF_AlcoShop">
+			<Original>酒商</Original>
+			<Russian>Скупка алкоголя</Russian>
+		</Key>
+		<Key ID="STR_MF_RueShop">
+			<Original>交易街</Original>
+			<Russian>Скупка зерна</Russian>
+		</Key>
+		<Key ID="STR_MF_GlassBotlShop">
+			<Original>玻璃</Original>
+			<Russian>Скупка стекла и бутылок</Russian>
+		</Key>
+		<Key ID="STR_MF_CopperIronShop">
+			<Original>铁铜贸易商</Original>
+			<Russian>Скупка меди и железа</Russian>
+		</Key>
+		<Key ID="STR_MF_SilverShop">
+			<Original>白银和青铜交易员</Original>
+			<Russian>Скупка серебра и бронзы</Russian>
+		</Key>
+		<Key ID="STR_MF_TanoaExportShop">
+			<Original>出口装运</Original>
+			<Russian>Отгрузка экспорта</Russian>
+		</Key>
+		<Key ID="STR_MF_TanoaValuesShop">
+			<Original>贵重物品购买者</Original>
+			<Russian>Скупщик ценностей</Russian>
+		</Key>
+
+		<Key ID="STR_MF_RebUniShop">
+			<Original>叛军制服</Original>
+			<Russian>Униформа повстанцев</Russian>
+		</Key>
+		<Key ID="STR_MF_RebWeapShop">
+			<Original>叛军武器</Original>
+			<Russian>Оружейная повстанцев</Russian>
+		</Key>
+		<Key ID="STR_MF_CopWeapShop">
+			<Original>警用武器</Original>
+			<Russian>Оружейная полиции</Russian>
+		</Key>
+		<Key ID="STR_MF_CrimiWeapShop">
+			<Original>犯罪分子武器</Original>
+			<Russian>Оружейная криминалистов</Russian>
+		</Key>
+		<Key ID="STR_MF_CopUniShop">
+			<Original>警服</Original>
+			<Russian>Униформа полиции</Russian>
+		</Key>
+		<Key ID="STR_MF_JailUniShop">
+			<Original>监狱商店</Original>
+			<Russian>Одежда Заключенных</Russian>
+		</Key>
+		<Key ID="STR_MF_CivUniShop">
+			<Original>服装商店</Original>
+			<Russian>Бутик Брюса</Russian>
+		</Key>
+		<Key ID="STR_MF_ReblUniShop">
+			<Original>民兵服装</Original>
+			<Russian>Одежда Ополчения</Russian>
+		</Key>
+		<Key ID="STR_MF_ReblWeapShop">
+			<Original>民兵武器</Original>
+			<Russian>Оружие Ополчения</Russian>
+		</Key>
+		<Key ID="STR_MF_Pharmacy">
+			<Original>药品商店</Original>
+			<Russian>Аптека</Russian>
+		</Key>
+		<Key ID="STR_MF_Hospital">
+			<Original>医院</Original>
+			<Russian>Госпиталь</Russian>
+		</Key>
+		<Key ID="STR_MF_CivWeapShop">
+			<Original>枪店</Original>
+			<Russian>Оружейный магазин</Russian>
+		</Key>
+		<Key ID="STR_MF_PaintballShop">
+			<Original>彩弹店</Original>
+			<Russian>Пейнтбольный магазин</Russian>
+		</Key>
+		<Key ID="STR_MF_PaintballZone">
+			<Original>彩弹区</Original>
+			<Russian>Пейнтбольная зона</Russian>
+		</Key>
+		<Key ID="STR_MF_JoinPBfight">
+			<Original>注册为参与者</Original>
+			<Russian>Зарегистрироваться в качестве участника</Russian>
+		</Key>
+		<Key ID="STR_MF_Garage">
+			<Original>车库</Original>
+			<Russian>Гараж</Russian>
+		</Key>
+		<Key ID="STR_MF_CarGarage">
+			<Original>车库</Original>
+			<Russian>Автомобильный гараж</Russian>
+		</Key>
+		<Key ID="STR_MF_GarParkCar">
+			<Original>停放车辆</Original>
+			<Russian>Поставить в гараж</Russian>
+		</Key>
+		<Key ID="STR_MF_RefVeh">
+			<Original>&lt;t color="#d6ff33"&gt;Refuel vehicle&lt;/t&gt;</Original>
+			<Russian>&lt;t color="#d6ff33"&gt;Заправить технику&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_MF_AirShop">
+			<Original>空中商店</Original>
+			<Russian>Авиационный магазин</Russian>
+		</Key>
+		<Key ID="STR_MF_24hShop">
+			<Original>加油站商店</Original>
+			<Russian>Магазин 24-7</Russian>
+		</Key>
+		<Key ID="STR_MF_LicShop">
+			<Original>许可证店</Original>
+			<Russian>Магазин лицензий</Russian>
+		</Key>
+		<Key ID="STR_MF_DivingShop">
+			<Original>潜水店</Original>
+			<Russian>Магазин дайвинга</Russian>
+		</Key>
+		<Key ID="STR_MF_BoatShop">
+			<Original>船店</Original>
+			<Russian>Лодочный магазин</Russian>
+		</Key>
+		<Key ID="STR_MF_BoatGar">
+			<Original>船库</Original>
+			<Russian>Лодочный гараж</Russian>
+		</Key>
+		<Key ID="STR_MF_BoatShopGar">
+			<Original>船店和车库</Original>
+			<Russian>Лодочный магазин и причал</Russian>
+		</Key>
+		<Key ID="STR_MF_RobCashDesk">
+			<Original>抢劫加油站</Original>
+			<Russian>Ограбить кассу</Russian>
+		</Key>
+		<Key ID="STR_MF_RobCashDesk1">
+			<Original>抢劫银行行长</Original>
+			<Russian>Ограбить кассу</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShop">
+			<Original>汽车店</Original>
+			<Russian>Автомобильный магазин</Russian>
+		</Key>
+		<Key ID="STR_MF_TruckShop">
+			<Original>卡车店</Original>
+			<Russian>Магазин грузовиков</Russian>
+		</Key>
+		<Key ID="STR_MF_CopStation">
+			<Original>警察局</Original>
+			<Russian>Полицейский Участок</Russian>
+		</Key>
+		<Key ID="STR_MF_ChopShop">
+			<Original>印章店</Original>
+			<Russian>Скупка и перебивка автомобилей</Russian>
+		</Key>
+		<Key ID="STR_MF_ChopShopAll">
+			<Original>印章店（陆地+空中）</Original>
+			<Russian>Перебивка автомобилей и вертолетов</Russian>
+		</Key>
+		<Key ID="STR_MF_AirGar">
+			<Original>飞机车库</Original>
+			<Russian>Авиационный гараж</Russian>
+		</Key>
+		<Key ID="STR_MF_Docks">
+			<Original>码头</Original>
+			<Russian>Причал</Russian>
+		</Key>
+		<Key ID="STR_MF_CraftShop">
+			<Original>工艺品店</Original>
+			<Russian>Магазин рецептов</Russian>
+		</Key>
+		<Key ID="STR_MF_BarTT">
+			<Original>酒吧“奶头扭曲者"</Original>
+			<Russian>Бар "Titty Twister"</Russian>
+		</Key>
+		<Key ID="STR_MF_BarShop">
+			<Original>酒精饮料和小吃</Original>
+			<Russian>Алкогольные напитки и закуски</Russian>
+		</Key>
+		<Key ID="STR_MF_MedPharm">
+			<Original>药房 911</Original>
+			<Russian>Аптека 911</Russian>
+		</Key>
+		<Key ID="STR_MF_MedUni">
+			<Original>军医制服</Original>
+			<Russian>Униформа медиков</Russian>
+		</Key>
+		<Key ID="STR_MF_MechShop">
+			<Original>机械店</Original>
+			<Russian>Магазин механиков</Russian>
+		</Key>
+		<Key ID="STR_MF_OilGasShop">
+			<Original>石油和汽油贸易商</Original>
+			<Russian>Скупка нефти и бензина</Russian>
+		</Key>
+		<Key ID="STR_MF_DiamondShop">
+			<Original>钻石交易员</Original>
+			<Russian>Скупка алмазов</Russian>
+		</Key>
+		<Key ID="STR_MF_SaltShop">
+			<Original>盐商</Original>
+			<Russian>Скупка соли</Russian>
+		</Key>
+		<Key ID="STR_MF_TourAgency">
+			<Original>旅行社</Original>
+			<Russian>Туристическое агентство</Russian>
+		</Key>
+		<Key ID="STR_MF_GarParkAir">
+			<Original>停放飞机</Original>
+			<Russian>Поставить в авиационный гараж</Russian>
+		</Key>
+		<Key ID="STR_MF_InsurCar">
+			<Original>&lt;t color="#ffde00"&gt;Purchase ground vehicle insurance&lt;/t&gt;</Original>
+			<Russian>&lt;t color="#ffde00"&gt;Застраховать наземный транспорт&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_MF_InsurAir">
+			<Original>&lt;t color="#ffde00"&gt;Purchase air transport insurance&lt;/t&gt;</Original>
+			<Russian>&lt;t color="#ffde00"&gt;Застраховать воздушный транспорт&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathIron">
+			<Original>铁矿</Original>
+			<Russian>Железная шахта</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathGas">
+			<Original>天然气生产</Original>
+			<Russian>Добыча газа</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathSalt">
+			<Original>盐矿</Original>
+			<Russian>Соляная шахта</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathSand">
+			<Original>采砂场</Original>
+			<Russian>Песчаный карьер</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCopper">
+			<Original>铜矿</Original>
+			<Russian>Медная шахта</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathApple">
+			<Original>苹果园</Original>
+			<Russian>Яблоневый сад</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathPeach">
+			<Original>桃园</Original>
+			<Russian>Персиковый сад</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathOil">
+			<Original>油藏</Original>
+			<Russian>Залежи нефти</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathDiamond">
+			<Original>钻石矿</Original>
+			<Russian>Алмазная шахта</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCotton">
+			<Original>棉花种植园</Original>
+			<Russian>Хлопковая плантация</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathTobacco">
+			<Original>烟草种植园</Original>
+			<Russian>Табачная плантация</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCannabis">
+			<Original>大麻种植园</Original>
+			<Russian>Плантация конопли</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCocaine">
+			<Original>可卡因种植园</Original>
+			<Russian>Плантация кокаина</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathHeroin">
+			<Original>海洛因种植园</Original>
+			<Russian>Плантация героина</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathStone">
+			<Original>采石场</Original>
+			<Russian>Каменный карьер</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathTurtle">
+			<Original>海龟港</Original>
+			<Russian>Черепашья гавань</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathShrimps">
+			<Original>虾</Original>
+			<Russian>Креветки</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathSharks">
+			<Original>鲨鱼</Original>
+			<Russian>Акулы</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathYeast">
+			<Original>酵母</Original>
+			<Russian>Дрожжи</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathRye">
+			<Original>黑麦</Original>
+			<Russian>Рожь</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCorn">
+			<Original>玉米</Original>
+			<Russian>Кукуруза</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathWood">
+			<Original>木头</Original>
+			<Russian>Древесина</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathHunting">
+			<Original>打猎</Original>
+			<Russian>Охота</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathHuntingRare">
+			<Original>预订</Original>
+			<Russian>Заповедник</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathUranus">
+			<Original>铀</Original>
+			<Russian>Уран</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathHop">
+			<Original>跳</Original>
+			<Russian>Хмель</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathMeth">
+			<Original>化学品仓库</Original>
+			<Russian>Склад химикатов</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathAnana">
+			<Original>菠萝</Original>
+			<Russian>Ананасы</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathBanana">
+			<Original>香蕉种植园</Original>
+			<Russian>Банановая плантация</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathOlive">
+			<Original>橄榄树</Original>
+			<Russian>Оливковое дерево</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathRedWood">
+			<Original>红树</Original>
+			<Russian>Красное дерево</Russian>
+		</Key>
+		<Key ID="STR_MF_BlackWood">
+			<Original>乌木</Original>
+			<Russian>Черное дерево</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathRoyalC">
+			<Original>鲎</Original>
+			<Russian>Королевский краб</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathBauxites">
+			<Original>盒装挖矿</Original>
+			<Russian>Добыча Боксида</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCoquina">
+			<Original>壳岩开采</Original>
+			<Russian>Добыча ракушечника</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathAmber">
+			<Original>琥珀开采</Original>
+			<Russian>Добыча янтаря</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCoco">
+			<Original>椰子</Original>
+			<Russian>Кокосы</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCoffe">
+			<Original>咖啡</Original>
+			<Russian>Кофе</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathObsid">
+			<Original>黑曜石开采</Original>
+			<Russian>Добыча обсидиана</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathArtWater">
+			<Original>自流井</Original>
+			<Russian>Артезианская скважина</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathBronze">
+			<Original>青铜矿</Original>
+			<Russian>Бронзовая руда</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathSugar">
+			<Original>甘蔗</Original>
+			<Russian>Сахарный тростник</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathCacao">
+			<Original>可可种植园</Original>
+			<Russian>Плантации какао</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathArtPart">
+			<Original>考古发掘</Original>
+			<Russian>Археологические раскопки</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathBlackDiamond">
+			<Original>黑钻石开采</Original>
+			<Russian>Добыча черного алмаза</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathBlackArt">
+			<Original>黑色挖掘</Original>
+			<Russian>Черные раскопки</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathPearl">
+			<Original>珍珠开采</Original>
+			<Russian>Добыча жемчуга</Russian>
+		</Key>
+		<Key ID="STR_MF_ResGathOpium">
+			<Original>鸦片开采</Original>
+			<Russian>Добыча опиума</Russian>
+		</Key>
+
+		<Key ID="STR_MF_ResProcSalt">
+			<Original>盐加工</Original>
+			<Russian>Переработка соли</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcOil">
+			<Original>炼油</Original>
+			<Russian>Переработка нефти</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcIron">
+			<Original>铁加工</Original>
+			<Russian>Переработка железа</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcDiamond">
+			<Original>钻石加工</Original>
+			<Russian>Переработка алмазов</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcJewelry">
+			<Original>珠宝大师</Original>
+			<Russian>Ювелирный мастер</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcMarijh">
+			<Original>大麻加工</Original>
+			<Russian>Переработка марихуаны</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCopper">
+			<Original>铜加工</Original>
+			<Russian>Переработка меди</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcSand">
+			<Original>砂处理</Original>
+			<Russian>Переработка песка</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcSilver">
+			<Original>银加工</Original>
+			<Russian>Переработка серебра</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcHeroin">
+			<Original>海洛因加工</Original>
+			<Russian>Переработка героина</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcStone">
+			<Original>石材加工</Original>
+			<Russian>Переработка камня</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcOilToGasoline">
+			<Original>成品油加工成汽油</Original>
+			<Russian>Переработка очищенной нефти в бензин</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCocaine">
+			<Original>可卡因加工</Original>
+			<Russian>Переработка кокаина</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcMedMarj">
+			<Original>医用大麻加工</Original>
+			<Russian>Переработка медицинской марихуаны</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcGas">
+			<Original>气体处理</Original>
+			<Russian>Переработка газа</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcShrimp">
+			<Original>虾加工</Original>
+			<Russian>Переработка креветок</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcUran">
+			<Original>铀加工</Original>
+			<Russian>Переработка урана</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcUran2">
+			<Original>铀精炼</Original>
+			<Russian>Очистка урана</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcMarProd">
+			<Original>海鲜加工</Original>
+			<Russian>Переработка морских продуктов</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCopTapes">
+			<Original>铜带生产</Original>
+			<Russian>Производство медных лент</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCigar">
+			<Original>雪茄生产</Original>
+			<Russian>Производство сигар</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcMeth">
+			<Original>冰毒实验室</Original>
+			<Russian>Варка мета</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcBrewery">
+			<Original>啤酒厂</Original>
+			<Russian>Пивоварня</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcDistillery">
+			<Original>酒厂</Original>
+			<Russian>Ликеро-водочный завод</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcAlcoPour">
+			<Original>装瓶厂</Original>
+			<Russian>Розлив алкоголя</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcBeerPour">
+			<Original>啤酒装瓶厂</Original>
+			<Russian>Розлив пива</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcWhiskeyPour">
+			<Original>威士忌装瓶厂</Original>
+			<Russian>Розлив виски</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcMoonshinePour">
+			<Original>月光装瓶</Original>
+			<Russian>Розлив самогона</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcMakeBottles">
+			<Original>制作瓶子</Original>
+			<Russian>Производство бутылок</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcAmmonia">
+			<Original>氨的生产</Original>
+			<Russian>Производство аммиака</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcSugar">
+			<Original>糖加工</Original>
+			<Russian>Переработка сахара</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcAmber">
+			<Original>琥珀加工</Original>
+			<Russian>Переработка янтаря</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcPearl">
+			<Original>珍珠加工</Original>
+			<Russian>Переработка жемчуга</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcAmberAndPearl">
+			<Original>琥珀和珍珠的加工</Original>
+			<Russian>Переработка янтаря и жемчуга</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcWoodbU">
+			<Original>乌木加工</Original>
+			<Russian>Переработка черного дерева</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcWoodbP">
+			<Original>乌木锯切</Original>
+			<Russian>Распил черного дерева</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcWoodrP">
+			<Original>锯桃花心木</Original>
+			<Russian>Распил красного дерева</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcBlackdP">
+			<Original>黑钻加工</Original>
+			<Russian>Переработка черного алмаза</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcAlluP">
+			<Original>盒边回收</Original>
+			<Russian>Переработка боксидов</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCoquinaP">
+			<Original>壳岩加压</Original>
+			<Russian>Опрессовка ракушечника</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcBronzeC">
+			<Original>青铜清洗</Original>
+			<Russian>Очистка бронзы</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcBronzeP">
+			<Original>铜锭生产</Original>
+			<Russian>Производство бронзовой чушки</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcOpiumP">
+			<Original>鸦片生产</Original>
+			<Russian>Производство опиума</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcObsidP">
+			<Original>黑曜石加工</Original>
+			<Russian>Производство обсидиана</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcWeppartP">
+			<Original>武器碎片清理</Original>
+			<Russian>Очистка фрагмента оружия</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcWeapMaster">
+			<Original>枪匠</Original>
+			<Russian>Оружейный мастер</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCoffeeP">
+			<Original>咖啡生产</Original>
+			<Russian>Производство кофе</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcFoodProcCentr">
+			<Original>食品厂</Original>
+			<Russian>Пищевая фабрика</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcRoyalcP">
+			<Original>螃蟹加工</Original>
+			<Russian>Переработка краба</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcOliveP">
+			<Original>橄榄罐头</Original>
+			<Russian>Консервирование оливок</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcCacaoP">
+			<Original>巧克力生产</Original>
+			<Russian>Производство шоколада</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcDish">
+			<Original>蛋糕制作</Original>
+			<Russian>Производство торта</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcRoma">
+			<Original>朗姆酒生产</Original>
+			<Russian>Производство рома</Russian>
+		</Key>
+		<Key ID="STR_MF_ResProcSofa">
+			<Original>家具生产</Original>
+			<Russian>Производство мебели</Russian>
+		</Key>
+		<Key ID="STR_MF_DrugDealer">
+			<Original>毒贩</Original>
+			<Russian>Наркоторговец</Russian>
+		</Key>
+		<Key ID="STR_MF_MedMarjShop">
+			<Original>医用大麻店</Original>
+			<Russian>Торговец медицинской марихуанной</Russian>
+		</Key>
+		<Key ID="STR_MF_MedHelp">
+			<Original>卫生保健</Original>
+			<Russian>Медицинская помощь</Russian>
+		</Key>
+		<Key ID="STR_MF_GasStation">
+			<Original>加油站</Original>
+			<Russian>Бензоколонка</Russian>
+		</Key>
+		<Key ID="STR_MF_CargoDepoKav">
+			<Original>货场 "卡瓦拉"</Original>
+			<Russian>Грузовое депо "Кавала"</Russian>
+		</Key>
+		<Key ID="STR_MF_CargoDepoMazi">
+			<Original>货场 "Mazi"</Original>
+			<Russian>Грузовое депо "Мази"</Russian>
+		</Key>
+		<Key ID="STR_MF_CargoDepoMolos">
+			<Original>货场 "Molos"</Original>
+			<Russian>Грузовое депо "Молос"</Russian>
+		</Key>
+		<Key ID="STR_MF_CargoDepoTonos">
+			<Original>货场 "Tonos"</Original>
+			<Russian>Грузовое депо "Тонос"</Russian>
+		</Key>
+		<Key ID="STR_MF_RebBase1">
+			<Original>叛军基地 1</Original>
+			<Russian>База повстанцев 1</Russian>
+		</Key>
+		<Key ID="STR_MF_RebBase2">
+			<Original>叛军基地 2</Original>
+			<Russian>База повстанцев 2</Russian>
+		</Key>
+		<Key ID="STR_MF_RebBase3">
+			<Original>叛军基地 3</Original>
+			<Russian>База повстанцев 3</Russian>
+		</Key>
+		<Key ID="STR_MF_RebsCapital">
+			<Original>反叛资本</Original>
+			<Russian>Столица повстанцев</Russian>
+		</Key>
+		<Key ID="STR_MF_VipCarsShop">
+			<Original>顶级豪车</Original>
+			<Russian>Магазин элитных авто</Russian>
+		</Key>
+		<Key ID="STR_MF_RebCarsShopAndLicens">
+			<Original>反叛运输/许可证</Original>
+			<Russian>Техника повстанцев / Лицензии</Russian>
+		</Key>
+		<Key ID="STR_MF_SabotMaster">
+			<Original>转移大师</Original>
+			<Russian>Мастер диверсий</Russian>
+		</Key>
+		<Key ID="STR_MF_GoldShop">
+			<Original>黄金交易员</Original>
+			<Russian>Скупка золота</Russian>
+		</Key>
+		<Key ID="STR_MF_UranShop">
+			<Original>铀贸易商</Original>
+			<Russian>Скупка урана</Russian>
+		</Key>
+		<Key ID="STR_MF_GetDrugSellers">
+			<Original>获取毒贩名单</Original>
+			<Russian>Получить список клиентов</Russian>
+		</Key>
+		<Key ID="STR_MF_WoodShop">
+			<Original>木材贸易商</Original>
+			<Russian>Скупка древесины</Russian>
+		</Key>
+		<Key ID="STR_MF_CoquinaShop">
+			<Original>购买煤渣块</Original>
+			<Russian>Скупка шлакоблока</Russian>
+		</Key>
+		<Key ID="STR_MF_BronzeShop">
+			<Original>购买青铜</Original>
+			<Russian>Скупка бронзы</Russian>
+		</Key>
+		<Key ID="STR_MF_OpiumShop">
+			<Original>买鸦片</Original>
+			<Russian>Скупка опиума</Russian>
+		</Key>
+		<Key ID="STR_MF_ObsidShop">
+			<Original>购买黑曜石</Original>
+			<Russian>Скупка обсидиана</Russian>
+		</Key>
+		<Key ID="STR_MF_BlackDiamondShop">
+			<Original>购买黑钻</Original>
+			<Russian>Скупка черных алмазов</Russian>
+		</Key>
+		<Key ID="STR_MF_ArtifactsShop">
+			<Original>神器交易员</Original>
+			<Russian>Скупка артефактов</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapPartShop">
+			<Original>购买武器零件</Original>
+			<Russian>Скупка оружейных деталей</Russian>
+		</Key>
+		<Key ID="STR_MF_MafiaShelt">
+			<Original>黑手党藏身处</Original>
+			<Russian>Укрытие мафии</Russian>
+		</Key>
+		<Key ID="STR_MF_CementShop">
+			<Original>水泥贸易商</Original>
+			<Russian>Скупка цемента</Russian>
+		</Key>
+		<Key ID="STR_MF_TurtleMeatShop">
+			<Original>龟肉贸易商</Original>
+			<Russian>Скупка черепашьего мяса</Russian>
+		</Key>
+		<Key ID="STR_MF_Bank">
+			<Original>银行</Original>
+			<Russian>Банк</Russian>
+		</Key>
+		<Key ID="STR_MF_Parking">
+			<Original>停车处</Original>
+			<Russian>Парковка</Russian>
+		</Key>
+		<Key ID="STR_MF_CIAOffice">
+			<Original>中央情报局办公室</Original>
+			<Russian>Офис CIA</Russian>
+		</Key>
+		<Key ID="STR_MF_OPROffice">
+			<Original>OPR办公室</Original>
+			<Russian>Офис OPR</Russian>
+		</Key>
+		<Key ID="STR_MF_TaxiBase">
+			<Original>出租车站</Original>
+			<Russian>Таксопарк</Russian>
+		</Key>
+		<Key ID="STR_MF_TaxiCarShop">
+			<Original>的士车店</Original>
+			<Russian>Техника таксистов</Russian>
+		</Key>
+		<Key ID="STR_MF_TaxiUniShop">
+			<Original>出租车制服</Original>
+			<Russian>Униформа таксистов</Russian>
+		</Key>
+		<Key ID="STR_MF_TaxiWeapShop">
+			<Original>出租车库</Original>
+			<Russian>Арсенал таксистов</Russian>
+		</Key>
+		<Key ID="STR_MF_Casino">
+			<Original>赌场</Original>
+			<Russian>Казино</Russian>
+		</Key>
+		<Key ID="STR_MF_CourMis">
+			<Original>信使任务</Original>
+			<Russian>Курьерские миссии</Russian>
+		</Key>
+		<Key ID="STR_MF_CPKavala">
+			<Original>卡瓦拉检查站</Original>
+			<Russian>КПП Кавала</Russian>
+		</Key>
+		<Key ID="STR_MF_CPAtira">
+			<Original>A城检查站</Original>
+			<Russian>КПП Атира</Russian>
+		</Key>
+		<Key ID="STR_MF_FedRes">
+			<Original>美国联邦储备</Original>
+			<Russian>Федеральный Резерв</Russian>
+		</Key>
+		<Key ID="STR_MF_VIPAirShop">
+			<Original>贵宾飞机</Original>
+			<Russian>VIP авиация</Russian>
+		</Key>
+		<Key ID="STR_MF_KartShop">
+			<Original>卡丁车店</Original>
+			<Russian>Магазин картингов</Russian>
+		</Key>
+		<Key ID="STR_MF_NomadsBase">
+			<Original>雪茄和酒商</Original>
+			<Russian>Скупка сигарет и алкоголя</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopNMD">
+			<Original>游牧民族制服</Original>
+			<Russian>Одежда NOMADS</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopNMD">
+			<Original>游牧民族武器</Original>
+			<Russian>Оружие NOMADS</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopNMD">
+			<Original>NOMADS 车辆商店</Original>
+			<Russian>Техника NOMADS</Russian>
+		</Key>
+		<Key ID="STR_MF_GasShop">
+			<Original>燃气交易员</Original>
+			<Russian>Скупка газа</Russian>
+		</Key>
+		<Key ID="STR_MF_7thBase">
+			<Original>第七新闻频道</Original>
+			<Russian>7-ой канал новостей</Russian>
+		</Key>
+		<Key ID="STR_MF_SkyDive">
+			<Original>航空运动俱乐部</Original>
+			<Russian>Авиаспортивный клуб</Russian>
+		</Key>
+		<Key ID="STR_MF_Slaver">
+			<Original>奴隶</Original>
+			<Russian>Работорговец</Russian>
+		</Key>
+		<Key ID="STR_MF_RebRec">
+			<Original>叛军招募</Original>
+			<Russian>Вербовка повстанцев</Russian>
+		</Key>
+		<Key ID="STR_MF_JoinRebRes">
+			<Original>加入反抗军!</Original>
+			<Russian>Вступить в повстанческое сопротивление!</Russian>
+		</Key>
+		<Key ID="STR_MF_JoinCivFromReb">
+			<Original>成为阿尔蒂斯的公民!</Original>
+			<Russian>Стать гражданином Алтиса!</Russian>
+		</Key>
+		<Key ID="STR_MF_Jail">
+			<Original>惩教所</Original>
+			<Russian>Исправительная Колония</Russian>
+		</Key>
+		<Key ID="STR_MF_Governor">
+			<Original>州长</Original>
+			<Russian>Губернатор</Russian>
+		</Key>
+		<Key ID="STR_MF_GovUniShop">
+			<Original>州长服装</Original>
+			<Russian>Одежда губернатора</Russian>
+		</Key>
+		<Key ID="STR_MF_GovWeapShop">
+			<Original>州长的武器</Original>
+			<Russian>Оружейная губернатора</Russian>
+		</Key>
+		<Key ID="STR_MF_BstUniShop">
+			<Original>BST 服装</Original>
+			<Russian>Одежда BST</Russian>
+		</Key>
+		<Key ID="STR_MF_BstWeapShop">
+			<Original>BST 武器</Original>
+			<Russian>Оружейная BST</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopBST">
+			<Original>BST车辆商店</Original>
+			<Russian>Техника BST</Russian>
+		</Key>
+		<Key ID="STR_MF_Embassy">
+			<Original>大使馆</Original>
+			<Russian>Посольство</Russian>
+		</Key>
+		<Key ID="STR_MF_StrikersShop">
+			<Original>前锋商店</Original>
+			<Russian>Магазин забастовщика</Russian>
+		</Key>
+		<Key ID="STR_MF_PremICS">
+			<Original>ICS 基地</Original>
+			<Russian>База ICS</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopICS">
+			<Original>ICS 制服</Original>
+			<Russian>Одежда ICS</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopICS">
+			<Original>ICS 武器</Original>
+			<Russian>Оружие ICS</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopICS">
+			<Original>ICS车辆商店</Original>
+			<Russian>Техника ICS</Russian>
+		</Key>
+		<Key ID="STR_MF_PremVL">
+			<Original>VL基地</Original>
+			<Russian>База VL</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopVL">
+			<Original>VL制服</Original>
+			<Russian>Одежда VL</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopVL">
+			<Original>VL武器</Original>
+			<Russian>Оружие VL</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopVL">
+			<Original>VL汽车店</Original>
+			<Russian>Техника VL</Russian>
+		</Key>
+		<Key ID="STR_MF_PremFB">
+			<Original>FB基地</Original>
+			<Russian>База FB</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopFB">
+			<Original>FB车行</Original>
+			<Russian>Автомобильный салон FB</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopFB">
+			<Original>FB制服</Original>
+			<Russian>Одежда FB</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopFB">
+			<Original>FB武器</Original>
+			<Russian>Оружие FB</Russian>
+		</Key>
+		<Key ID="STR_MF_PremDND">
+			<Original>EC 基地</Original>
+			<Russian>База EC</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopDND">
+			<Original>EC 制服</Original>
+			<Russian>Одежда EC</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopDND">
+			<Original>EC 武器</Original>
+			<Russian>Оружие EC</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopDND">
+			<Original>EC 车辆商店</Original>
+			<Russian>Автомобильный салон EC</Russian>
+		</Key>
+		<Key ID="STR_MF_PremM">
+			<Original>M 基地</Original>
+			<Russian>База M</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopM">
+			<Original>M 车辆商店</Original>
+			<Russian>Техника M</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopM">
+			<Original>M 制服</Original>
+			<Russian>Одежда M</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopM">
+			<Original>M 武器</Original>
+			<Russian>Оружие M</Russian>
+		</Key>
+		<Key ID="STR_MF_PremRFA">
+			<Original>MF 基地</Original>
+			<Russian>База MF</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopRFA">
+			<Original>MF 制服</Original>
+			<Russian>Одежда MF</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopRFA">
+			<Original>MF 武器</Original>
+			<Russian>Оружие MF</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopRFA">
+			<Original>MF 车辆商店</Original>
+			<Russian>Техника MF</Russian>
+		</Key>
+		<Key ID="STR_MF_ShipShopCCP">
+			<Original>FAJ 船舶商店</Original>
+			<Russian>Лодки FAJ</Russian>
+		</Key>
+		<Key ID="STR_MF_CIABase">
+			<Original>中央情报局基地</Original>
+			<Russian>База CIA</Russian>
+		</Key>
+		<Key ID="STR_MF_7thVehShop">
+			<Original>7NEWS车店</Original>
+			<Russian>Техника журналистов</Russian>
+		</Key>
+		<Key ID="STR_MF_7thUniShop">
+			<Original>7NEWS制服</Original>
+			<Russian>Униформа журналистов</Russian>
+		</Key>
+		<Key ID="STR_MF_CapMafiaShelter">
+			<Original>占领藏身处</Original>
+			<Russian>Захватить бандитское укрытие</Russian>
+		</Key>
+		<Key ID="STR_MF_MafUnifShop">
+			<Original>黑手党制服</Original>
+			<Russian>Одежда мафии</Russian>
+		</Key>
+		<Key ID="STR_MF_CapProcess">
+			<Original>捕获加工厂</Original>
+			<Russian>Захватить переработку ресурса</Russian>
+		</Key>
+		<Key ID="STR_MF_CookMeth">
+			<Original>煮冰毒</Original>
+			<Russian>Варить мет</Russian>
+		</Key>
+		<Key ID="STR_MF_SlotMach">
+			<Original>老虎机</Original>
+			<Russian>Игровой автомат</Russian>
+		</Key>
+		<Key ID="STR_MF_FinishDPMiss">
+			<Original>递送包裹</Original>
+			<Russian>Доставить посылку</Russian>
+		</Key>
+		<Key ID="STR_MF_StartDPMiss">
+			<Original>取货单</Original>
+			<Russian>Взять заказ на доставку</Russian>
+		</Key>
+		<Key ID="STR_MF_ProcActWhiskey">
+			<Original>生产威士忌</Original>
+			<Russian>Производство виски</Russian>
+		</Key>
+		<Key ID="STR_MF_ProcActMoonshine">
+			<Original>生产月光</Original>
+			<Russian>Производство самогона</Russian>
+		</Key>
+		<Key ID="STR_MF_ProcActMash">
+			<Original>生产啤酒</Original>
+			<Russian>Производство браги</Russian>
+		</Key>
+		<Key ID="STR_MF_7thWeapShop">
+			<Original>7NEWS阿森纳</Original>
+			<Russian>Арсенал журналистов</Russian>
+		</Key>
+		<Key ID="STR_MF_SellSlave">
+			<Original>卖平民为奴</Original>
+			<Russian>Продать гражданского в рабство</Russian>
+		</Key>
+		<Key ID="STR_MF_SkyDiveGo">
+			<Original>跳伞（2000 美元）</Original>
+			<Russian>Заняться Скайдайвингом! ($2000)</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopPolice">
+			<Original>警车店</Original>
+			<Russian>Автомобильный салон полиции</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopCrimi">
+			<Original>犯罪分子汽车店</Original>
+			<Russian>Автомобильный салон криминалиистов</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopSwat">
+			<Original>特警汽车店</Original>
+			<Russian>Автомобильный салон SWAT</Russian>
+		</Key>
+		<Key ID="STR_MF_AirShopSwat">
+			<Original>特警航空店</Original>
+			<Russian>Авиационный магазин SWAT</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopDEA">
+			<Original>DEA汽车店</Original>
+			<Russian>Автомобильный салон DEA</Russian>
+		</Key>
+		<Key ID="STR_MF_AirShopDEA">
+			<Original>DEA 空气商店</Original>
+			<Russian>Авиационный магазин DEA</Russian>
+		</Key>
+		<Key ID="STR_MF_OpenSafe">
+			<Original>打开保险箱</Original>
+			<Russian>Открыть сейф</Russian>
+		</Key>
+		<Key ID="STR_MF_FixSafe">
+			<Original>修复保险箱</Original>
+			<Russian>Починить сейф</Russian>
+		</Key>
+		<Key ID="STR_MF_CIACarsShop">
+			<Original>中央情报局汽车店</Original>
+			<Russian>Автомобильный салон CIA</Russian>
+		</Key>
+		<Key ID="STR_MF_GainFreedom">
+			<Original>获得自由</Original>
+			<Russian>Обрести свободу</Russian>
+		</Key>
+		<Key ID="STR_MF_CaptureCheckpoint">
+			<Original>捕获检查点</Original>
+			<Russian>Захватить КПП</Russian>
+		</Key>
+		<Key ID="STR_MF_WorkUndercover">
+			<Original>卧底工作</Original>
+			<Russian>Работа под прикрытием</Russian>
+		</Key>
+		<Key ID="STR_MF_GovElect">
+			<Original>阿尔蒂斯州长选举</Original>
+			<Russian>Выборы губернатора Алтиса</Russian>
+		</Key>
+		<Key ID="STR_MF_CargoDelStart">
+			<Original>接受货物提货单</Original>
+			<Russian>Взять заказ на доставку груза</Russian>
+		</Key>
+		<Key ID="STR_MF_CargoDelFinish">
+			<Original>完成货物交付</Original>
+			<Russian>Сдать заказ на доставку груза</Russian>
+		</Key>
+		<Key ID="STR_MF_CivUnit">
+			<Original>平民</Original>
+			<Russian>Гражданский</Russian>
+		</Key>
+		<Key ID="STR_MF_RebUnit">
+			<Original>反叛</Original>
+			<Russian>Повстанец</Russian>
+		</Key>
+		<Key ID="STR_MF_TrainingBase">
+			<Original>培训基地</Original>
+			<Russian>Тренировочная база</Russian>
+		</Key>
+		<Key ID="STR_MF_SauronSystem">
+			<Original>GPS追踪系统</Original>
+			<Russian>Система слежения ГЛОНАСС</Russian>
+		</Key>
+		<Key ID="STR_MF_OpenKoHMenu">
+			<Original>山丘之王</Original>
+			<Russian>Царь горы</Russian>
+		</Key>
+		<Key ID="STR_MF_GetMarshall">
+			<Original>获取 AMV-7 马歇尔</Original>
+			<Russian>Достать AMV-7 Marshall</Russian>
+		</Key>
+		<Key ID="STR_MF_GetGhostHawk">
+			<Original>获得 UH-80 幽灵鹰</Original>
+			<Russian>Достать UH-80 Ghost Hawk</Russian>
+		</Key>
+		<Key ID="STR_MF_GetCombatVeh">
+			<Original>获得战车</Original>
+			<Russian>Достать боевую технику</Russian>
+		</Key>
+		<Key ID="STR_MF_PremNSBIsland">
+			<Original>KSK 岛</Original>
+			<Russian>Остров KSK</Russian>
+		</Key>
+		<Key ID="STR_MF_PremNSB">
+			<Original>KSK 基地</Original>
+			<Russian>База KSK</Russian>
+		</Key>
+		<Key ID="STR_MF_PremNSBSouth">
+			<Original>KSK 南基地"</Original>
+			<Russian>База KSK "Юг"</Russian>
+		</Key>
+		<Key ID="STR_MF_CarShopNSB">
+			<Original>KSK车辆商店</Original>
+			<Russian>Техника KSK</Russian>
+		</Key>
+		<Key ID="STR_MF_UniShopNSB">
+			<Original>KSK 制服</Original>
+			<Russian>Одежда KSK</Russian>
+		</Key>
+		<Key ID="STR_MF_WeapShopNSB">
+			<Original>KSK 武器</Original>
+			<Russian>Оружие KSK</Russian>
+		</Key>
+		<Key ID="STR_MF_TanoaAltisGarCiv">
+			<Original>塔诺阿国际港口</Original>
+			<Russian>Международный порт Tanoa</Russian>
+		</Key>
+		<Key ID="STR_MF_TanoaAltisGarReb">
+			<Original>偷猎港口塔诺阿</Original>
+			<Russian>Браконьерский порт Tanoa</Russian>
+		</Key>
+		<Key ID="STR_MF_AltisTanoaGarCiv">
+			<Original>阿尔蒂斯国际港口</Original>
+			<Russian>Международный порт Altis</Russian>
+		</Key>
+		<Key ID="STR_MF_AltisTanoaGarReb">
+			<Original>偷猎阿尔蒂斯港</Original>
+			<Russian>Браконьерский порт Altis</Russian>
+		</Key>
+		<Key ID="STR_MF_ParkingFine">
+			<Original>停车罚款</Original>
+			<Russian>Штрафстоянка</Russian>
+		</Key>
+		<Key ID="STR_MF_ParkingFinePayMenu">
+			<Original>交罚款</Original>
+			<Russian>Заплатить штраф</Russian>
+		</Key>
+		<Key ID="STR_MF_LTDRegMenu">
+			<Original>注册公司</Original>
+			<Russian>Регистрация компании</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Admin_Menu">
+		<Key ID="STR_Admin_Title">
+			<Original>管理菜单</Original>
+			<Russian>Меню Админа</Russian>
+		</Key>
+		<Key ID="STR_Admin_GetID">
+			<Original>获取身份证</Original>
+			<Russian>Получить ID</Russian>
+		</Key>
+		<Key ID="STR_Admin_Spectate">
+			<Original>观看</Original>
+ 			<Russian>Наблюдение</Russian>
+        </Key>
+        <Key ID="STR_Admin_Teleport">
+			<Original>传送</Original>
+			<Russian>Телепорт</Russian>
+        </Key>
+        <Key ID="STR_Admin_TpHere">
+			<Original>T.P. 这里</Original>
+			<Russian>ТП ко мне</Russian>
+        </Key>
+        <Key ID="STR_Admin_Debug">
+			<Original>调试</Original>
+			<Russian>Дебаг</Russian>
+        </Key>
+        <Key ID="STR_Admin_Compensate">
+			<Original>比较</Original>
+			<Russian>Выплата</Russian>
+        </Key>
+        <Key ID="STR_Admin_God">
+			<Original>上帝模式</Original>
+			<Russian>ГодМод</Russian>
+        </Key>
+        <Key ID="STR_Admin_Freeze">
+			<Original>冻结</Original>
+			<Russian>Заморозить</Russian>
+        </Key>
+        <Key ID="STR_Admin_Markers">
+			<Original>标记</Original>
+			<Russian>Метки</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_CompWarn">
+			<Original>你即将给自己 $%1 补偿另一个玩家 &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
+			<Russian>Вы пополняете себе $%1 для выплаты другому игроку &lt;br/&gt;&lt;br/&gt;Передать деньги можно только вручную</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_Success">
+			<Original>您已添加 $%1 到您的帐户.</Original>
+			<Russian>Вы добавили себе $%1</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_Fail">
+			<Original>你不能超越 $999999.</Original>
+			<Russian>Не более $999999</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_Amount">
+			<Original>请输入补偿金额.</Original>
+			<Russian>Введите число</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_Frozen">
+			<Original>您已禁用 %1 输入.</Original>
+			<Russian>Вы заморозили %1</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_Unfrozen">
+			<Original>您已启用 %1 输入.</Original>
+			<Russian>Вы разморозили %1</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_Error">
+			<Original>你不能做那个笨蛋.</Original>
+			<Russian>Недопустимая операция, балда.</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_ErrorLevel">
+			<Original>您的管理员级别不够高.</Original>
+			<Russian>Ваш уровень админа недостаточен</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_MDisabled">
+			<Original>玩家标记已禁用.</Original>
+			<Russian>Метки игроков отключены</Russian>
+        </Key>
+        <Key ID="STR_ANOTF_MEnabled">
+			<Original>玩家标记已启用.</Original>
+			<Russian>Метки игроков включены!</Russian>
+        </Key>
+       
+		<Key ID="STR_NOTF_Frozen">
+			<Original>您已被管理员冻结</Original>
+			<Russian>Вы были заморожены администратором</Russian>
+        </Key>
+        <Key ID="STR_NOTF_Unfrozen">
+			<Original>您已被管理员解冻</Original>
+			<Russian>Вы были разморожены администратором</Russian>
+        </Key>
+	</Package>
+
+
+
+
+	<Package name="Admin_Notifications">
+		<Key ID="STR_ANOTF_Query">
+			<Original>查询...</Original>
+			<Russian>Идет запрос ...</Russian>
+		</Key>
+		<Key ID="STR_ANOTF_QueryGarage">
+			<Original>搜索车辆数据库...</Original>
+			<Russian>Поиск автомобилей...</Russian>
+		</Key>
+		<Key ID="STR_ANOTF_Query_2">
+			<Original>您已经在查询玩家.</Original>
+			<Russian>Вы уже запрашиваете этого игрока.</Russian>
+		</Key>
+		<Key ID="STR_ANOTF_QueryFail">
+			<Original>玩家不再存在?</Original>
+			<Russian>Игрока больше не существует?</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="ATM_Strings">
+		<Key ID="STR_ATM_Title">
+			<Original>银行账户管理</Original>
+			<Russian>Управление финансами</Russian>
+		</Key>
+		<Key ID="STR_ATM_Withdraw">
+			<Original>提取</Original>
+			<Russian>Снять</Russian>
+		</Key>
+		<Key ID="STR_ATM_Deposit">
+			<Original>存款</Original>
+			<Russian>Положить</Russian>
+		</Key>
+		<Key ID="STR_ATM_Transfer">
+			<Original>转账</Original>
+			<Russian>Перевести</Russian>
+		</Key>
+		<Key ID="STR_ATM_GreaterThan">
+			<Original>您一次不能存入超过 999,999 美元</Original>
+			<Russian>Вы не можете внести более $999,999 за раз</Russian>
+		</Key>
+		<Key ID="STR_ATM_notnumeric">
+			<Original>输入的金额不是数值.</Original>
+			<Russian>Некорректный ввод. Введите сумму.</Russian>
+		</Key>
+		<Key ID="STR_ATM_DepositMSG">
+ 			<Original>您已存款 $%1 存入您的银行账户</Original>
+  			<Russian>Вы внесли $%1 на ваш банковский счет</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_NoneSelected">
+ 			<Original>您需要选择要转移到的人</Original>
+ 			<Russian>Необходимо выбрать имя получателя</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_DoesntExist">
+ 			<Original>选择的玩家似乎不存在.</Original>
+ 			<Russian>Такой игрок, кажется, не существует?</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_TransferMax">
+ 			<Original>您不能转移超过999,999美元</Original>
+  			<Russian>Вы не можете перевести больше $999,999 за раз</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_NotEnoughFunds">
+ 			<Original>你的银行账户里没有那么多钱!</Original>
+  			<Russian>У вас нет такой суммы на вашем счёте!</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_SentMoneyFail">
+ 			<Original>的银行账户中没有足够的钱来转账 $%1 你会需要 $%2 作为税费.</Original>
+  			<Russian>У вас не хватает денег на счету. Для перевода $%1 给你 необходимо оплатить налог $%2.</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_SentMoneySuccess">
+ 			<Original>您已转移 $%1 然后 %2.\n\nA 税费为 $%3 被用于电汇.</Original>
+  			<Russian>Вы перевели $%1 игроку %2.\n\n Налоговой сбор составил $%3</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_WithdrawMax">
+ 			<Original>您不能提取超过 999,999 美元</Original>
+  			<Russian>Вы не можете снять со счета более $999,999 за раз</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_WithdrawMin">
+ 			<Original>您不能提取少于 100 美元</Original>
+  			<Russian>Вы не можете снять менее $100</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_WithdrawSuccess">
+ 			<Original>您已撤回 $%1 从您的银行帐户</Original>
+  			<Russian>Вы сняли $%1 с вашей Банковской карты</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_NotEnoughCash">
+ 			<Original>你身上没有那么多现金.</Original>
+  			<Russian>У вас недостаточно наличности.</Russian>
+		</Key>
+ 		<Key ID="STR_ATM_DepositGang">
+ 			<Original>您已存款 $%1 进入你团伙的银行账户</Original>
+  			<Russian>Вы перевели $%1 на счёт банды </Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Cell_Phone">
+		<Key ID="STR_CELL_Title">
+			<Original>阿尔蒂斯移动</Original>
+ 			<Russian>Телефон</Russian>
+		</Key>
+		<Key ID="STR_CELL_TextToSend">
+			<Original>要发送的消息:</Original>
+			<Russian>Ваше 信息:</Russian>
+		</Key>
+		<Key ID="STR_CELL_TextMSGBtn">
+			<Original>外线留言:</Original>
+			<Russian>信息:</Russian>
+		</Key>
+		<Key ID="STR_CELL_TextPolice">
+			<Original>文本警察</Original>
+			<Russian>Полиция</Russian>
+		</Key>
+		<Key ID="STR_CELL_TextAdmins">
+			<Original>文本管理员</Original>
+			<Russian>Админу</Russian>
+		</Key>
+		<Key ID="STR_CELL_AdminMsg">
+			<Original>管理员消息</Original>
+			<Russian>От админа</Russian>
+		</Key>
+		<Key ID="STR_CELL_AdminMSGAll">
+			<Original>管理员消息全部</Original>
+			<Russian>Админ всем</Russian>
+		</Key>
+		<Key ID="STR_CELL_EMSRequest">
+			<Original>请求特快专递</Original>
+			<Russian>EMS</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Chop_Shop">
+		<Key ID="STR_ChopShop_Title">
+			<Original>当地的印章店</Original>
+			<Russian>Незаконный скупщик техники</Russian>
+		</Key>
+		<Key ID="STR_ChopShop_NeedCops">
+			<Original>%1 警察必须在岛上才能使用 Chop Shop</Original>
+			<Russian>Для перебивки и продажи техники необходимо как минимум %1 полицейских на острове</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Gang_Menu">
+		<Key ID="STR_Gang_Title">
+			<Original>帮派管理</Original>
+			<Russian>Управление Бандой</Russian>
+		</Key>
+		<Key ID="STR_Gang_Title2">
+			<Original>帮派管理 - 当前帮派</Original>
+			<Russian>Управление бандой - Текущие банды</Russian>
+		</Key>
+		<Key ID="STR_Gang_Join">
+			<Original>加入</Original>
+			<Russian>Присоединиться</Russian>
+		</Key>
+		<Key ID="STR_Gang_Leave">
+			<Original>退出团队</Original>
+			<Russian>Покинуть</Russian>
+		</Key>
+		<Key ID="STR_Gang_UpgradeSlots">
+			<Original>升级最大人数</Original>
+			<Russian>Добавить слоты</Russian>
+		</Key>
+		<Key ID="STR_Gang_Kick">
+			<Original>踢出团队</Original>
+			<Russian>Исключить</Russian>
+		</Key>
+		<Key ID="STR_Gang_SetLeader">
+			<Original>设置领导者</Original>
+			<Russian>Лидера</Russian>
+		</Key>
+		<Key ID="STR_Gang_SetDeputy">
+			<Original>设置副手</Original>
+			<Russian>Заместителя</Russian>
+		</Key>
+		<Key ID="STR_Gang_PriceTxt">
+			<Original>要创建你需要的帮派 $%1</Original>
+			<Russian>Стоимость создании банды $%1</Russian>
+		</Key>
+		<Key ID="STR_Gang_Create">
+			<Original>创造</Original>
+			<Russian>Создать</Russian>
+		</Key>
+		<Key ID="STR_Gang_YGN">
+			<Original>你的帮派名称</Original>
+			<Russian>Название банды</Russian>
+		</Key>
+		<Key ID="STR_Gang_MainMenu">
+			<Original>你现在不是帮派，你想做什么?</Original>
+			<Russian>Вы не состоите в банде</Russian>
+		</Key>
+		<Key ID="STR_Gang_Browse">
+			<Original>浏览</Original>
+			<Russian>Обзор</Russian>
+		</Key>
+		<Key ID="STR_Gang_Invite_Player">
+			<Original>邀请玩家</Original>
+			<Russian>Пригласить игрока</Russian>
+		</Key>
+		<Key ID="STR_Gang_Disband_Gang">
+			<Original>解散帮派</Original>
+			<Russian>Распустить банду</Russian>
+		</Key>
+		<Key ID="STR_Gang_Invitation">
+			<Original>帮派邀请</Original>
+			<Russian>Приглашение в банду</Russian>
+		</Key>
+		<Key ID="STR_Gang_Transfer">
+			<Original>转移帮派领导</Original>
+			<Russian>Передать лидера банды</Russian>
+		</Key>
+		<Key ID="STR_Gang_UpgradeMax">
+			<Original>升级最大允许帮派成员</Original>
+			<Russian>Банда максимально укомплектована</Russian>
+		</Key>
+		<Key ID="STR_Gang_CreateError">
+			<Original>创建帮派时出错</Original>
+			<Russian>Ошибка при создании банды</Russian>
+		</Key>
+		<Key ID="STR_Gang_CreateErrorName">
+			<Original>同名的乐队已经存在。 选择其他名称.</Original>
+			<Russian>Банда с таким именем уже существует. Выберите другое имя.</Russian>
+		</Key>
+		<Key ID="STR_Gang_MemberKicked">
+			<Original>玩家从帮派中移除.</Original>
+			<Russian>Игрок исключен из банды.</Russian>
+		</Key>
+		<Key ID="STR_Gang_MemberKickedDep">
+			<Original>玩家已被踢出帮派。 现在你没有替代品!</Original>
+			<Russian>Игрок исключен из банды. Теперь у вас нет заместителя!</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Gang_Notification">
+		<Key ID="STR_GNOTF_CreateGang">
+			<Original>您必须先创建一个帮派，然后才能捕获它!</Original>
+			<Russian>Вы должны создать/вступить в банду, прежде чем захватить это укрытие!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Controlled">
+			<Original>你的帮派已经控制了这个藏身处!</Original>
+			<Russian>Ваша банда контролирует эту территорию</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Captured">
+			<Original>一次只能抓一个人!</Original>
+			<Russian>Нельзя одновременно захватывать одно укрытие!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_AlreadyControlled">
+			<Original>这个藏身处由 %1.&lt;br/&gt;&lt;br/&gt;你确定要接管他们的帮派区域吗?</Original>
+			<Russian>Укрытие контролируется %1.&lt;br/&gt;&lt;br/&gt; Вы уверены что хотите захватить его?</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_CurrentCapture">
+			<Original>藏身处目前已得到控制...</Original>
+			<Russian>Укрытие уже находится под контролем...</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_CaptureCancel">
+			<Original>捕获已取消</Original>
+			<Russian>Захват отменён</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Capturing">
+			<Original>占领藏身处</Original>
+			<Russian>Захватить укрытие</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_CaptureSuccess">
+			<Original>%1 和他的帮派: %2 - 控制了当地的一个藏身处!</Original>
+			<Russian>Группировка "%2" захватила бандитское укрытие!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Over32">
+			<Original>帮派名称不能超过 32 个字符.</Original>
+			<Russian>Имя банды не может быть длиннее 32 символов.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_IncorrectChar">
+			<Original>您的帮派名称中有无效字符。 它只能由带下划线的数字和字母组成</Original>
+			<Russian>Недопустимые символы в названии банды. Название может содержать только буквы и цифры</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_NotEnoughMoney">
+			<Original>您的银行帐户中没有足够的钱。\in\您缺乏: $%1</Original>
+			<Russian>Недостаточно средств на банковском счете.\n\n 给你 не хватает: $%1 </Russian>
+		</Key>
+		<Key ID="STR_GNOTF_CreateSuccess">
+			<Original>你已经创建了帮派 %1 for $%2</Original>
+			<Russian>Вы создали банду %1 за $%2</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandWarn">
+			<Original>您即将解散该帮派，通过解散该帮派，该帮派将从数据库中删除，该帮派将被删除. &lt;br/&gt;&lt;br/&gt;你确定要解散群吗？ 您将不会获得创建它的价格退款.</Original>
+			<Russian>Вы собираетесь расформировать банду. Она будет удалена из базы &lt;br/&gt;&lt;br/&gt;Вы уверены? Стоимость создания банды не будет возвращена.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandGangPro">
+			<Original>解散帮派...</Original>
+			<Russian>Расформирование Банды...</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandGangCanc">
+			<Original>解散取消</Original>
+			<Russian>Расформирование отменено</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_DisbandWarn_2">
+			<Original>首领解散了帮派.</Original>
+			<Russian>Лидер расформировал банду.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_InviteMSG">
+			<Original>%1 邀请你加入一个叫 %2&lt;br/&gt;如果您接受邀请，您将成为他们帮派的一员，并可以使用帮派资金和受控制的帮派藏身处.</Original>
+			<Russian>%1 пригласил вас в банду %2&lt;br/&gt;Если вы примите приглашение, то станете частью банды и получите доступ к фонду.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_InvitePlayerMSG">
+			<Original>您即将邀请 %1 给你的帮派，如果他们接受邀请，他们将可以使用帮派的资金.</Original>
+			<Russian>Вы собираетесь пригласить %1 в вашу банду. Приняв приглашение он получит доступ к фонду банды.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_SelectPerson">
+			<Original>你需要选择一个人来邀请!</Original>
+			<Russian>Вы должны выбрать человека, чтобы пригласить!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_InviteSent">
+			<Original>你向你的团伙发出了邀请 %1</Original>
+			<Russian>Вы пригласили %1 в вашу банду</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_InviteCancel">
+			<Original>邀请取消</Original>
+			<Russian>Приглашение отменено</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_KickSelf">
+			<Original>你不能踢出自己!</Original>
+			<Russian>Вы не можете выгнать себя!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_MaxSlot">
+			<Original>您的团队已达到最大允许插人数槽，请提高您的团队的人数限制.</Original>
+			<Russian>Ваша банда достигла своих максимальных разрешенных слотов, пожалуйста, докупите слоты банды.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_SelectKick">
+			<Original>你需要选择一个人踢!</Original>
+			<Russian>Выберите кого вы хотите исключить!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_LeaderLeave">
+			<Original>你不能在没有任命新领导人之前就离开帮派!</Original>
+			<Russian>Вы не можете оставить банду без назначения нового лидера!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_TransferMSG">
+			<Original>你要把领导权移交给 %1&lt;br/&gt;通过转移领导权，你将不再控制该团伙，除非所有权转移回来.</Original>
+			<Russian>Вы собираетесь передать лидерство %1&lt;br/&gt;Передав лидера вы потеряете контроль над бандой, до тех пор пока 给你 не вернут лидерство.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_TransferCancel">
+			<Original>领导权移交取消.</Original>
+			<Russian>Передача руководства отменена.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_TransferSelf">
+			<Original>你已经是老大了!</Original>
+			<Russian>Вы уже лидер!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_TransferSelect">
+			<Original>你得先选一个人!</Original>
+			<Russian>Сперва выберите человека!</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_MaxMemberMSG">
+			<Original>您将要升级您的团队允许的最大成员数量.</Original>
+			<Russian>Вы собираетесь увеличить максимальное количество игроков.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_CurrentMax">
+			<Original>当前最大值: %1</Original>
+			<Russian>Текущий максимум: %1</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_UpgradeMax">
+			<Original>升级版 Max: %2</Original>
+			<Russian>Максимум после улучшения: %2</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Price">
+			<Original>普莱斯:</Original>
+			<Russian>Цена:</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_NotEoughMoney_2">
+			<Original>你没有足够的钱在你的银行帐户，以提高帮派的最高成员限制.</Original>
+			<Russian>У вас недостаточно средств на банковском счёте, необходимых для улучшения банды</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Current">
+			<Original>现在:</Original>
+			<Russian>Текущие:</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Lacking">
+			<Original>缺乏:</Original>
+			<Russian>Недостаток:</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_UpgradeSuccess">
+			<Original>你已经从 %1 到 %2 最大容量 &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
+			<Russian>Вы улучшили кол-во слотов с %1 до %2 для &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_UpgradeCancel">
+			<Original>升级取消.</Original>
+			<Russian>Улучшение отменено.</Russian>
+		</Key>
+		<Key ID="STR_GNOTF_Funds">
+			<Original>基金:</Original>
+			<Russian>Общак:</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_GangLeader'>
+			<Original>(帮主)</Original>
+			<Russian>(Лидер)</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_CaptureDone'>
+			<Original>重点已经被抓住了</Original>
+			<Russian>Точка была захвачена</Russian>
+		</Key>
+		<!-- new -->
+		<Key ID='STR_GNOTF_CaptureTimeOut'>
+			<Original>捕获点之间的间隔应超过15分钟。这一点可以通过 %1 (мин)</Original>
+			<Russian>Промежуток между захватами точки должен быть больше 15 минут. Эту точку можно будет захватить через %1 (мин)</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_ProcUnderControl'>
+			<Original>工作 "%2" 由集团控制 %1. 你真的想控制它?</Original>
+			<Russian>Переработка "%2" контролируется группировкой %1. Вы действительно хотите взять ее под контроль?</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_ProcCaptureConfirm'>
+			<Original>你真的想控制回收。 "%1"?</Original>
+			<Russian>Вы действительно хотите взять под контроль переработку "%1"?</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_ProcCaptureTitle'>
+			<Original>回收俘获</Original>
+			<Russian>Захват переработки</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_ProcCaptureInProgress'>
+			<Original>分组 %1 开始回收 "%2"</Original>
+			<Russian>Группировка %1 начала захват переработки "%2"</Russian>
+		</Key>
+		<Key ID='STR_GNOTF_ProcCaptureDone'>
+			<Original>分组 %1 控制加工 %2</Original>
+			<Russian>Группировка %1 взяла под контроль переработку %2</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Processor_Notifications">
+		<Key ID='STR_PRCNOT_OnlyIndep'>
+			<Original>只有叛军才能控制这一点</Original>
+			<Russian>Контролировать точки могут только повстанцы!</Russian>
+		</Key>
+		<Key ID='STR_PRCNOT_AlreadyCaptured'>
+			<Original>你的帮派已经控制了进程</Original>
+			<Russian>Ваша группировка уже контролирует эту переработку</Russian>
+		</Key>
+		<Key ID='STR_PRCNOT_cantBeConroled'>
+			<Original>此处理点无法控制</Original>
+			<Russian>Этого переработчика нельзя контролировать</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Garage_Strings">
+		<Key ID="STR_Garage_Insur_Title">
+			<Original>车辆保险</Original>
+			<Russian>Страхование техники</Russian>
+		</Key>
+		<Key ID="STR_Garage_Insur_MSG">
+			<Original>您确定要为您的 %1 具有 $%2?</Original>
+			<Russian>Вы действительно хотите застраховать %1 за $%2?</Russian>
+		</Key>
+		<Key ID="STR_Garage_Title">
+			<Original>汽车车库</Original>
+			<Russian>Автомобильный гараж</Russian>
+		</Key>
+		<Key ID="STR_Garage_GetVehicle">
+			<Original>获取车辆</Original>
+			<Russian>Получить автомобиль</Russian>
+		</Key>
+		<Key ID="STR_Garage_SellVehicle">
+			<Original>销售车辆</Original>
+			<Russian>Продать автомобиль</Russian>
+		</Key>
+		<Key ID="STR_Garage_SellPrice">
+			<Original>销售价格</Original>
+			<Russian>Цена продажи</Russian>
+		</Key>
+		<Key ID="STR_Garage_SFee">
+			<Original>仓储费</Original>
+			<Russian>Плата за хранение</Russian>
+		</Key>
+		<Key ID="STR_Garage_NoVehicles">
+			<Original>车库内未发现车辆.</Original>
+			<Russian>Гараж пуст.</Russian>
+		</Key>
+		<Key ID="STR_Garage_CashError">
+			<Original>你没有 $%1 在您的银行帐户中</Original>
+			<Russian>У вас нет $%1 на вашем банковском счете</Russian>
+		</Key>
+		<Key ID="STR_Garage_SpawningVeh">
+			<Original>正在生成车辆…请稍候.</Original>
+			<Russian>Производится выдача. Пожалуйста подождите...</Russian>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Destroyed">
+			<Original>对不起，但是 %1 被归类为被摧毁的车辆，并被送往废料场.</Original>
+			<Russian>Извините, но ваш %1 является уничтоженной техникой и отправлен на свалку.</Russian>
+		</Key>
+		<Key ID="STR_Garage_SQLError_Active">
+			<Original>对不起，但是 %1 已经在世界上的某个地方活跃，无法繁殖.</Original>
+			<Russian>Извините, но ваш %1 уже вытащен из гаража.</Russian>
+		</Key>
+		<Key ID="STR_Garage_SpawnPointError">
+			<Original>生成点上已经有车辆。您将获得退房费用的退款.</Original>
+			<Russian>Место выдачи возле гаража уже занято.</Russian>
+		</Key>
+		<Key ID="STR_Garage_SoldCar">
+			<Original>你把那辆车卖了 $%1</Original>
+			<Russian>Вы продали вашу технику за $%1</Russian>
+		</Key>
+		<Key ID="STR_Garage_Store_NotPersistent">
+			<Original>那辆车是租来的，不能存放在你的车库里.</Original>
+			<Russian>Автомобиль взят в аренду и не может быть поставлен в гараж.</Russian>
+		</Key>
+		<Key ID="STR_Garage_Store_NoOwnership">
+			<Original>那辆车不属于你，因此你不能把它存放在车库里.</Original>
+			<Russian>Этот автомобиль не принадлежит 给你 поэтому не может быть убран в гараж.</Russian>
+		</Key>
+		<Key ID="STR_Garage_Store_Success">
+			<Original>车辆已存放在您的车库中.</Original>
+			<Russian>Ваша техника успешно сохранена в гараже.</Russian>
+		</Key>
+		<Key ID="STR_Garage_Store_Server">
+			<Original>服务器正在尝试存储车辆...</Original>
+			<Russian>Сервер сохраняет ваш автомобиль...</Russian>
+		</Key>
+		<Key ID="STR_Garage_Selection_Error">
+			<Original>选择有错误...</Original>
+			<Russian>Ошибка при выборе...</Russian>
+		</Key>
+		<Key ID="STR_Garage_NoNPC">
+			<Original>NPC附近没有车辆.</Original>
+			<Russian>Рядом с парковщиком нет вашей техники.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Key_Chain">
+		<Key ID="STR_Keys_Title">
+			<Original>钥匙链-当前钥匙列表</Original>
+			<Russian>Ключи - Список ключей</Russian>
+		</Key>
+		<Key ID="STR_Keys_DropKey">
+			<Original>扔掉钥匙</Original>
+			<Russian>Выбросить ключ</Russian>
+		</Key>
+		<Key ID="STR_Keys_GiveKey">
+			<Original>给予钥匙</Original>
+			<Russian>Передать ключ</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Player_Menu">
+		<Key ID="STR_PM_Title">
+			<Original>播放器菜单</Original>
+			<Russian>Меню игрока</Russian>
+		</Key>
+		<Key ID="STR_PM_cItems">
+			<Original>当前项目</Original>
+			<Russian>Текущие предметы</Russian>
+		</Key>
+		<Key ID="STR_PM_Licenses">
+			<Original>证件</Original>
+			<Russian>Лицензии</Russian>
+		</Key>
+		<Key ID="STR_PM_Inventory">
+			<Original>库存</Original>
+			<Russian>Инвентарь</Russian>
+		</Key>
+		<Key ID="STR_PM_MoneyStats">
+			<Original>货币统计数据</Original>
+			<Russian>Финансы</Russian>
+		</Key>
+		<Key ID="STR_PM_MyGang">
+			<Original>我的帮派</Original>
+			<Russian>Группировка</Russian>
+		</Key>
+		<Key ID="STR_PM_MyBusiness">
+			<Original>商业</Original>
+			<Russian>Бизнес</Russian>
+		</Key>
+		<Key ID="STR_PM_WantedList">
+			<Original>通缉名单</Original>
+			<Russian>Розыск</Russian>
+		</Key>
+		<Key ID="STR_PM_CellPhone">
+			<Original>手机</Original>
+			<Russian>Телефон</Russian>
+		</Key>
+		<Key ID="STR_PM_Status">
+			<Original>地位</Original>
+			<Russian>Статус</Russian>
+		</Key>
+		<Key ID="STR_PM_KeyChain">
+			<Original>钥匙链</Original>
+			<Russian>Ключи</Russian>
+		</Key>
+		<Key ID="STR_PM_AdminMenu">
+			<Original>管理菜单</Original>
+			<Russian>Меню админ</Russian>
+		</Key>
+		<Key ID="STR_PM_MsgToPlayer">
+			<Original>发送警告</Original>
+			<Russian>Отправить предупреждение</Russian>
+		</Key>
+		<Key ID="STR_PM_SyncData">
+			<Original>同步数据</Original>
+			<Russian>Сохранение</Russian>
+		</Key>
+		<Key ID="STR_PM_MartialLaw">
+			<Original>戒严法</Original>
+			<Russian>Военное положение</Russian>
+		</Key>
+		<Key ID="STR_PM_Craft">
+			<Original>手艺</Original>
+			<Russian>Крафт</Russian>
+		</Key>
+		<Key ID="STR_PM_Healing">
+			<Original>康复</Original>
+			<Russian>Лечение</Russian>
+		</Key>
+		<Key ID="STR_PM_MedicMenu">
+			<Original>医生菜单</Original>
+			<Russian>Меню медика</Russian>
+		</Key>
+		<Key ID="STR_PM_GoverMenu">
+			<Original>州长接待室</Original>
+			<Russian>Приемная губернатора</Russian>
+		</Key>
+		<Key ID="STR_PM_ExperinceMenu">
+			<Original>体验菜单</Original>
+			<Russian>Меню навыков</Russian>
+		</Key>
+		<Key ID="STR_PM_PropertyMenu">
+			<Original>“属性”菜单</Original>
+			<Russian>Меню недвижимости</Russian>
+		</Key>
+		<Key ID="STR_PM_CarsharingMenu">
+			<Original>汽车共享</Original>
+			<Russian>Каршеринг</Russian>
+		</Key>
+		<Key ID="STR_PM_Pouch">
+			<Original>小袋</Original>
+			<Russian>Защитный контейнер</Russian>
+		</Key>
+		<Key ID="STR_PM_CreditCivs">
+			<Original>公民国家贷款</Original>
+			<Russian>Кредитование граждан</Russian>
+		</Key>
+		<Key ID="STR_PM_LKMenu">
+			<Original>个人区域</Original>
+			<Russian>Личный кабинет</Russian>
+		</Key>
+		<Key ID="STR_PM_SendMoney">
+			<Original>现金转账</Original>
+			<Russian>Передать наличность</Russian>
+		</Key>
+		<Key ID="STR_PM_CurWeight">
+			<Original>背包: %1 / %2</Original>
+			<Russian>Рюкзак: %1 / %2</Russian>
+		</Key>
+		<Key ID="STR_PM_BackToMainMenu">
+			<Original>返回主菜单</Original>
+			<Russian>Вернуться в главное меню</Russian>
+		</Key>
+		<Key ID="STR_PM_CurVipLvl">
+			<Original>VIP级别: %1</Original>
+			<Russian>VIP уровень: %1</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Settings_Menu">
+		<Key ID="STR_SM_Title">
+			<Original>设置菜单</Original>
+			<Russian>Настройки</Russian>
+		</Key>
+		<Key ID="STR_SM_onFoot">
+			<Original>步行:</Original>
+			<Russian>Игрок:</Russian>
+		</Key>
+		<Key ID="STR_SM_inCar">
+			<Original>车内:</Original>
+			<Russian>Авто:</Russian>
+		</Key>
+		<Key ID="STR_SM_inAir">
+			<Original>空中:</Original>
+			<Russian>Авиа:</Russian>
+		</Key>
+		<Key ID="STR_SM_ToolTip1">
+			<Original>步行时查看距离</Original>
+			<Russian>Видимость игрока</Russian>
+		</Key>
+		<Key ID="STR_SM_ToolTip2">
+			<Original>驾驶陆地车辆时的视距</Original>
+			<Russian>Видимость в наземной технике</Russian>
+		</Key>
+		<Key ID="STR_SM_ToolTip3">
+			<Original>乘坐飞行器时的视距</Original>
+			<Russian>Видимость в воздушной технике</Russian>
+		</Key>
+		<Key ID="STR_SM_PlayerTags">
+			<Original>玩家标签</Original>
+			<Russian>Метки игрока</Russian>
+		</Key>
+		<Key ID="STR_SM_TagsON">
+			<Original>标签打开</Original>
+			<Russian>Метки ВКЛ</Russian>
+		</Key>
+		<Key ID="STR_SM_TagsOFF">
+			<Original>标签关闭</Original>
+			<Russian>Метки ВЫКЛ</Russian>
+		</Key>
+		<Key ID="STR_SM_SC">
+			<Original>Sidechat设置</Original>
+			<Russian>Настройки чата</Russian>
+		</Key>
+		<Key ID="STR_SM_SCOFF">
+			<Original>Sidechat关闭</Original>
+			<Russian>Чат ВЫКЛ</Russian>
+		</Key>
+		<Key ID="STR_SM_SCON">
+			<Original>Sidechat开启</Original>
+			<Russian>Чат ВКЛ</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Virt_Shop">
+		<Key ID="STR_VS_SI">
+			<Original>商店库存</Original>
+			<Russian>Инвентарь магазина</Russian>
+		</Key>
+		<Key ID="STR_VS_PI">
+			<Original>您的库存</Original>
+			<Russian>Ваш инвентарь</Russian>
+		</Key>
+		<Key ID="STR_VS_BuyItem">
+			<Original>购买物品</Original>
+			<Russian>Купить</Russian>
+		</Key>
+		<Key ID="STR_VS_SellItem">
+			<Original>销售商品</Original>
+			<Russian>Продать</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Spawn_Menu">
+		<Key ID="STR_Spawn_Title">
+			<Original>复活选择</Original>
+			<Russian>Точка появления</Russian>
+		</Key>
+		<Key ID="STR_Spawn_Spawn">
+			<Original>复活</Original>
+			<Russian>Возрождение</Russian>
+		</Key>
+		<Key ID="STR_Spawn_CSP">
+			<Original>当前复活点</Original>
+			<Russian>Текущая точка отключения</Russian>
+		</Key>
+		<Key ID="STR_Spawn_Spawned">
+			<Original>您已在复活</Original>
+			<Russian>Вы возродились в</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Ticket_Menu">
+		<Key ID="STR_Ticket_GiveTicket">
+			<Original>给票</Original>
+			<Russian>Выписать</Russian>
+		</Key>
+		<Key ID="STR_Ticket_PayTicket">
+			<Original>支付</Original>
+			<Russian>Оплатить</Russian>
+		</Key>
+		<Key ID="STR_Ticket_RefuseTicket">
+			<Original>拒绝</Original>
+			<Russian>Отказаться</Russian>
+		</Key>
+		<Key ID="STR_Ticket_For">
+			<Original>的票证 %1</Original>			
+			<Russian>Счет для %1</Russian>
+		</Key>
+		<Key ID="STR_Ticket_Refuse">
+			<Original>%1 拒绝支付账单</Original>			
+			<Russian>%1 отказался от уплаты счета</Russian>
+		</Key>
+		<Key ID="STR_Ticket_ForLongText">
+			<Original>%1 开了一张金额为 $%2 为 %3</Original>			
+			<Russian>%1 выписал счет в размере $%2 для %3</Russian>
+		</Key>
+		<Key ID="STR_Ticket_FormText">
+			<Original>&lt;t align='center' size='0.8px' color='%3'&gt;%1 给您开了一张金额为 &lt;br/&gt; $%2&lt;/t&gt;</Original>			
+			<Russian>&lt;t align='center' size='0.8px'  color='%3'&gt;%1 выставил 给你 счет в размере &lt;br/&gt; $%2&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_Ticket_TooMuch">
+			<Original>账户金额不得超过 $%1!</Original>			
+			<Russian>Сумма счета не может быть больше чем $%1!</Russian>
+		</Key>
+		<Key ID="STR_Ticket_DontHaveMoney">
+			<Original>你没有足够的钱支付账单</Original>			
+			<Russian>У вас не хватает денег оплатить счет</Russian>
+		</Key>
+		<Key ID="STR_Ticket_DontHaveMoneySend">
+			<Original>%1 他付不起账单，因为他没有足够的钱</Original>			
+			<Russian>%1 не мог оплатить счет, потому что у него нет необходимой суммы</Russian>
+		</Key>
+		<Key ID="STR_Ticket_Done">
+			<Original>您已支付账单金额为 $%1</Original>			
+			<Russian>Вы оплатили счет в размере $%1</Russian>
+		</Key>
+		<Key ID="STR_Ticket_DoneSend">
+			<Original>%1 付帐</Original>			
+			<Russian>%1 оплатил счет</Russian>
+		</Key>
+		<Key ID="STR_Ticket_Total">
+			<Original>全部的:</Original>			
+			<Russian>Сумма:</Russian>
+		</Key>
+		<Key ID="STR_Ticket_TotalMax">
+			<Original>最大限度: $500,000</Original>			
+			<Russian>Максимум: $500,000</Russian>
+		</Key>
+		<Key ID="STR_Ticket_PromtTitle">
+			<Original>账单支付</Original>			
+			<Russian>Оплата счета</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Trunk_Menu">
+		<Key ID="STR_Trunk_TInventory">
+			<Original>车辆库存</Original>
+			<Russian>Содержимое контейнера</Russian>
+		</Key>
+		<Key ID="STR_Trunk_PInventory">
+			<Original>玩家库存</Original>
+			<Russian>Инвентарь игрока</Russian>
+		</Key>
+		<Key ID="STR_Trunk_Take">
+			<Original>搬到背包</Original>
+			<Russian>Взять</Russian>
+		</Key>
+		<Key ID="STR_Trunk_Store">
+			<Original>搬到车辆</Original>
+			<Russian>Положить</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Wanted_Menu">
+		<Key ID="STR_Wanted_Title">
+			<Original>APD通缉名单</Original>
+			<Russian>Список розыска</Russian>
+		</Key>
+		<Key ID="STR_Wanted_Pardon">
+			<Original>原谅</Original>
+			<Russian>Помилование</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Animals">
+		<Key ID="STR_ANIM_Salema">
+			<Original>Salema</Original>
+			<Russian>Чулита</Russian>
+		</Key>
+		<Key ID="STR_ANIM_Ornate">
+			<Original>华丽的</Original>
+			<Russian>Тропическая рыба</Russian>
+		</Key>
+		<Key ID="STR_ANIM_Mackerel">
+			<Original>鲭鱼</Original>
+			<Russian>Скумбрия</Russian>
+		</Key>
+		<Key ID="STR_ANIM_Tuna">
+			<Original>金枪鱼</Original>
+			<Russian>Тунец</Russian>
+		</Key>
+		<Key ID="STR_ANIM_Mullet">
+			<Original>鲻鱼</Original>
+			<Russian>Кефаль</Russian>
+		</Key>
+		<Key ID="STR_ANIM_Catshark">
+			<Original>猫鲨</Original>
+			<Russian>Кошачья акула</Russian>
+		</Key>
+		<Key ID="STR_ANIM_Rabbit">
+			<Original>兔子</Original>
+			<Russian>Заяц</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Gesture">
+		<Key ID="STR_GSTR_Forward">
+			<Original>向前地</Original>
+			<Russian>Вперед</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Stop">
+			<Original>停止</Original>
+			<Russian>Стоп</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Regroup">
+			<Original>重组</Original>
+			<Russian>Перегрупировка</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Engage">
+			<Original>从事</Original>
+			<Russian>В бой</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Point">
+			<Original>指向</Original>
+			<Russian>Направление</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Hold">
+			<Original>持有</Original>
+			<Russian>Замрите</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Warning">
+			<Original>警告</Original>
+			<Russian>Опасность</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Yes">
+			<Original>是的</Original>
+			<Russian>Да</Russian>
+		</Key>
+		<Key ID="STR_GSTR_No">
+			<Original>不</Original>
+			<Russian>Нет</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Finger">
+			<Original>操你妈的</Original>
+			<Russian>Иди на хуй</Russian>
+		</Key>
+		<Key ID="STR_GSTR_SuckIt">
+			<Original>吸干它</Original>
+			<Russian>Отсоси</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Bouncer">
+			<Original>蹦跳者</Original>
+			<Russian>Ложь</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Pray">
+			<Original>祈祷</Original>
+			<Russian>Молитва</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Clapping">
+			<Original>鼓掌</Original>
+			<Russian>Овации</Russian>
+		</Key>
+		<Key ID="STR_GSTR_HandStand">
+			<Original>手持支架</Original>
+			<Russian>На руках</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Muscle">
+			<Original>肌肉</Original>
+			<Russian>Качок</Russian>
+		</Key>
+		<Key ID="STR_GSTR_PushUps">
+			<Original>俯卧撑</Original>
+			<Russian>Отжимания</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Violin">
+			<Original>小提琴</Original>
+			<Russian>Скрипка</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Wank">
+			<Original>自慰</Original>
+			<Russian>Подрочить</Russian>
+		</Key>
+		<Key ID="STR_GSTR_Wanker">
+			<Original>手淫</Original>
+			<Russian>Дрочила</Russian>
+		</Key>
+		<Key ID="STR_GSTR_ThumbsUp">
+			<Original>大拇指朝上</Original>
+			<Russian>Палец вверх</Russian>
+		</Key>
+		<Key ID="STR_GSTR_ThumbsDown">
+			<Original>拇指朝下</Original>
+			<Russian>Палец вниз</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Notifications">
+		<!-- new -->
+		<Key ID="STR_NOTF_CarHit">
+			<Original>%1 我想把你！拍一张截图，如果你认为这是故意的!</Original>
+			<Russian>%1 пытался вас задавить! Сделайте скриншот, если считаете это намеренным наездом!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PassengerSeat">
+			<Original>你必须在乘客的位置</Original>
+			<Russian>Вы должны быть на месте пассажира</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ProfFishing">
+			<Original>附近没有工业捕鱼区</Original>
+			<Russian>Рядом нет зон для промышленной рыбалки</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GatherNotForYourSide">
+			<Original>您的派系无法开采此资源</Original>
+			<Russian>Для вашей фракции недоступна добыча этого ресурса</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GatherBoatStop">
+			<Original>启动发动机或坐在方向盘后面停止开采过程</Original>
+			<Russian>Заведите двигатель или сядьте за штурвал, чтобы остановить процесс добычи</Russian>
+		</Key>
+		<Key ID="STR_NOTF_TooFarFromTarget">
+			<Original>你离目标太远了</Original>
+			<Russian>Вы находитесь слишком далеко от объекта</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehDestroyIn">
+			<Original>技术将在 %1 сек.</Original>
+			<Russian>Техника будет уничтожена через %1 сек.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GetNakedBy">
+			<Original>人与PID %1 把你的裸体。保存数据，如果你认为这是违反</Original>
+			<Russian>Человек с PID %1 раздел вас до гола. Сохраните данные, если считаете это нарушением</Russian>
+		</Key>
+		<Key ID="STR_NOTF_TargetDontHaveRadio">
+			<Original>目标没有无线电</Original>
+			<Russian>У цели нет радио</Russian>
+		</Key>
+		<Key ID="STR_NOTF_RadioDropped">
+			<Original>对讲机落在地上</Original>
+			<Russian>Рация сброшена на землю</Russian>
+		</Key>
+		<Key ID="STR_NOTF_EscortOnlyStand">
+			<Original>你只能护送站着的被拘留者</Original>
+			<Russian>Вы можете эскортировать только стоящего задержанного</Russian>
+		</Key>
+		<Key ID="STR_NOTF_EscortError">
+			<Original>护送不可用</Original>
+			<Russian>Эскорт недоступен</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PrisonKeyCops">
+			<Original>岛上必须至少有%1的警察，否则钥匙存放在联邦储备的保险柜里</Original>
+			<Russian>На острове должно быть хотя бы %1 полицейских, иначе ключи хранятся в сейфе Федерального Резерва</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PrisonKeyGet">
+			<Original>你把锁链的钥匙。现在你可以释放囚犯了!</Original>
+			<Russian>Вы взяли ключи от кандалов. Теперь вы можете освободить заключенных!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_KnifeNeed">
+			<Original>新鲜尸体需要一把刀，可以在百货公司买到</Original>
+			<Russian>Для свежевания туш необходим нож, который можно купить в Универмаге</Russian>
+		</Key>
+		<Key ID="STR_NOTF_CutCorpse">
+			<Original>切开尸体</Original>
+			<Russian>Разделываем тушку</Russian>
+		</Key>
+		<Key ID="STR_NOTF_CutCorpseDone">
+			<Original>你的肉在库存中</Original>
+			<Russian>Добытое мясо у вас в инвентаре</Russian>
+		</Key>
+		<Key ID="STR_NOTF_OutOfTurtlePlace">
+			<Original>你在海龟港外</Original>
+			<Russian>Вы находитесь вне черепашьей гавани</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehNotAlive">
+			<Original>设备被毁</Original>
+			<Russian>Техника уничтожена</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GreenZone">
+			<Original>你在绿色区域!</Original>
+			<Russian>Вы находитесь в зеленой зоне!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopNear">
+			<Original>你在卖家旁边!</Original>
+			<Russian>Вы находитесь рядом с продавцом!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DontHaveItem">
+			<Original>你没有必要的科目!</Original>
+			<Russian>У вас нет необходимого предмета!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PlayerTransferTitle">
+			<Original>旅行社</Original>
+			<Russian>Туристическое агентство</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ApexNeed">
+			<Original>你没有APEX附加组件</Original>
+			<Russian>У вас нет дополнения Apex</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PlayerTransferAsk">
+			<Original>你要离开这个岛 %1 到岛上 %2 在后面 $%3. 确认行动后，您将立即离开该岛，无法再进入该岛 %4, 直到你回到岛上 %5.</Original>
+			<Russian>Вы собираетесь совершить перелет с острова %1 на остров %2 за $%3. Подтвердив действие вы сразу покинете остров и не сможете более зайти на %4, пока не оформите обратный перелет на острове %5.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_LogOutText">
+			<Original>&lt;t size='1.3' color='#ccff00'&gt;再见,&lt;br/&gt;%1!&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;正在保存数据...&lt;/t&gt;</Original>
+			<Russian>&lt;t size='1.3' color='#ccff00'&gt;До новых встреч,&lt;br/&gt;%1!&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='0.6'&gt;Идет сохранение данных...&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NotInVeh">
+			<Original>你不在技术</Original>
+			<Russian>Вы не в технике</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehNitroError">
+			<Original>这项技术没有一氧化二氮</Original>
+			<Russian>На этой технике нет закиси азота</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehNitroCD">
+			<Original>一氧化二氮每5分钟使用一次</Original>
+			<Russian>Закись азота можно использовать не чаще раза в 5 минут</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehNitroSpeed">
+			<Original>你必须在运动中使用一氧化二氮!</Original>
+			<Russian>Вы должны быть в движении, чтобы использовать закись азота!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehNitroFuel">
+			<Original>你没有足够的燃料。必须超过一半的油箱!</Original>
+			<Russian>У вас мало топлива. Должно быть больше половины бака!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehNitroUsed">
+			<Original>一氧化二氮激活!</Original>
+			<Russian>Закись азота активирована!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DragSmth">
+			<Original>你带着某人。先把它放在地上</Original>
+			<Russian>Вы кого-то несете. Положите его сперва на землю</Russian>
+		</Key>
+		<Key ID="STR_NOTF_JailYouCanRun">
+			<Original>%1 我把你的监狱号码。是时候跑了!</Original>
+			<Russian>%1 сорвал ваш тюремный номер. Самое время бежать!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_JailNumberRemoved">
+			<Original>你从一个囚犯身上取下了监狱号码!</Original>
+			<Russian>Вы сорвали тюремный номер с заключенного!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_IllegalWeapSearch">
+			<Original>搜查和没收非法装备 %1</Original>
+			<Russian>Поиск и конфискация нелегального снаряжения у %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehUnknow">
+			<Original>无法确定设备类型</Original>
+			<Russian>Не удалось определить тип техники</Russian>
+		</Key>		
+		<Key ID="STR_NOTF_VehRepairNeedHelp">
+			<Original>你不能自己修理这么复杂的东西。呼叫EMS或警察</Original>
+			<Russian>Вы не сможете самостоятельно выполнить ремонт такой сложности. Вызовите сотрудника EMS или Полиции</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PlayerInFight">
+			<Original>玩家参与战斗</Original>
+			<Russian>Игрок участвует в сражении</Russian>
+		</Key>
+		<Key ID="STR_NOTF_TargetRestrained">
+			<Original>目标锁定。点击Win Key进行交互</Original>
+			<Russian>Цель задержана. Нажмите Win-key для взаимодействия</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DistanceToTarger">
+			<Original>您应该不超过 %1 米!</Original>
+			<Russian>Вы должны быть не далее чем в %1 метрах от цели!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobInProgress">
+			<Original>商店已经在抢劫</Original>
+			<Russian>Магазин уже в процессе ограбления</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobbedAlrd">
+			<Original>钱柜已经在你之前被人拿走了</Original>
+			<Russian>Касса уже была вынесена кем-то до вас</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobCopsCall">
+			<Original>警报器响了，警察接到了抢劫的通知!</Original>
+			<Russian>Сработала сигнализация и полиция оповещена об ограблении!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobStay">
+			<Original>抢劫发生了，站在方圆5米</Original>
+			<Russian>Идет ограбление, стойте в радиусе 5 метров</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobInWanted">
+			<Original>你走得太远了，被通缉了!</Original>
+			<Russian>Вы отошли слишком далеко и попали в розыск!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobBusted">
+			<Original>你被抢劫!</Original>
+			<Russian>Вы попались при ограблении!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ShopRobDone">
+			<Original>你偷了 $%1! 是时候离开这里了，因为警察已经在路上了!</Original>
+			<Russian>Вы украли $%1! Самое время убраться отсюда, ведь полиция уже в пути!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_OnlyCivSlave">
+			<Original>只有平民才能卖奴隶</Original>
+			<Russian>Продать в рабство можно только гражданского</Russian>
+		</Key>
+		<Key ID="STR_NOTF_OnlyCivOrIndepSlave">
+			<Original>只有平民或叛军才能被卖为奴隶</Original>
+			<Russian>Продать в рабство можно только гражданского или повстанца</Russian>
+		</Key>
+		<Key ID="STR_NOTF_CopsAreNear">
+			<Original>伙计，你有警察！摆脱他们!</Original>
+			<Russian>Дружище, у тебя копы на хвосте! Избавься от них!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SellSlaveInProgress">
+			<Original>卖奴隶...</Original>
+			<Russian>Продаем раба...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SellSlaveDone">
+			<Original>你赚了$%1出售%2为奴隶</Original>
+			<Russian>Вы заработали $%1 продав %2 в рабство</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SlotNeedMoney">
+			<Original>你没有$%1现金需要下注</Original>
+			<Russian>У вас нет $%1 налички, необходимые для ставки</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SlotWin">
+			<Original>&lt;t size='2.2'&gt;&lt;t color='#ffe400'&gt;恭喜!&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;你赢了&lt;br/&gt; &lt;t size='1.3'&gt;&lt;t color='#1eff00'&gt;$%1&lt;/t&gt;&lt;/t&gt;</Original>
+			<Russian>&lt;t size='2.2'&gt;&lt;t color='#ffe400'&gt;Поздравляем!&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;Ваш выигрыш составил&lt;br/&gt; &lt;t size='1.3'&gt;&lt;t color='#1eff00'&gt;$%1&lt;/t&gt;&lt;/t&gt;</Russian>
+		</Key>
+
+
+
+
+
+		<Key ID="STR_NOTF_VehPartEngine">
+			<Original>发动机</Original>
+			<Russian>Двигатель</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartRotor">
+			<Original>转子</Original>
+			<Russian>Ротор</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartFuel">
+			<Original>燃料</Original>
+			<Russian>Бак</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartHull">
+			<Original>船身</Original>
+			<Russian>Корпус</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartRearRotor">
+			<Original>后转子</Original>
+			<Russian>Задний ротор</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartTransmission">
+			<Original>传输</Original>
+			<Russian>Трансмиссия</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartLFWheel">
+			<Original>左前轮</Original>
+			<Russian>Левое переднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartRFWheel">
+			<Original>右前轮</Original>
+			<Russian>Правое переднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartLF2Wheel">
+			<Original>左前第二个车轮</Original>
+			<Russian>Левое второе переднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartRF2Wheel">
+			<Original>右前第二个车轮</Original>
+			<Russian>Правое второе переднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartLBWheel">
+			<Original>左后轮</Original>
+			<Russian>Левое заднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartRBWheel">
+			<Original>右后轮</Original>
+			<Russian>Правое заднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartRMWheel">
+			<Original>右后辅助轮</Original>
+			<Russian>Правое второе заднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehPartLMWheel">
+			<Original>左后辅助轮</Original>
+			<Russian>Левое второе заднее колесо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehDamage">
+			<Original>损坏</Original>
+			<Russian>Повреждения</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NE_1">
+			<Original>你没有 $%1 对于 %2</Original>
+			<Russian>У вас нет $%1 для покупки %2</Russian>
+		</Key>
+		<Key ID="STR_NOTF_B_1">
+			<Original>你买了一个 %1 对于 $%2</Original>
+			<Russian>Вы купили %1 за $%2</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Arrested_1">
+			<Original>%1 被逮捕 %2</Original>
+			<Russian>%1 был отправлен в тюрьму сотрудником %2</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Fishing">
+			<Original>你抓到了一个 %1</Original>
+			<Russian>Вы поймали %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_CaughtTurtle">
+			<Original>你吃了一些龟肉</Original>
+			<Russian>Вы получили черепашье мясо</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Earned_1">
+			<Original>你已经赢得了 $%1</Original>
+			<Russian>Вы получили $%1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NetDrop">
+			<Original>落下的渔网...</Original>
+			<Russian>Закидывание рыболовных сетей...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NetDropFail">
+			<Original>没钓到鱼...</Original>
+			<Russian>Рыба не поймана...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NetUp">
+			<Original>渔网拉起了.</Original>
+			<Russian>Рыболовная сеть убрана.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_InvFull">
+			<Original>您的库存空间已满.</Original>
+			<Russian>Ваш инвентарь переполнен.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Gathering">
+			<Original>聚集 %1...</Original>
+			<Russian>Добыча %1 ...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GatheringCancel">
+			<Original>生产中断</Original>
+			<Russian>Добыча прервана</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ChopSoldCar">
+			<Original>您已售出 %1 对于 $%2</Original>
+			<Russian>Вы продали %1 за $%2 </Russian>
+		</Key>
+		<Key ID="STR_NOTF_Picked">
+			<Original>你已经选择了 %1 %2</Original>
+			<Russian>Вы подобрали %1 %2</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Collected">
+			<Original>你已经收集了一些 %1</Original>
+			<Russian>Вы собрали %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DPStart">
+			<Original>你要把这个包裹送到 %1</Original>
+			<Russian>Вы должны доставить пакет в %1 </Russian>
+		</Key>
+		<Key ID="STR_NOTF_DPTask">
+			<Original>将此包传递给 %1</Original>
+			<Russian>Доставьте пакет в %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DPFailed">
+			<Original>因为你死了，所以你没有送包裹.</Original>
+			<Russian>Вы провалили доставку посылки из-за смерти.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_HS_NoCash">
+			<Original>你没有 $%1 被治愈</Original>
+			<Russian>У вас нет $%1 необходимых для лечения</Russian>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healing">
+			<Original>请别动</Original>
+			<Russian>Пожалуйста не двигайтесь</Russian>
+		</Key>
+		<Key ID="STR_NOTF_HS_ToFar">
+			<Original>医生在治疗你时，你需要在5米以内</Original>
+			<Russian>Вы должны быть не далее чем в 5 метрах от доктора во время лечения</Russian>
+		</Key>
+		<Key ID="STR_NOTF_HS_Healed">
+			<Original>你现在完全康复了.</Original>
+			<Russian>Вы полностью излечились.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_BeingImpounded">
+			<Original>%1 你的 %2 正在被警方扣押.</Original>
+			<Russian>%1 ваш %2 конфискуется сотрудником Полиции или EMS...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_BeingDestroyed">
+			<Original>%1 你的 %2 被警察摧毁了 %3.</Original>
+			<Russian>%1 ваш %2 был уничтожен сотрудником Полиции %3.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Impounding">
+			<Original>扣押车辆</Original>
+			<Russian>Конфискация техники</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ImpoundingCancelled">
+			<Original>扣车已取消.</Original>
+			<Russian>Конфискация была отменена.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Impounded">
+			<Original>您扣留了 %1. 您已收到 $%2 清理街道!</Original>
+			<Russian>Вы конфисковали %1. Вы получили $%2 за очистку улиц!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_HasImpounded">
+			<Original>%1 已扣押 %2's %3</Original>
+			<Russian>%1 конфисковал %3 принадлежащий %2</Russian>
+		</Key>
+		<Key ID="STR_NOTF_AbortESC">
+			<Original>结束时间 %1</Original>
+			<Russian>Выход доступен через %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_RespESC">
+			<Original>可在以下时间后重生 %1</Original>
+			<Russian>Возрождение доступно через %1</Russian>
+		</Key>
+		<Key ID="STR_DISP_INT_Resp">
+			<Original>重生可用</Original>
+			<Russian>Возрождение</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DeviceIsMining">
+			<Original>这辆车已经在采矿了</Original>
+			<Russian>Эта техника уже добывает</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DeviceFull">
+			<Original>车辆已满</Original>
+			<Russian>Техника переполнена</Russian>
+		</Key>
+		<Key ID="STR_NOTF_notNearResource">
+			<Original>您不在资源字段附近</Original>
+			<Russian>Вы не находитесь рядом с местом добычи</Russian>
+		</Key>
+		<Key ID="STR_NOTF_MiningStopped">
+			<Original>挖掘时无法启动引擎</Original>
+			<Russian>Вы не можете ехать во время процесса добычи</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMining">
+			<Original>设备正在挖掘...</Original>
+			<Russian>Идёт процесс добычи...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_DeviceMined">
+			<Original>循环完成，设备已挖掘 %1</Original>
+			<Russian>Добыча завершена, добыто %1 </Russian>
+		</Key>
+		<Key ID="STR_NOTF_OutOfFuel">
+			<Original>车辆燃油耗尽</Original>
+			<Russian>В устройстве нет бензина</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SpikeStrip">
+			<Original>你已经收拾好带子了.</Original>
+			<Russian>Вы подняли шипы.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PickedEvidence">
+			<Original>%1 已经作为证据，你已经收到 $%2 作为奖励.</Original>
+			<Russian>%1 был изьят, вы получили $%2 в качестве награды</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PickedMoney">
+			<Original>你已经捡到了 $%1</Original>
+			<Russian>Вы подняли $%1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Bail_Post">
+			<Original>你必须在监狱里至少等3分钟才能保释.</Original>
+			<Russian>Вы должны провести в тюрьме по крайней мере 3 минуты, прежде чем выйти под залог.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Bail_NotEnough">
+			<Original>你没有 $%1 在你的银行账户上支付保释金.</Original>
+			<Russian>На вашем банковском счете нету $%1, необходимых для выхода под залог </Russian>
+		</Key>
+		<Key ID="STR_NOTF_Bail_Bailed">
+			<Original>%1 已提交保释金!</Original>
+			<Russian>%1 заплатил залог!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehicleNear">
+			<Original>附近没有车辆...</Original>
+			<Russian>Нету транспортного средства поблизости... </Russian>
+		</Key>
+		<Key ID="STR_NOTF_Restrained">
+			<Original>%1 被限制了 %2</Original>
+			<Russian>%2 задержал %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Searching">
+			<Original>搜索...</Original>
+			<Russian>Поиск...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SearchVehFail">
+			<Original>无法搜索车辆</Original>
+			<Russian>Транспорт не найден </Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehCheat">
+			<Original>这辆车没有信息，可能是通过作弊产生的。\\n\n正在删除车辆.</Original>
+			<Russian>Информация о владельце не найдена. Возможно читер.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Action">
+			<Original>你已经在做什么了。请等待当前操作启动d.</Original>
+			<Russian>Вы уже что-то делаете. Пожалуйста, подождите пока текущее действие закончится.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Unrestrain">
+			<Original>%1 不受约束 %2</Original>
+			<Russian>%2 отпустил %1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Robbed">
+			<Original>%1 抢劫了 %2 对于 $%3</Original>
+			<Russian>%1 ограбил %2 на сумму в $%3</Russian>
+		</Key>
+		<Key ID="STR_NOTF_RobFail">
+			<Original>%1 没有钱.</Original>
+			<Russian>У %1 нет денег.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Tazed">
+			<Original>%1 给你打了电话..</Original>
+			<Russian>%1 применил против вас тайзер.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_VehContraband">
+			<Original>一辆车被搜查 $%1 毒品/违禁品的价值.</Original>
+			<Russian>При обыске техники было изъято нелегальных вещей на сумму $%1</Russian>
+		</Key>
+		<Key ID="STR_NOTF_PulledOut">
+			<Original>你被从车里拖出来了</Original>
+			<Russian>Вас вытащили из автомобиля</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GivenItem">
+			<Original>%1 给了你 %2 %3</Original>
+			<Russian>%1 передал 给你 %2 %3 </Russian>
+		</Key>
+		<Key ID="STR_NOTF_GivenMoney">
+			<Original>%1 给了你 $%2</Original>
+			<Russian>%1 передал 给你 $%2 </Russian>
+		</Key>
+		<Key ID="STR_NOTF_SendingData">
+			<Original>正在向服务器发送信息，请稍候...</Original>
+			<Russian>Отправка информации на сервер. Пожалуйста, подождите...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ActionCancel">
+			<Original>操作已取消</Original>
+			<Russian>Действие отменено</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ActionInProc">
+			<Original>正在处理操作...</Original>
+			<Russian>Действие уже обрабатывается...</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NoSpace">
+			<Original>You don't have enough space for that amount!</Original>
+			<Russian>У вас недостаточно места!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NotEnoughMoney">
+			<Original>你没有那么多钱!</Original>
+			<Russian>У вас недостаточно денег!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NotACop">
+			<Original>你不是警察.</Original>
+			<Russian>Вы не полицейский.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NoRoom">
+			<Original>您没有足够的空间放置该项目.</Original>
+			<Russian>Недостаточно места.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_ProcessWOLicense">
+ 			<Original>你需要 $%1 无许可证处理!</Original>
+ 			
+			<Russian>Для обработки без лицензии 给你 необходимо $%1!</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_RapidAction">
+ 			<Original>您无法快速使用操作键!</Original>
+  			<Russian>Не спамь кнопками!</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_NotEnoughFunds">
+ 			<Original>您的银行帐户中没有足够的资金</Original>
+  			<Russian>У вас недостаточно средств на банковском счёте</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_CouldntAdd">
+ 			<Original>无法将其添加到您的库存.</Original>
+  			<Russian>Не удалось добавить в инвентарь.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_EatMSG_1">
+ 			<Original>你有一段时间没吃东西了，你应该马上找点吃的!</Original>
+ 			<Russian>Вы голодны. 给你 необходимо поесть!</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_EatMSG_2">
+ 			<Original>你开始挨饿了，你需要找点吃的，否则你会死的.</Original>
+ 			<Russian>给你 нужно поесть, иначе вы умрёте с голоду.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_EatMSG_3">
+ 			<Original>你现在饿得要死，如果你不吃东西，你很快就会死的</Original>
+ 			<Russian>Вы проголодались. Съешьте что-нибудь, чтобы не умереть с голоду.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_EatMSG_Death">
+ 			<Original>你饿死了.</Original>
+ 			<Russian>Вы умерли голодной смертью.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_1">
+ 			<Original>你有一段时间没喝任何东西了，你应该马上找点喝的.</Original>
+ 			<Russian>Вы долго не пили. 给你 необходимо попить.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_2">
+ 			<Original>你已经很久没喝东西了，你应该马上找点喝的，否则你会因脱水而死.</Original>
+ 			<Russian>给你 нужно попить, чтобы не умереть от обезвоживания.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_3">
+ 			<Original>你现在严重脱水。快找点喝的!</Original>
+ 			<Russian>У вас начинается обезвоживание. Необходимо срочно попить!</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_DrinkMSG_Death">
+ 			<Original>你死于脱水.</Original>
+ 			<Russian>Вы умерли от обезвоживания.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_MaxWeight">
+ 			<Original>你超出了最大体重！在您丢下一些物品之前，您将无法快速奔跑或移动!</Original>
+ 			<Russian>Вы несёте слишком большой вес, вы не сможете бегать!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SearchVeh_Title">
+			<Original>车辆信息</Original>
+			<Russian>Информация о технике</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SearchVeh_Owners">
+			<Original>业主</Original>
+			<Russian>Владельцы</Russian>
+		</Key>
+		<Key ID="STR_NOTF_SearchVeh_Plate">
+			<Original>车牌号</Original>
+			<Russian>Номер</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_CannotSearchPerson">
+			<Original>无法搜索此人.</Original>
+			<Russian>Такой человек не найден.</Russian>
+		</Key>
+		<Key ID="STR_NOTF_Repairing">
+ 			<Original>修复 %1</Original>
+ 			<Russian>Починка %1</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_RepairingInVehicle">
+ 			<Original>你必须在车外才能修理它.</Original>
+ 			<Russian>Для починки автомобиля вы должны выйти из него.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_RepairedVehicle">
+ 			<Original>你修好了那辆车.</Original>
+ 			<Russian>Вы отремонтировали автомобиль.</Russian>
+		</Key>
+ 		<Key ID="STR_NOTF_Gather_Success">
+			<Original>+ %2 %1(s)</Original>
+			<Russian>+ %1 x %2</Russian>
+		</Key>
+		<Key ID="STR_NOTF_GatherVeh">
+			<Original>你不能在车里集合!</Original>
+			<Russian>Вы не можете собирать внутри автомобиля!</Russian>
+		</Key>
+		<Key ID="STR_NOTF_NoLootingPerson">
+			<Original>你不允许抢劫尸体</Original>
+			<Russian>Вы не можете грабить трупы</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Jail_Strings">
+		<Key ID="STR_Jail_Warn">
+			<Original>你被逮捕了，等一下吧。如果你尝试重生或重新连接，你的时间将增加!</Original>
+			<Russian>Вы были арестованы и отправлены в тюрьму. Дождитесь окончания таймера!</Russian>
+		</Key>
+		<Key ID="STR_Jail_LicenseNOTF">
+			<Original>由于被捕，如果您拥有以下许可证，您将失去这些许可证\n\nFirearms License\nRebel License</Original>
+			<Russian>В результате ареста вы потеряли следующие лицензии (если они у вас были)\n\nЛицензия на оружие\nЛицензия повстанца</Russian>
+		</Key>
+		<Key ID="STR_Jail_EscapeNOTF">
+			<Original>%1 越狱了!</Original>
+			<Russian>%1 совершил побег из тюрьмы!</Russian>
+		</Key>
+		<Key ID="STR_Jail_EscapeSelf">
+			<Original>你已经越狱了，你仍然保留着以前的罪行，现在有越狱的记录.</Original>
+			<Russian>Вы совершили побег из тюрьмы и теперь находитесь в федеральном розыске.</Russian>
+		</Key>
+		<Key ID="STR_Jail_Released">
+			<Original>你已经在监狱服刑并被释放了.</Original>
+			<Russian>Вы отсидели свой срок в тюрьме и были освобождены</Russian>
+		</Key>
+		<Key ID="STR_Jail_Time">
+			<Original>剩余时间:</Original>
+			<Russian>Время заключения:</Russian>
+		</Key>
+		<Key ID="STR_Jail_Pay">
+			<Original>可以支付保释金:</Original>
+			<Russian>Выход под залог:</Russian>
+		</Key>
+		<Key ID="STR_Jail_Price">
+			<Original>保释价格:</Original>
+			<Russian>Сумма залога:</Russian>
+		</Key>
+		<Key ID="STR_Jail_Paid">
+			<Original>你已经交了保释金，现在自由了.</Original>
+			<Russian>Вы оплатили залог и теперь свободны.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Civ_Strings">
+		<Key ID="STR_Civ_KnockedOut">
+			<Original>%1 把你打昏了.</Original>
+			<Russian>Игрок с ID %1 сбил вас с ног.</Russian>
+		</Key>
+		<Key ID="STR_Civ_LicenseRemove_1">
+			<Original>你因车辆误杀而失去了所有机动车驾照.</Original>
+			<Russian>Вы потеряли все авто лицензии совершив наезд</Russian>
+		</Key>
+		<Key ID="STR_Civ_LicenseRemove_2">
+			<Original>你因过失杀人而失去了枪支执照.</Original>
+			<Russian>Вы потеряли лицензию на оружие совершив убийство.</Russian>
+		</Key>
+		<Key ID="STR_Civ_RobFail">
+			<Original>个人没有现金...</Original>
+			<Russian>Наличность отсутствует...</Russian>
+		</Key>
+		<Key ID="STR_Civ_Robbed">
+			<Original>你偷了 $%1</Original>
+			<Russian>Вы украли $%1</Russian>
+		</Key>
+		<Key ID="STR_Civ_VaultEmpty">
+			<Original>保险箱是空的!</Original>
+			<Russian>Сейф пуст!</Russian>
+		</Key>
+		<Key ID="STR_Civ_VaultInUse">
+			<Original>有人正在访问保险箱..</Original>
+			<Russian>Сейф уже кем-то используется...</Russian>
+		</Key>
+		<Key ID="STR_Civ_NotEnoughCops">
+			<Original>一定有 %1 或更多警察在线继续.</Original>
+			<Russian>Должно быть минимум %1 полицейских на острове, чтобы продолжить.</Russian>
+		</Key>
+		<Key ID="STR_Civ_SafeInv">
+			<Original>安全库存</Original>
+			<Russian>Инвентарь сейфа</Russian>
+		</Key>
+		<Key ID="STR_Civ_SelectItem">
+			<Original>您需要选择一个项目!</Original>
+			<Russian>给你 необходимо выбрать предмет!</Russian>
+		</Key>
+		<Key ID="STR_Civ_IsntEnoughGold">
+			<Original>保险箱中没有 %1 根金条!</Original>
+			<Russian>В сейфе отсутствует %1 золотых слитков!</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Cop_Strings">
+		<Key ID="STR_Cop_TicketError">
+			<Original>无法打开票务界面</Original>
+			<Russian>Не удалось открыть интерфейс</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket">
+			<Original>票务 %1</Original>
+			<Russian>Штрафуем %1</Russian>
+		</Key>
+		<Key ID="STR_Cop_TicketNil">
+			<Original>没有票了</Original>
+			<Russian>Некого штрафовать</Russian>
+		</Key>
+		<Key ID="STR_Cop_TicketExist">
+			<Original>票据的人不存在.</Original>
+			<Russian>Штраф выписан несуществующему человеку</Russian>
+		</Key>
+		<Key ID="STR_Cop_TicketNum">
+			<Original>你没有输入实际数字.</Original>
+			<Russian>Вы ввели неправильную сумму.</Russian>
+		</Key>
+		<Key ID="STR_Cop_TicketOver100">
+			<Original>门票不能超过 $500,000!</Original>
+			<Russian>Сумма штрафа не может быть больше чем $500,000!</Russian>
+		</Key>
+		<Key ID="STR_Cop_TicketGive">
+			<Original>%1 给了一张 $%2 到 %3</Original>
+			<Russian>%1 выписал штраф в размере $%2 для %3</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_NotEnough">
+			<Original>你的银行帐户或身上没有足够的钱来支付机票.</Original>
+			<Russian>У вас не хватает денег заплатить штраф.</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_NotEnoughNOTF">
+			<Original>%1 由于没有足够的钱，无法付票.</Original>
+			<Russian>%1 не мог заплатить штраф, потому что у него не хватает денег.</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_Paid">
+			<Original>您已经支付了 $%1</Original>
+			<Russian>вы оплатили штраф в размере $%1</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_PaidNOTF">
+			<Original>%1 支付了 $%2</Original>
+			<Russian>%1 заплатил штраф в размере $%2</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_PaidNOTF_2">
+			<Original>%1 付了票.</Original>
+			<Russian>%1 заплатил штраф.</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_GUI_Given">
+			<Original>%1 给了你一张票 $%2</Original>
+			<Russian>%1 выписал 给你 штраф в размере $%2</Russian>
+		</Key>
+		<Key ID="STR_Cop_Ticket_Refuse">
+			<Original>%1 拒绝付款.</Original>
+			<Russian>%1 отказался от уплаты штрафа.</Russian>
+		</Key>
+		<Key ID="STR_Cop_BountyRecieve">
+			<Original>你已经获得了 $%1 因为逮捕了罪犯.</Original>
+			<Russian>Вы получили награду $%1 за поимку преступника. Налог составил: $%2</Russian>
+		</Key>
+		<Key ID="STR_Cop_BountyKill">
+			<Original>你已经获得了 $%1 因为你杀了一个通缉犯，如果你逮捕了他，你就会受到惩罚 $%2</Original>
+			<Russian>Вы получили награду за убийство преступника в размере $%1%2</Russian>
+		</Key>
+		<Key ID="STR_Cop_Contraband">
+			<Original>%1 有 $%2 他们身上的违禁品价值.</Original>
+			<Russian>У %1 имеется контрабанда на сумму $%2</Russian>
+		</Key>
+		<Key ID="STR_Cop_IllegalItems">
+			<Original>非法项目</Original>
+			<Russian>Нелегальные предметы</Russian>
+		</Key>
+		<Key ID="STR_Cop_Robber">
+			<Original>%1 被认定为银行劫匪!</Original>
+			<Russian>%1 был замечен в ограблении банков!</Russian>
+		</Key>
+		<Key ID="STR_Cop_NoIllegal">
+			<Original>没有非法项目</Original>
+			<Russian>Нет незаконных предметов</Russian>
+		</Key>
+		<Key ID="STR_Cop_NotaDoor">
+			<Original>你不在门附近!</Original>
+			<Russian>Вы не возле двери!</Russian>
+		</Key>
+		<Key ID="STR_Cop_EnablePiP">
+			<Original>您需要通过视频设置启用画中画（PiP）才能使用此功能!</Original>
+			<Russian>Необходимо включить PIP чтобы использовать это!</Russian>
+		</Key>
+		<Key ID="STR_Cop_Licenses">
+			<Original>许可证:</Original>
+			<Russian>Лицензии</Russian>
+		</Key>
+		<Key ID="STR_Cop_NoLicenses">
+			<Original>无许可证</Original>
+			<Russian>Нет лицензий</Russian>
+		</Key>
+		<Key ID="STR_Cop_NoIllegalVeh">
+			<Original>这辆车没有违法行为</Original>
+			<Russian>В транспорте нет незаконных предметов</Russian>
+		</Key>
+		<Key ID="STR_Cop_VehEmpty">
+			<Original>这辆车是空的</Original>
+			<Russian>Транспорт пуст</Russian>
+		</Key>
+		<Key ID="STR_Cop_RobberDead">
+			<Original>$%1 从联邦储备局抢劫案中被杀的强盗被追回.</Original>
+			<Russian>$%1 украденных из Резерва было возвращено</Russian>
+		</Key>
+		<Key ID="STR_Cop_RepairVault">
+			<Original>正在修复vault...</Original>
+			<Russian>Производится ремонт хранилища...</Russian>
+		</Key>
+		<Key ID="STR_Cop_VaultRepaired">
+			<Original>保险库现已修复并重新保护.</Original>
+			<Russian>Хранилище успешно отремонтировано и закрыто.</Russian>
+		</Key>
+		<Key ID="STR_Cop_VaultLocked">
+			<Original>保管库已锁定?</Original>
+			<Russian>Дверь уже заблокирована?</Russian>
+		</Key>
+		<Key ID="STR_Cop_VaultUnder1">
+			<Original>不能输入低于1的任何内容!</Original>
+			<Russian>Вы не можете ввести значение ниже 1!</Russian>
+		</Key>
+		<Key ID="STR_Cop_OnlyGold">
+			<Original>保险柜里除了金条什么都不能存.</Original>
+			<Russian>Выне можете положить в сейф ничего кроме золота.</Russian>
+		</Key>
+		<Key ID="STR_Cop_NotEnoughGold">
+			<Original>您没有 %1 个金条</Original>
+			<Russian>У вас нет %1 золотых слитков</Russian>
+		</Key>
+		<Key ID="STR_Cop_CantRemove">
+			<Original>无法从库存中删除项目以放入保险箱.</Original>
+			<Russian>Не удалось удалить предметы из инвентаря,чтобы положить в сейф.</Russian>
+		</Key>
+		<Key ID="STR_Cop_CouldntSearch">
+			<Original>无法搜索 %1</Original>
+			<Russian>Невозможно найти %1</Russian>
+		</Key>
+		<Key ID="STR_Cop_RepairingDoor">
+			<Original>修理车门...</Original>
+			<Russian>Происходит ремонт двери...</Russian>
+		</Key>
+		<Key ID="STR_Cop_NoLicensesFound">
+			<Original>无许可证&lt;br/&gt;</Original>
+			<Russian>Лицензии отсутствуют&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_Cop_DealerQuestion">
+			<Original>最近没有人向该经销商出售.</Original>
+			<Russian>Дилер давно не получал поставок.</Russian>
+		</Key>
+		<Key ID="STR_Cop_DealerMSG">
+			<Original>以下人员最近一直在向该经销商销售.</Original>
+			<Russian>Эти люди были недавно на продаже возле дилера.</Russian>
+		</Key>
+		<Key ID="STR_Cop_Radar">
+			<Original>雷达</Original>
+			<Russian>Радар</Russian>
+		</Key>
+		<Key ID="STR_Cop_VehSpeed">
+			<Original>车辆速度 %1 km/h</Original>
+			<Russian>Скорость автомобиля %1 km/h</Russian>
+		</Key>
+		<Key ID="STR_Cop_ExcessiveRestrain">
+			<Original>您因限制时间过长而被自动释放</Original>
+			<Russian>Вы были освобождены после длительного простоя.</Russian>
+		</Key>
+		<Key ID="STR_Cop_Retrained">
+			<Original>你被限制了 %1</Original>
+			<Russian>Вы были задержаны сотрудником %1</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="MISC_Strings">
+		<Key ID="STR_MISC_TooMuch">
+			<Original>你试图给予 %1 %2 %3 但他们拿不住，所以它被退回了.</Original>
+			<Russian>Вы пытались передать %1 %2 %3, но произошла ошибка.</Russian>
+		</Key>
+		<Key ID="STR_MISC_TooMuch_2">
+			<Original>%1 返回 %2 %3 因为他们拿不住那笔钱.</Original>
+			<Russian>%1 возвращено %2 %3 не смогли унести</Russian>
+		</Key>
+		<Key ID="STR_MISC_TooMuch_3">
+			<Original>%1 给了你 %2 但你只能坚持 %3 所以 %4 被退回.</Original>
+			<Russian>%1 передал 给你 %2 но вы можете нести только %3 и %4 был возвращен. </Russian>
+		</Key>
+		<Key ID="STR_MISC_AttachmentMSG">
+			<Original>你想将此物品添加到武器或库存中吗？如果你将其添加到武器中，你当前的附件将丢失!</Original>
+			<Russian>Вы действительно хотите добавить этот предмет в инвентарь оружия? Ваши текущие предметы могут быть утеряны!</Russian>
+		</Key>
+		<Key ID="STR_MISC_Attachment">
+			<Original>已占用附件插槽!</Original>
+			<Russian>Слот предмета принят!</Russian>
+		</Key>
+		<Key ID="STR_MISC_Weapon">
+			<Original>武器</Original>
+			<Russian>Оружие</Russian>
+		</Key>
+		<Key ID="STR_MISC_Inventory">
+			<Original>库存</Original>
+			<Russian>Инвентарь</Russian>
+		</Key>
+		<Key ID="STR_MISC_Backpack">
+			<Original>你不允许查看某人的背包!</Original>
+			<Russian>Вы не имеете права смотреть в чужой рюкзак!</Russian>
+		</Key>
+		<Key ID="STR_MISC_VehInventory">
+			<Original>此车辆锁闭时，您不允许进入.</Original>
+			<Russian>Вы не можете заглянуть в багажник когда автомобиль закрыт.</Russian>
+		</Key>
+		<Key ID="STR_MISC_VehInvUse">
+			<Original>此车辆的行李箱正在使用中，一次只能一个人使用.</Original>
+			<Russian>Багажник уже используется.</Russian>
+		</Key>
+		<Key ID="STR_MISC_DialogError">
+			<Original>创建对话框失败</Original>
+			<Russian>Не удалось создать диалог.</Russian>
+		</Key>
+		<Key ID="STR_MISC_VehUnlock">
+			<Original>您已解锁车辆.</Original>
+			<Russian>Вы открыли свой транспорт.</Russian>
+		</Key>
+		<Key ID="STR_MISC_VehLock">
+			<Original>您已锁定车辆.</Original>
+			<Russian>Вы закрыли свой транспорт.</Russian>
+		</Key>
+		<Key ID="STR_MISC_SirensON">
+			<Original>警报器打开</Original>
+			<Russian>Сирена ВКЛ</Russian>
+		</Key>
+		<Key ID="STR_MISC_SirensOFF">
+			<Original>警报器关闭</Original>
+			<Russian>Сирена ВЫКЛ</Russian>
+		</Key>
+		<Key ID="STR_MISC_NoStorageWarn">
+			<Original>您需要安装存储容器才能具有存储功能!</Original>
+			<Russian>给你 нужен контейнер для хранения!</Russian>
+		</Key>
+		<Key ID="STR_MISC_NoStorageVeh">
+			<Original>此车辆无法存储虚拟物品.</Original>
+			<Russian>Этот транспорт не способен хранить виртуальные предметы.</Russian>
+		</Key>
+		<Key ID="STR_MISC_Weight">
+			<Original>重量:</Original>
+			<Russian>Вес:</Russian>
+		</Key>
+		<Key ID="STR_MISC_HouseStorage">
+			<Original>房屋储藏室</Original>
+			<Russian>Домашний ящик</Russian>
+		</Key>
+		<Key ID="STR_MISC_VehStorage">
+			<Original>车辆行李箱</Original>
+			<Russian>Багажник</Russian>
+		</Key>
+		<Key ID="STR_MISC_VehDoesntExist">
+			<Original>车辆要么不存在，要么被摧毁。</Original>
+			<Russian>Транспортного средства не существует.</Russian>
+		</Key>
+		<Key ID="STR_MISC_WrongNumFormat">
+			<Original>无效的数字格式</Original>
+			<Russian>Неверный формат номера</Russian>
+		</Key>
+		<Key ID="STR_MISC_Under1">
+			<Original>不能输入低于1的任何内容!</Original>
+			<Russian>Вы не можете ввести значение ниже 1!</Russian>
+		</Key>
+		<Key ID="STR_MISC_NotEnough">
+			<Original>这辆车没有那么多那种东西.</Original>
+			<Russian>В автомобиле нет такого количества предметов.</Russian>
+		</Key>
+		<Key ID="STR_MISC_StPubIntox">
+			<Original>%1 在公共场合喝醉了!</Original>
+			<Russian>%1 замечен пьяным в публичном месте!</Russian>
+		</Key>
+		<Key ID="STR_MISC_AlreadyDrinking">
+			<Original>你已经在喝酒了</Original>
+			<Russian>Вы уже выпили, сделайте перерыв...</Russian>
+		</Key>
+		<Key ID="STR_MISC_WestIndNoNo">
+			<Original>值班期间禁止饮酒</Original>
+			<Russian>Пить на службе? Не самая лучшая идея</Russian>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut">
+			<Original>你昏倒了</Original>
+			<Russian>Вы потеряли сознание</Russian>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut1">
+			<Original>我到底怎么了??</Original>
+			<Russian>Где я, кто я, почему я голый??</Russian>
+		</Key>
+		<Key ID="STR_MISC_JoinPoliceStation">
+			<Original>您正在进入Altis PD地区。限制区域！仅通过邀请.</Original>
+			<Russian>Вы входите на территорию Полицейского участка, вход СТРОГО по приглашению!</Russian>
+		</Key>
+		<Key ID="STR_MISC_CheckPointW1">
+			<Original>Scheckpoint公司。无脱粒患者</Original>
+			<Russian>Нахождение на территории КПП СТРОГО ЗАПРЕЩЕНО!</Russian>
+		</Key>
+		<Key ID="STR_MISC_FedResWarn">
+			<Original>你在纠缠美联储！限制区域!</Original>
+			<Russian>Вы входите на территорию Федерального Резерва! Нахождение на территории Федерального Резерва СТРОГО ЗАПРЕЩЕНО!</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Housing_Strings">
+		<Key ID="STR_House_ContainerError">
+			<Original>保存容器时出错，找不到房屋?</Original>
+			<Russian>При сохранении контейнера ошибка, не удалось найти дом?</Russian>
+		</Key>
+		<Key ID="STR_House_ContainerDeny">
+			<Original>如果所有者未打开此存储容器，则不允许您访问它.</Original>
+			<Russian>Вы не можете открыть контейнер без его хозяина.</Russian>
+		</Key>
+		<Key ID="STR_House_Door_Unlock">
+			<Original>你已经打开了门.</Original>
+			<Russian>Вы открыли входную дверь.</Russian>
+		</Key>
+		<Key ID="STR_House_Door_Lock">
+			<Original>你锁上门了.</Original>
+			<Russian>Вы закрыли входную дверь.</Russian>
+		</Key>
+		<Key ID="STR_House_Door_NotNear">
+			<Original>你不在门附近!</Original>
+			<Russian>Вы не рядом с дверью!</Russian>
+		</Key>
+		<Key ID="STR_House_Sell_Process">
+			<Original>这所房子最近售出，目前仍在数据库处理中.</Original>
+			<Russian>Этот дом был недавно продан и все еще обрабатывается базой данных.</Russian>
+		</Key>
+		<Key ID="STR_House_License">
+			<Original>您没有房主许可证!</Original>
+			<Russian>У вас нет лицензии!</Russian>
+		</Key>
+		<Key ID="STR_House_Max_House">
+			<Original>你只能拥有最多 %1 房产 .</Original>
+			<Russian>Максимальное количество домов: %1</Russian>
+		</Key>
+		<Key ID="STR_House_NotEnough">
+			<Original>你没有足够的钱!</Original>
+			<Russian>给你 не хватает денег!</Russian>
+		</Key>
+		<Key ID="STR_House_BuyMSG">
+			<Original>这所房子可以住 &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;它最多支持 %2 个存储容器</Original>
+			<Russian>Этот дом стоит &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Количество контейнеров для хранения: %2</Russian>
+		</Key>
+		<Key ID="STR_House_Purchase">
+			<Original>购买房屋</Original>
+			<Russian>Покупка дома</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_NoOwner">
+			<Original>这房子不属于任何人.</Original>
+			<Russian>Этот дом ни给谁 не принадлежит.</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_OwnerOff">
+			<Original>此人未在线，因此您无法突袭其房屋!</Original>
+			<Russian>Владелец дома не в сети и вы не можете обыскать этот дом!</Russian>
+		</Key>
+		<Key ID="STR_House_OwnerOffline">
+			<Original>房主不在线!</Original>
+			<Russian>Владелец дома не в сети!</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_DoorUnlocked">
+			<Original>门已解锁!</Original>
+			<Russian>Дверь уже разблокирована!</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_Progress">
+			<Original>打破门锁</Original>
+			<Russian>Взлом замка на двери</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_NOTF">
+			<Original>警察正在搜查你的房子!</Original>
+			<Russian>Полиция обыскивает ваше жилье!</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_Owner">
+			<Original>房屋所有人</Original>
+			<Russian>Владелец дома</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_Nothing">
+			<Original>这房子里什么都没有.</Original>
+			<Russian>В этом доме ничего нет.</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_Searching">
+			<Original>搜查房屋...</Original>
+			<Russian>Обыск дома...</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_TooFar">
+			<Original>你离房子太远了!</Original>
+			<Russian>Вы отошли слишком далеко от дома!</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_Successful">
+			<Original>一所房子遭到袭击 $%1 毒品的价值 / contraband.</Original>
+			<Russian>В доме было обнаружено и изъято запрещенных веществ на сумму $%1</Russian>
+		</Key>
+		<Key ID="STR_House_WeaponRaid_Successful">
+			<Original>一所房子遭到袭击 $%1 武器/违禁品的价值.</Original>
+			<Russian>В доме было обнаружено и изъято вооружения на сумму $%1</Russian>
+		</Key>
+		<Key ID="STR_House_Raid_NoIllegal">
+			<Original>这房子里没有违法的东西.</Original>
+			<Russian>В этом доме нет запрещенных веществ.</Russian>
+		</Key>
+		<Key ID="STR_House_WeaponRaid_NoIllegal">
+			<Original>这房子里没有违法的东西.</Original>
+			<Russian>В этом доме нет запрещенного вооружения</Russian>
+		</Key>
+		<Key ID="STR_House_StorageUnlock">
+			<Original>房屋存储已解锁.</Original>
+			<Russian>Хранилище дома разблокировано.</Russian>
+		</Key>
+		<Key ID="STR_House_StorageLock">
+			<Original>房屋存储已锁定.</Original>
+			<Russian>Хранилище дома заблокировано.</Russian>
+		</Key>
+		<Key ID="STR_House_LockingUp">
+			<Original>正在锁房子…请稍候.</Original>
+			<Russian>Дом закрывается. Пожалуйста подождите...</Russian>
+		</Key>
+		<Key ID="STR_House_LockedUp">
+			<Original>房子已经锁起来了.</Original>
+			<Russian>Дом был заперт.</Russian>
+		</Key>
+		<Key ID="STR_House_SellHouseMSG">
+			<Original>你确定要卖掉你的房子吗？它将以: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
+			<Russian>Вы уверены, что хотите продать свой дом? Он будет продан за &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Vehicle_Service">
+		<Key ID="STR_Service_Chopper_NoAir">
+			<Original>直升机停机坪上没有直升机!</Original>
+			<Russian>На вертолетной площадке пусто</Russian>
+		</Key>
+		<Key ID="STR_Serive_Chopper_NotEnough">
+			<Original>你需要100美元来保养你的直升机</Original>
+			<Russian>给你 нужно $100 что бы отремонтировать ваш вертолёт.</Russian>
+		</Key>
+		<Key ID="STR_Service_Chopper_Servicing">
+			<Original>维修切碎器</Original>
+			<Russian>Обслуживание вертолёта</Russian>
+		</Key>
+		<Key ID="STR_Service_Chopper_Missing">
+			<Original>车辆不再位于直升机停机坪上!</Original>
+			<Russian>Вертолёт находится слишком далеко от площадки.</Russian>
+		</Key>
+		<Key ID="STR_Service_Chopper_Done">
+			<Original>你的直升机现在已经修好并加油了.</Original>
+			<Russian>Ваш вертолёт отремонтирован и заправлен.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Life_Items">
+		<Key ID="STR_Item_Cannabis_unpr">
+			<Original>麻叶</Original>
+			<Russian>Листья конопли</Russian>
+		</Key>
+		<Key ID="STR_Item_Cannabis">
+			<Original>大麻</Original>
+			<Russian>Марихуана</Russian>
+		</Key>
+		<Key ID="STR_Item_Apple">
+			<Original>苹果</Original>
+			<Russian>Яблоко</Russian>
+		</Key>
+		<Key ID="STR_Item_Apples">
+			<Original>大苹果</Original>
+			<Russian>Яблоки</Russian>
+		</Key>
+		<Key ID="STR_Item_Cocaine">
+			<Original>可卡因</Original>
+			<Russian>Кокаин</Russian>
+		</Key>
+		<Key ID="STR_Item_Heroin">
+			<Original>海洛因</Original>
+			<Russian>Героин</Russian>
+		</Key>
+		<Key ID="STR_Item_Meth">
+			<Original>冰毒</Original>
+			<Russian>Мет</Russian>
+		</Key>
+		<Key ID="STR_Item_Oil">
+			<Original>油</Original>
+			<Russian>Нефть</Russian>
+		</Key>
+		<Key ID="STR_Item_Peach">
+			<Original>桃</Original>
+			<Russian>Персик</Russian>
+		</Key>
+		<Key ID="STR_Item_Peaches">
+			<Original>桃子</Original>
+			<Russian>Персики</Russian>
+		</Key>
+		<Key ID="STR_Item_OilU">
+			<Original>未加工的油</Original>
+			<Russian>Необработанная нефть</Russian>
+		</Key>
+		<Key ID="STR_Item_OilP">
+			<Original>加工油</Original>
+			<Russian>Обработанная нефть</Russian>
+		</Key>
+		<Key ID="STR_Item_HeroinU">
+			<Original>未处理的海洛因</Original>
+			<Russian>Необработанный героин</Russian>
+		</Key>
+		<Key ID="STR_Item_HeroinP">
+			<Original>加工海洛因</Original>
+			<Russian>Обработанный героин</Russian>
+		</Key>
+		<Key ID="STR_Item_Marijuana">
+			<Original>大麻</Original>
+			<Russian>Марихуана2</Russian>
+		</Key>
+		<Key ID="STR_Item_Meat">
+			<Original>肉（野味）</Original>
+			<Russian>Мясо (дичь)</Russian>
+		</Key>
+		<Key ID="STR_Item_RabbitMeat">
+			<Original>兔子肉</Original>
+			<Russian>Мясо кролика</Russian>
+		</Key>
+		<Key ID="STR_Item_fish">
+			<Original>鱼</Original>
+			<Russian>Рыба</Russian>
+		</Key>
+		<Key ID="STR_Item_fish_trap">
+			<Original>鱼饵包</Original>
+			<Russian>Пачка ловушек для рыб</Russian>
+		</Key>
+		<Key ID="STR_Item_SalemaMeat">
+			<Original>萨勒马肉</Original>
+			<Russian>Чулита</Russian>
+		</Key>
+		<Key ID="STR_Item_OrnateMeat">
+			<Original>华丽的肉</Original>
+			<Russian>Тропическая рыба</Russian>
+		</Key>
+		<Key ID="STR_Item_MackerelMeat">
+			<Original>鲭鱼肉</Original>
+			<Russian>Скумбрия</Russian>
+		</Key>
+		<Key ID="STR_Item_TunaMeat">
+			<Original>金枪鱼肉</Original>
+			<Russian>Тунец</Russian>
+		</Key>
+		<Key ID="STR_Item_MulletMeat">
+			<Original>鲻鱼肉</Original>
+			<Russian>Кефаль</Russian>
+		</Key> 
+		<Key ID="STR_Item_CatSharkMeat">
+			<Original>猫鲨肉</Original>
+			<Russian>Кошачья акула</Russian>
+		</Key>
+		<Key ID="STR_Item_SalemaMeat_Fried">
+			<Original>炸鸡</Original>
+			<Russian>Жареная чулита</Russian>
+		</Key>
+		<Key ID="STR_Item_OrnateMeat_Fried">
+			<Original>热带炸鱼</Original>
+			<Russian>Жареная тропическая рыба</Russian>
+		</Key>
+		<Key ID="STR_Item_MackerelMeat_Fried">
+			<Original>烤鲭鱼</Original>
+			<Russian>Жареная скумбрия</Russian>
+		</Key>
+		<Key ID="STR_Item_TunaMeat_Fried">
+			<Original>炸金枪鱼肉</Original>
+			<Russian>Жареный тунец</Russian>
+		</Key>
+		<Key ID="STR_Item_MulletMeat_Fried">
+			<Original>炸马勒肉</Original>
+			<Russian>Жареная кефаль</Russian>
+		</Key> 
+		<Key ID="STR_Item_CatSharkMeat_Fried">
+			<Original>炸猫鲨肉</Original>
+			<Russian>Жаренная кошачья акула</Russian>
+		</Key>
+		<Key ID="STR_Item_TurtleMeat">
+			<Original>乌龟肉</Original>
+			<Russian>Мясо черепахи</Russian>
+		</Key>
+		<Key ID="STR_Item_FishingPole">
+			<Original>钓鱼竿</Original>
+			<Russian>Удочка</Russian>
+		</Key>
+		<Key ID="STR_Item_meat_fried">
+			<Original>鱼肉</Original>
+			<Russian>Мясо Рыбы</Russian>
+		</Key>
+		<Key ID="STR_Item_TurtleSoup">
+			<Original>龟汤</Original>
+			<Russian>Суп из черепахи</Russian>
+		</Key>
+		<Key ID="STR_Item_Donuts">
+			<Original>甜甜圈</Original>
+			<Russian>Пончики</Russian>
+		</Key>
+		<Key ID="STR_Item_FuelE">
+			<Original>空燃油罐</Original>
+			<Russian>Пустая канистра бензина</Russian>
+		</Key>
+		<Key ID="STR_Item_FuelF">
+			<Original>燃油罐已满</Original>
+			<Russian>Канистра бензина</Russian>
+		</Key>
+		<Key ID="STR_Item_Pickaxe">
+			<Original>镐</Original>
+			<Russian>Кирка</Russian>
+		</Key>
+		<Key ID="STR_Item_CopperOre">
+			<Original>铜矿石</Original>
+			<Russian>Медная руда</Russian>
+		</Key>
+		<Key ID="STR_Item_IronOre">
+			<Original>铁矿石</Original>
+			<Russian>Железная руда</Russian>
+		</Key>
+		<Key ID="STR_Item_SilverOre">
+			<Original>银矿</Original>
+			<Russian>Серебренная руда</Russian>
+		</Key>
+		<Key ID="STR_Item_Silver">
+			<Original>银锭</Original>
+			<Russian>Слиток серебра</Russian>
+		</Key>
+		<Key ID="STR_Item_IronIngot">
+			<Original>铁锭</Original>
+			<Russian>Слиток железа</Russian>
+		</Key>
+		<Key ID="STR_Item_CopperIngot">
+			<Original>铜锭</Original>
+			<Russian>Слиток меди</Russian>
+		</Key>
+		<Key ID="STR_Item_Sand">
+			<Original>沙</Original>
+			<Russian>Песок</Russian>
+		</Key>
+		<Key ID="STR_Item_Salt">
+			<Original>盐</Original>
+			<Russian>Соль</Russian>
+		</Key>
+		<Key ID="STR_Item_SaltR">
+			<Original>精制盐</Original>
+			<Russian>Очищенная соль</Russian>
+		</Key>
+		<Key ID="STR_Item_Glass">
+			<Original>玻璃</Original>
+			<Russian>Стекло</Russian>
+		</Key>
+		<Key ID="STR_Item_DiamondC">
+			<Original>钻石切割</Original>
+			<Russian>Обработанный алмаз</Russian>
+		</Key>
+		<Key ID="STR_Item_DiamondU">
+			<Original>钻石未切割</Original>
+			<Russian>Необработанный алмаз</Russian>
+		</Key>
+		<Key ID="STR_Item_TBacon">
+			<Original>战术培根</Original>
+			<Russian>Тактический бекон</Russian>
+		</Key>
+		<Key ID="STR_Item_RedGull">
+			<Original>红鸥</Original>
+			<Russian>Энергетик</Russian>
+		</Key>
+		<Key ID="STR_Item_Lockpick">
+			<Original>锁具</Original>
+			<Russian>Отмычка</Russian>
+		</Key>
+		<Key ID="STR_Item_Rock">
+			<Original>岩石</Original>
+			<Russian>Камень</Russian>
+		</Key>
+		<Key ID="STR_Item_CementBag">
+			<Original>水泥袋</Original>
+			<Russian>Мешок цемента</Russian>
+		</Key>
+		<Key ID="STR_Item_GoldBar">
+			<Original>金条</Original>
+			<Russian>Слиток золота</Russian>
+		</Key>
+		<Key ID="STR_Item_BCharge">
+			<Original>爆破费用</Original>
+			<Russian>Взрывчатка</Russian>
+		</Key>
+		<Key ID="STR_Item_BCutter">
+			<Original>螺栓切割机</Original>
+			<Russian>Болторез</Russian>
+		</Key>
+		<Key ID="STR_Item_DefuseKit">
+			<Original>炸弹除霜套件</Original>
+			<Russian>Комплект для разминирования</Russian>
+		</Key>
+		<Key ID="STR_Item_StorageBS">
+			<Original>小型储物盒</Original>
+			<Russian>Малая коробка</Russian>
+		</Key>
+		<Key ID="STR_Item_StorageBL">
+			<Original>大型存储箱</Original>
+			<Russian>Большая коробка</Russian>
+		</Key>
+		<Key ID="STR_Item_CocaineU">
+			<Original>未加工可卡因</Original>
+			<Russian>Необработанный кокаин</Russian>
+		</Key>
+		<Key ID="STR_Item_CocaineP">
+			<Original>加工可卡因</Original>
+			<Russian>Обработанный кокаин</Russian>
+		</Key>
+		<Key ID="STR_Item_SpikeStrip">
+			<Original>钉刺带</Original>
+			<Russian>Шипы</Russian>
+		</Key>
+		<Key ID="STR_Item_Hops">
+			<Original>啤酒花</Original>
+			<Russian>Хмель</Russian>
+		</Key>
+		<Key ID="STR_Item_Yeast">
+			<Original>酵母</Original>
+			<Russian>Дрожжи</Russian>
+		</Key>
+		<Key ID="STR_Item_Gasoline">
+			<Original>汽油92</Original>
+			<Russian>Бензин АИ-92</Russian>
+		</Key>
+		<Key ID="STR_Item_Shrimp">
+			<Original>打印p</Original>
+			<Russian>Креветка</Russian>
+		</Key>
+		<Key ID="STR_Item_ShrimpSemi">
+			<Original>虾半成品</Original>
+			<Russian>Креветки полуфабрикат</Russian>
+		</Key>
+		<Key ID="STR_Item_SharkFin">
+			<Original>鲨鱼鳍</Original>
+			<Russian>Акулий плавник</Russian>
+		</Key>
+		<Key ID="STR_Item_Axe">
+			<Original>斧头</Original>
+			<Russian>Топор</Russian>
+		</Key>
+		<Key ID="STR_Item_ARDarter">
+			<Original>AR-2导弹</Original>
+			<Russian>AR-2 Darter</Russian>
+		</Key>
+		<Key ID="STR_Item_CopperTape">
+			<Original>铜带</Original>
+			<Russian>Медная лента</Russian>
+		</Key>
+		<Key ID="STR_Item_Jewelry">
+			<Original>珠宝</Original>
+			<Russian>Ювелирное украшение</Russian>
+		</Key>
+		<Key ID="STR_Item_CableTie">
+			<Original>电缆扎带</Original>
+			<Russian>Кабельная стяжка</Russian>
+		</Key>
+		<Key ID="STR_Item_UraniumU">
+			<Original>粗铀</Original>
+			<Russian>Неочищенный уран</Russian>
+		</Key>
+		<Key ID="STR_Item_UraniumP">
+			<Original>加工铀</Original>
+			<Russian>Переработанный уран</Russian>
+		</Key>
+		<Key ID="STR_Item_UraniumC">
+			<Original>纯化铀</Original>
+			<Russian>Очищенный уран</Russian>
+		</Key>
+		<Key ID="STR_Item_MethU">
+			<Original>冰毒</Original>
+			<Russian>Неочищенный мет</Russian>
+		</Key>
+		<Key ID="STR_Item_MethP">
+			<Original>冰毒</Original>
+			<Russian>Очищенный мет</Russian>
+		</Key>
+		<Key ID="STR_Item_Mash">
+			<Original>捣碎</Original>
+			<Russian>Брага</Russian>
+		</Key>
+		<Key ID="STR_Item_Rye_unpr">
+			<Original>酵母</Original>
+			<Russian>Рожь</Russian>
+		</Key>
+		<Key ID="STR_Item_Rye">
+			<Original>酵母2</Original>
+			<Russian>Зерно</Russian>
+		</Key>
+		<Key ID="STR_Item_Whiskey">
+			<Original>威士忌</Original>
+			<Russian>Виски</Russian>
+		</Key>
+		<Key ID="STR_Item_BeerP">
+			<Original>啤酒</Original>
+			<Russian>Пиво</Russian>
+		</Key>
+		<Key ID="STR_Item_Bottle">
+			<Original>瓶子</Original>
+			<Russian>Бутылка</Russian>
+		</Key>
+		<Key ID="STR_Item_CornMeal">
+			<Original>玉米粉</Original>
+			<Russian>Кукурузная мука</Russian>
+		</Key>
+		<Key ID="STR_Item_WhiskeyBottle">
+			<Original>瓶装威士忌</Original>
+			<Russian>Бутылка виски</Russian>
+		</Key>
+		<Key ID="STR_Item_BeerBottle">
+			<Original>瓶装啤酒</Original>
+			<Russian>Бутылка пива</Russian>
+		</Key>
+		<Key ID="STR_Item_ShineBottle">
+			<Original>瓶装私酒</Original>
+			<Russian>Бутылка самогона</Russian>
+		</Key>
+		<Key ID="STR_Item_MoonShine">
+			<Original>私酒</Original>
+			<Russian>Самогон</Russian>
+		</Key>
+		<Key ID="STR_Item_Cotton">
+			<Original>棉</Original>
+			<Russian>Хлопок</Russian>
+		</Key>
+		<Key ID="STR_Item_Wood">
+			<Original>木材</Original>
+			<Russian>Древесина</Russian>
+		</Key>
+		<Key ID="STR_Item_Lumber">
+			<Original>木材</Original>
+			<Russian>Пиломатериалы</Russian>
+		</Key>
+		<Key ID="STR_Item_Plastic">
+			<Original>塑料</Original>
+			<Russian>Пластик</Russian>
+		</Key>
+		<Key ID="STR_Item_Metal">
+			<Original>金属</Original>
+			<Russian>Метал</Russian>
+		</Key>
+		<Key ID="STR_Item_Cloth">
+			<Original>布</Original>
+			<Russian>Ткань</Russian>
+		</Key>
+		<Key ID="STR_Item_Lens">
+			<Original>透镜</Original>
+			<Russian>Линза</Russian>
+		</Key>
+		<Key ID="STR_Item_Leather">
+			<Original>皮革</Original>
+			<Russian>Кожа</Russian>
+		</Key>
+		<Key ID="STR_Item_Tobacco">
+			<Original>烟叶</Original>
+			<Russian>Табак</Russian>
+		</Key>
+		<Key ID="STR_Item_Cigar">
+			<Original>雪茄</Original>
+			<Russian>Сигара</Russian>
+		</Key>
+		<Key ID="STR_Item_NaturalGas">
+			<Original>天然气</Original>
+			<Russian>Природный газ</Russian>
+		</Key>
+		<Key ID="STR_Item_Methane">
+			<Original>甲烷</Original>
+			<Russian>Метан</Russian>
+		</Key>
+		<Key ID="STR_Item_Ammonia">
+			<Original>氨</Original>
+			<Russian>Аммиак</Russian>
+		</Key>
+		<Key ID="STR_Item_SetBox">
+			<Original>成套 "盒"</Original>
+			<Russian>Комплект "Коробка"</Russian>
+		</Key>
+		<Key ID="STR_Item_SetNitro">
+			<Original>成套 "硝基"</Original>
+			<Russian>Комплект "Нитро"</Russian>
+		</Key>
+		<Key ID="STR_Item_AppleJuice">
+			<Original>苹果汁</Original>
+			<Russian>Яблочный сок</Russian>
+		</Key>
+		<Key ID="STR_Item_PeachJuice">
+			<Original>桃子汁</Original>
+			<Russian>Персиковый сок</Russian>
+		</Key>
+		<Key ID="STR_Item_MultifruitJuice">
+			<Original>多果果汁</Original>
+			<Russian>Мультифруктовый сок</Russian>
+		</Key>
+		<Key ID="STR_Item_Coconut">
+			<Original>椰子</Original>
+			<Russian>Кокос</Russian>
+		</Key>
+		<Key ID="STR_Item_Pineapple">
+			<Original>菠萝</Original>
+			<Russian>Ананас</Russian>
+		</Key>
+		<Key ID="STR_Item_Banana">
+			<Original>香蕉</Original>
+			<Russian>Банан</Russian>
+		</Key>
+		<Key ID="STR_Item_Sugarcane">
+			<Original>甘蔗</Original>
+			<Russian>Сахарный тростник</Russian>
+		</Key>
+		<Key ID="STR_Item_AmberU">
+			<Original>琥珀色（未加工）</Original>
+			<Russian>Янтарь (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_PearlU">
+			<Original>珍珠（未加工）</Original>
+			<Russian>Жемчуг (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_ObsidianU">
+			<Original>黑曜岩（未加工）</Original>
+			<Russian>Обсидиан (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_BlackTreeU">
+			<Original>乌木（未加工）</Original>
+			<Russian>Черное дерево (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_RedTreeU">
+			<Original>红木（未加工）</Original>
+			<Russian>Красное дерево (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_OpiumU">
+			<Original>鸦片（未加工）</Original>
+			<Russian>Опиум (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_CocoaBeans">
+			<Original>可可豆</Original>
+			<Russian>Какао-бобы</Russian>
+		</Key>
+		<Key ID="STR_Item_OliveU">
+			<Original>油橄榄</Original>
+			<Russian>Оливка</Russian>
+		</Key>
+		<Key ID="STR_Item_KingCrabU">
+			<Original>帝王蟹</Original>
+			<Russian>Королевский краб</Russian>
+		</Key>
+		<Key ID="STR_Item_BronzeU">
+			<Original>青铜（未加工）</Original>
+			<Russian>Бронза (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_BlackDiamondU">
+			<Original>黑钻石（未加工）</Original>
+			<Russian>Черный алмаз (необ)</Russian>
+		</Key>
+		<Key ID="STR_Item_CoquinaU">
+			<Original>科奎纳</Original>
+			<Russian>Ракушечник</Russian>
+		</Key>
+		<Key ID="STR_Item_ArtesianWater">
+			<Original>自流水</Original>
+			<Russian>Артезианская вода</Russian>
+		</Key>
+		<Key ID="STR_Item_MuseumExhibit">
+			<Original>博物馆展览</Original>
+			<Russian>Музейный экспонат</Russian>
+		</Key>
+		<Key ID="STR_Item_DetailArtifact">
+			<Original>工件细节</Original>
+			<Russian>Фрагмент Артефакта</Russian>
+		</Key>
+		<Key ID="STR_Item_DetailWeapon">
+			<Original>武器碎片</Original>
+			<Russian>Фрагмент Оружия</Russian>
+		</Key>
+		<Key ID="STR_Item_Bauxite">
+			<Original>铝土矿</Original>
+			<Russian>Боксит</Russian>
+		</Key>
+		<Key ID="STR_Item_Cake">
+			<Original>糕饼</Original>
+			<Russian>Торт</Russian>
+		</Key>
+		<Key ID="STR_Item_Rum">
+			<Original>朗姆酒</Original>
+			<Russian>Ром</Russian>
+		</Key>
+		<Key ID="STR_Item_Furniture">
+			<Original>家具</Original>
+			<Russian>Мебель</Russian>
+		</Key>
+		<Key ID="STR_Item_Aluminum">
+			<Original>铝</Original>
+			<Russian>Алюминий</Russian>
+		</Key>
+		<Key ID="STR_Item_Sugar">
+			<Original>糖</Original>
+			<Russian>Сахар</Russian>
+		</Key>
+		<Key ID="STR_Item_AmberP">
+			<Original>琥珀色</Original>
+			<Russian>Янтарь</Russian>
+		</Key>
+		<Key ID="STR_Item_PearlP">
+			<Original>珍珠</Original>
+			<Russian>Жемчуг</Russian>
+		</Key>
+		<Key ID="STR_Item_BlackTreeP">
+			<Original>加工乌木</Original>
+			<Russian>Обработанное черное дерево</Russian>
+		</Key>
+		<Key ID="STR_Item_BlackTreeS">
+			<Original>锯过的乌木</Original>
+			<Russian>Распиленное черное дерево</Russian>
+		</Key>
+		<Key ID="STR_Item_RedWoodS">
+			<Original>板</Original>
+			<Russian>Доска</Russian>
+		</Key>
+		<Key ID="STR_Item_OpiumP">
+			<Original>鸦片</Original>
+			<Russian>Опиум</Russian>
+		</Key>
+		<Key ID="STR_Item_ObsidianP">
+			<Original>黑曜岩</Original>
+			<Russian>Обсидиан</Russian>
+		</Key>
+		<Key ID="STR_Item_CoffeeBean">
+			<Original>咖啡豆</Original>
+			<Russian>Кофейное зерно</Russian>
+		</Key>
+		<Key ID="STR_Item_Coffee">
+			<Original>咖啡</Original>
+			<Russian>Кофе</Russian>
+		</Key>
+		<Key ID="STR_Item_OliveCanned">
+			<Original>橄榄罐头</Original>
+			<Russian>Оливковые консервы</Russian>
+		</Key>
+		<Key ID="STR_Item_Chocolate">
+			<Original>巧克力</Original>
+			<Russian>Шоколад</Russian>
+		</Key>
+		<Key ID="STR_Item_CookedCrab">
+			<Original>熟螃蟹</Original>
+			<Russian>Приготовленный краб</Russian>
+		</Key>
+		<Key ID="STR_Item_BronzeP">
+			<Original>青铜（精制）</Original>
+			<Russian>Бронза (очищенная)</Russian>
+		</Key>
+		<Key ID="STR_Item_BronzeIngot">
+			<Original>青铜锭</Original>
+			<Russian>Бронзовая чушка</Russian>
+		</Key>
+		<Key ID="STR_Item_BlackDiamondP">
+			<Original>黑色菱形</Original>
+			<Russian>Черный алмаз</Russian>
+		</Key>
+		<Key ID="STR_Item_CinderBlock">
+			<Original>煤渣块</Original>
+			<Russian>Шлакоблок</Russian>
+		</Key>
+		<Key ID="STR_Item_WeaponPart">
+			<Original>武器部分</Original>
+			<Russian>Деталь оружия</Russian>
+		</Key>
+		<Key ID="STR_Item_Nails">
+			<Original>指甲</Original>
+			<Russian>Гвозди</Russian>
+		</Key>
+		<Key ID="STR_Item_OliveC">
+			<Original>带核橄榄</Original>
+			<Russian>Оливки очищенные</Russian>
+		</Key>
+		<Key ID="STR_Item_AluminumCans">
+			<Original>铝罐</Original>
+			<Russian>Алюминиевый бидон</Russian>
+		</Key>
+		<Key ID="STR_Item_FrozenCrab">
+			<Original>冻蟹</Original>
+			<Russian>Замороженный краб</Russian>
+		</Key>
+		<Key ID="STR_Item_CoconutMilk">
+			<Original>椰汁</Original>
+			<Russian>Кокосовое молоко</Russian>
+		</Key>
+		<Key ID="STR_Item_ArtifactP">
+			<Original>组装的工件</Original>
+			<Russian>Собранный артефакт</Russian>
+		</Key>
+		<Key ID="STR_Item_Jet">
+			<Original>喷气式飞机</Original>
+			<Russian>Джет</Russian>
+		</Key>
+		<Key ID="STR_Item_Psycho">
+			<Original>心理</Original>
+			<Russian>Психо</Russian>
+		</Key>
+		<Key ID="STR_Item_Turbo">
+			<Original>涡轮</Original>
+			<Russian>Турбо</Russian>
+		</Key>
+		<Key ID="STR_Item_FirePlace">
+			<Original>壁炉</Original>
+			<Russian>Костер</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Life_License">
+		<Key ID="STR_License_Driver">
+			<Original>驾驶执照</Original>
+			<Russian>Лицензия водителя</Russian>
+		</Key>
+		<Key ID="STR_License_Pilot">
+			<Original>飞行员执照</Original>
+			<Russian>Лицензия пилота</Russian>
+		</Key>
+		<Key ID="STR_License_Oil">
+			<Original>石油加工</Original>
+			<Russian>Переработка нефти</Russian>
+		</Key>
+		<Key ID="STR_License_Diving">
+			<Original>潜水许可证</Original>
+			<Russian>Лицензия дайвера</Russian>
+		</Key>
+		<Key ID="STR_License_Boat">
+			<Original>轮船执照</Original>
+			<Russian>Лицензия моряка</Russian>
+		</Key>
+		<Key ID="STR_License_Firearm">
+			<Original>枪支许可证</Original>
+			<Russian>Лицензия на оружие</Russian>
+		</Key>
+		<Key ID="STR_License_RebL">
+			<Original>黑手党证明</Original>
+			<Russian>Пропуск Ополчения</Russian>
+		</Key>
+		<Key ID="STR_License_Reb2">
+			<Original>叛军证</Original>
+			<Russian>Пропуск Ополчения</Russian>
+		</Key>
+		<Key ID="STR_License_Zeus">
+			<Original>宙斯团队</Original>
+			<Russian>ZEUS TEAM</Russian>
+		</Key>
+		<Key ID="STR_License_Fisher">
+			<Original>捕鱼许可证</Original>
+			<Russian>Лицензия рыболова</Russian>
+		</Key>
+		<Key ID="STR_License_Hunter">
+			<Original>猎人执照</Original>
+			<Russian>Лицензия охотника</Russian>
+		</Key>
+		<Key ID="STR_License_Swat">
+			<Original>SWAT许可证</Original>
+			<Russian>Лицензия полицейского</Russian>
+		</Key>
+		<Key ID="STR_License_Truck">
+			<Original>卡车执照</Original>
+			<Russian>Лицензия дальнобойщика</Russian>
+		</Key>
+		<Key ID="STR_License_Diamond">
+			<Original>金刚石加工</Original>
+			<Russian>Переработка алмазов</Russian>
+		</Key>
+		<Key ID="STR_License_Copper">
+			<Original>铜加工</Original>
+			<Russian>Переработка меди</Russian>
+		</Key>
+		<Key ID="STR_License_Iron">
+			<Original>铁加工</Original>
+			<Russian>Переработка железа</Russian>
+		</Key>
+		<Key ID="STR_License_Sand">
+			<Original>砂处理</Original>
+			<Russian>Переработка песка</Russian>
+		</Key>
+		<Key ID="STR_License_Slaver">
+			<Original>从服务器</Original>
+			<Russian>Работорговец</Russian>
+		</Key>
+		<Key ID="STR_License_Seafood">
+			<Original>海鲜加工</Original>
+			<Russian>Переработка морепродуктов</Russian>
+		</Key>
+		<Key ID="STR_License_Food">
+			<Original>食品加工</Original>
+			<Russian>Производство продуктов</Russian>
+		</Key>
+		<Key ID="STR_License_Journeyman">
+			<Original>旅行者</Original>
+			<Russian>Подмастерье</Russian>
+		</Key>
+		<Key ID="STR_License_Woodworking">
+			<Original>木工</Original>
+			<Russian>Обработка древесины</Russian>
+		</Key>
+		<Key ID="STR_License_RareWood">
+			<Original>稀有木材加工</Original>
+			<Russian>Обработка редкой древесины</Russian>
+		</Key>
+		<Key ID="STR_License_BlackDiamonds">
+			<Original>黑钻石加工</Original>
+			<Russian>Обработка редкой древесины</Russian>
+		</Key>
+		<Key ID="STR_License_Metallurgist">
+			<Original>冶金学家</Original>
+			<Russian>Металлург</Russian>
+		</Key>	
+		<Key ID="STR_License_Gunsmith">
+			<Original>枪械匠</Original>
+			<Russian>Оружейный мастер</Russian>
+		</Key>
+		<Key ID="STR_License_RareSeafood">
+			<Original>珍稀海鲜加工</Original>
+			<Russian>Обработка редких морепродуктов</Russian>
+		</Key>
+		
+		<Key ID="STR_License_SECTOR7">
+			<Original>第7部分</Original>
+			<Russian>Сектор 7</Russian>
+		</Key>
+		<Key ID="STR_License_PsychoKid">
+			<Original>心理儿童</Original>
+			<Russian>Psychokids</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="More_Item_Strings">
+		<Key ID="STR_ISTR_Blast_VaultOnly">
+			<Original>这只能用于vault.</Original>
+			<Russian>Это используется только на хранилище</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Blast_AlreadyPlaced">
+			<Original>此保险库已收取费用.</Original>
+			<Russian>На это хранилище уже установлена взрывчатка.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Blast_AlreadyOpen">
+			<Original>保管库已打开.</Original>
+			<Russian>Дверь уже открыта.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Blast_Placed">
+			<Original>美国联邦储备委员会（美联储）的金库已被指控爆破，你需要在时间结束前解除指控!</Original>
+			<Russian>Взрывной пакет установлен на хранилище Федерального Резерва. Вы должны разминировать ее до конца таймера!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Blast_KeepOff">
+			<Original>计时器在滴答作响！让警察远离保险库!</Original>
+			<Russian>Таймер запущен! Держите копов подальше от хранилища!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Blast_Disarmed">
+			<Original>指控已解除!</Original>
+			<Russian>Бомба была обезврежена!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Blast_Opened">
+			<Original>保险库现已打开</Original>
+			<Russian>Хранилище открыто</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_NotNear">
+			<Original>你不是在看房门.</Original>
+			<Russian>Вы не смотрите на дверь дома.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_AlertFed">
+			<Original>!!!!! 有人闯入联邦储备 !!!!!!</Original>
+			<Russian>!!! КТО-ТО ПРОНИК В ФЕДЕРАЛЬНЫЙ РЕЗЕРВ !!!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Prison_Bolt_AlertFed">
+			<Original>!!!!! 有人闯入监狱 !!!!!!</Original>
+			<Russian>!!! КТО-ТО ПРОНИК НА ТЕРРИТОРИЮ ТЮРЬМЫ !!!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_AlertHouse">
+			<Original>有人试图闯入你的房子.</Original>
+			<Russian>Кто-то пытается проникнуть в ваше жилье!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Bolt_Process">
+			<Original>切割门锁.</Original>
+			<Russian>Вскрытие замка на двери</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Defuse_Nothing">
+			<Original>保险库不收费.</Original>
+			<Russian>Заряд не установлен. Разминировать нечего.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Defuse_Process">
+			<Original>除霜费用...</Original>
+			<Russian>Разминирование...</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Defuse_Success">
+			<Original>指控已经解除</Original>
+			<Russian>Заряд был обезврежен</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_NotLooking">
+			<Original>你需要看看你想要加油的车辆!</Original>
+			<Russian>Вы должны смотреть на транспортное средство если хотите заправить горючим!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_NotNear">
+			<Original>你需要离车辆近一点!</Original>
+			<Russian>Вы должны находится ближе к транспортному средству!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_Process">
+			<Original>加油 %1</Original>
+			<Russian>Заправка %1</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Jerry_Success">
+			<Original>你给它加油了 %1</Original>
+			<Russian>Вы заправили %1</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Lock_AlreadyHave">
+			<Original>你已经有这辆车的钥匙了.</Original>
+			<Russian>У вас уже есть ключи от этого автомобиля.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Lock_Process">
+			<Original>开锁 %1</Original>
+			<Russian>Взлом %1</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Lock_TooFar">
+			<Original>你离目标太远了.</Original>
+			<Russian>Ты должен находиться недалеко от цели.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Lock_Success">
+			<Original>你现在有这辆车的钥匙.</Original>
+			<Russian>Теперь у вас есть ключи от этой техники.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Lock_Failed">
+			<Original>无法锁闭汽车</Original>
+			<Russian>Не удалось вскрыть технику</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Lock_FailedNOTF">
+			<Original>%1 有人看到他试图锁住一辆车.</Original>
+			<Russian>%1 Был замечен при попытке взлома автомобиля.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Pick_NotNear">
+			<Original>你不在矿井附近!</Original>
+			<Russian>Вы находитесь не около шахты!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Pick_MineVeh">
+			<Original>你不能在车内挖掘!</Original>
+			<Russian>Вы не можете добывать сидя в автомобиле!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Pick_Success">
+			<Original>你已经开采了 %2 %1</Original>
+			<Russian>Вы добыли %2 %1</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Spike_Place">
+			<Original>放置钉条</Original>
+			<Russian>Установите шипы.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Spike_Pack">
+			<Original>打包钉条</Original>
+			<Russian>Собрать шипы.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Box_NotinHouse">
+			<Original>你需要在你的房子里才能放置这个.</Original>
+			<Russian>Вы должны находится в своём доме, чтобы поставть это!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Box_HouseFull">
+			<Original>你不能在你的房子里放置更多的储物容器.</Original>
+			<Russian>Вы больше не можете разместить контейнеров в доме.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_Box_HouseFull_2">
+			<Original>家里没有更多的免费存储空间.</Original>
+			<Russian>В доме больше нет свободного пространства.</Russian>
+		</Key>
+		<Key ID="STR_ISTR_SelectItemFirst">
+			<Original>您需要先选择一个项目!</Original>
+			<Russian>给你 необходимо выбрать предмет!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_RedGullEffect">
+			<Original>你感到神清气爽</Original>
+			<Russian>Вы чувствуете себя отдохнувшим</Russian>
+		</Key>
+		<Key ID="STR_ISTR_SpikesDeployment">
+			<Original>您已经在部署中激活了 Spike Strip</Original>
+			<Russian>У вас уже есть установленные шипы</Russian>
+		</Key>
+		<Key ID="STR_ISTR_RefuelInVehicle">
+			<Original>你不能在里面给车辆加油!</Original>
+			<Russian>Вы не можете заправить автомобиль находясь в нем!</Russian>
+		</Key>
+		<Key ID="STR_ISTR_NotUsable">
+			<Original>此商品不可用.</Original>
+			<Russian>Этот предмет не может использоваться.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Process_Action">
+		<Key ID="STR_Process_Oil">
+			<Original>加工油</Original>
+			<Russian>Процесс переработки нефти </Russian>
+		</Key>
+		<Key ID="STR_Process_Diamond">
+			<Original>切割钻石</Original>
+			<Russian>Процесс переработки алмазов</Russian>
+		</Key>
+		<Key ID="STR_Process_Heroin">
+			<Original>加工海洛因</Original>
+			<Russian>Процесс переработки героина</Russian>
+		</Key>
+		<Key ID="STR_Process_Copper">
+			<Original>加工铜</Original>
+			<Russian>Процесс переработки меди</Russian>
+		</Key>
+		<Key ID="STR_Process_Iron">
+			<Original>加工铁</Original>
+			<Russian>Процесс переработки железа </Russian>
+		</Key>
+		<Key ID="STR_Process_Sand">
+			<Original>加工砂</Original>
+			<Russian>Процесс переработки песка</Russian>
+		</Key>
+		<Key ID="STR_Process_Salt">
+			<Original>加工盐</Original>
+			<Russian>Процесс переработки соли</Russian>
+		</Key>
+		<Key ID="STR_Process_Cocaine">
+			<Original>加工可卡因</Original>
+			<Russian>Процесс переработки кокаина</Russian>
+		</Key>
+		<Key ID="STR_Process_Marijuana">
+			<Original>加工大麻</Original>
+			<Russian>Процесс переработки марихуаны</Russian>
+		</Key>
+		<Key ID="STR_Process_Cement">
+			<Original>搅拌水泥</Original>
+			<Russian>Процесс переработки цемента</Russian>
+		</Key>
+		<Key ID="STR_Process_Stay">
+			<Original>您需要保持在 10m 范围内才能处理.</Original>
+			<Russian>Вы должны находиться не дальше 10 метров в процессе переработки</Russian>
+		</Key>
+		<Key ID="STR_Process_License">
+			<Original>你需要 $%1 无证加工!</Original>
+			<Russian>给你 нужно $%1 на лицензию что бы приобрести её!</Russian>
+		</Key>
+		<Key ID="STR_Process_Processed">
+			<Original>你制作了 %1</Original>
+			<Russian>Вы создали %1</Russian>
+		</Key>
+		<Key ID="STR_Process_Processed2">
+			<Original>您已处理 %1 进入 %2 为了 $%3</Original>
+			<Russian>Вы обработали %1 в %2 за $%3</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Gather_Items">
+		<Key ID="STR_Gather_Apples">
+			<Original>收集苹果</Original>
+			<Russian>Сбор яблок</Russian>
+		</Key>
+		<Key ID="STR_Gather_Peaches">
+			<Original>收集桃子</Original>
+			<Russian>Сбор персиков</Russian>
+		</Key>
+		<Key ID="STR_Gather_Heroin">
+			<Original>收集海洛因</Original>
+			<Russian>Сбор героина</Russian>
+		</Key>
+		<Key ID="STR_Gather_Cannabis">
+			<Original>收集大麻</Original>
+			<Russian>Сбор канабиса</Russian>
+		</Key>
+		<Key ID="STR_Gather_Cocaine">
+			<Original>收集可卡因</Original>
+			<Russian>Сбор кокаина</Russian>
+		</Key>
+		<Key ID="STR_Gather_Rye">
+			<Original>采集黑麦</Original>
+		</Key>
+		<Key ID="STR_Gather_Hops">
+			<Original>挑选啤酒花</Original>
+		</Key>
+		<Key ID="STR_Gather_Yeast">
+			<Original>收集酵母</Original>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Medical_Strings">
+		<Key ID="STR_Medic_Online">
+			<Original>在线医学: %1</Original>
+			<Russian>Медиков в сети: %1</Russian>
+		</Key>
+		<Key ID="STR_Medic_Near">
+			<Original>附近的医务人员: %1</Original>
+			<Russian>Медиков рядом: %1</Russian>
+		</Key>
+		<Key ID="STR_Medic_Request">
+			<Original>%1 正在请求 EMS Revive.</Original>
+			<Russian>%1 вызывает медика</Russian>
+		</Key>
+		<Key ID="STR_Medic_Respawn">
+			<Original>重生可用: %1</Original>
+			<Russian>Воскрешение доступно через: %1</Russian>
+		</Key>
+		<Key ID="STR_Medic_Respawn_2">
+			<Original>你现在可以重生</Original>
+			<Russian>Вы можете воскреснуть</Russian>
+		</Key>
+		<Key ID="STR_Medic_RevivePay">
+			<Original>%1 让你复活了，而且要收费f $%2 从您的银行帐户中提取他们的服务.</Original>
+			<Russian>%1 реанимировал вас и вы оплатили $%2 за услуги врача.</Russian>
+		</Key>
+		<Key ID="STR_Medic_AlreadyReviving">
+			<Original>其他人已经在复活这个人</Original>
+			<Russian>Кто-то уже реанимирует этого человека</Russian>
+		</Key>
+		<Key ID="STR_Medic_Progress">
+			<Original>正在恢复 %1</Original>
+			<Russian>%1 реанимация</Russian>
+		</Key>
+		<Key ID="STR_Medic_RevivedRespawned">
+			<Original>此人要么重生，要么已经复活.</Original>
+			<Russian>Этот человек появляется либо уже возродился.</Russian>
+		</Key>
+		<Key ID="STR_Medic_RevivePayReceive">
+			<Original>你复活了一个人 $%1 为您服务.</Original> 
+			<Russian>Вы реанимировали человека и получили $%1 на счет группы в качестве награды</Russian>
+		</Key>
+		<Key ID="STR_Medic_TooFar">
+			<Original>你离尸体太远了.</Original>
+			<Russian>Вы слишком далеко от тела.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Federal_Reserve">
+		<Key ID="STR_NOTF_FRRobbery_fail">
+			<Original>由于未知原因，抢劫失败了</Original>
+			<Russian>Ограбление закончилось неудачей по непонятной причине</Russian>
+		</Key>
+		<Key ID="STR_NOTF_FRRobbery_Success">
+			<Original>$%1 在美联储抢劫案中被盗!</Original>
+			<Russian>$%1 было украдено из хранилища Федерального Резерва!</Russian>
+		</Key>
+		<Key ID="STR_FEDR_VInUse">
+			<Original>这个保险库已经被别人抢劫了</Original>
+			<Russian>Это хранилище уже взламывается кем-то еще</Russian>
+		</Key>
+		<Key ID="STR_FEDR_VRecently">
+			<Original>这个保险库最近被抢劫了</Original>
+			<Russian>Это хранилище уже ограблено</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Other_GUI_Stuff">
+		<Key ID="STR_GUI_Garage">
+			<Original>车库</Original>
+			<Russian>Гараж</Russian>
+		</Key>
+		<Key ID="STR_GUI_YourVeh">
+			<Original>您的车辆</Original>
+			<Russian>Ваши устройства</Russian>
+		</Key>
+		<Key ID="STR_GUI_VehInfo">
+			<Original>车辆信息</Original>
+			<Russian>Информация об автомобиле</Russian>
+		</Key>
+		<Key ID="STR_GUI_PlayerReveal">
+			<Original>自动显示15米内最近的对象，如果遇到性能问题，请关闭此设置.</Original>
+			<Russian>Автоматически обнаружает ближайшие объекты на расстоянии 15 метров. Выберите этот параметр если у вас проблемы с производительностью. </Russian>
+		</Key>
+		<Key ID="STR_GUI_PlayTags">
+			<Original>控制玩家头顶上是否有姓名标签.</Original>
+			<Russian>Определяет будет ли игрок иметь подпись над головой. </Russian>
+		</Key>
+		<Key ID="STR_GUI_ShopStock">
+			<Original>车间库存</Original>
+			<Russian>Авто магазин</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Player_Interaction">
+		<Key ID="STR_pInAct_Cancel">
+			<Original>取消</Original>
+			<Russian>Прекратить</Russian>
+		</Key>
+		<Key ID="STR_pInAct_Title">
+			<Original>玩家交互菜单</Original>
+			<Russian>Взаимодействие игрока</Russian>
+		</Key>
+		<Key ID="STR_pInAct_PutInCar">
+			<Original>放入车内</Original>
+			<Russian>В технику</Russian>
+		</Key>
+		<Key ID="STR_pInAct_Unrestrain">
+			<Original>解开束缚</Original>
+			<Russian>Освободить</Russian>
+		</Key>
+		<Key ID="STR_pInAct_checkLicenses">
+			<Original>检查证件</Original>
+			<Russian>Проверка лицензий</Russian>
+		</Key>
+		<Key ID="STR_pInAct_SearchPlayer">
+			<Original>搜身</Original>
+			<Russian>Обыск игрока</Russian>
+		</Key>
+		<Key ID="STR_pInAct_StopEscort">
+			<Original>停止护送</Original>
+			<Russian>Прекратить эскорт</Russian>
+		</Key>
+		<Key ID="STR_pInAct_Escort">
+			<Original>护送球员</Original>
+			<Russian>Эскорт игрока</Russian>
+		</Key>
+		<Key ID="STR_pInAct_TicketBtn">
+			<Original>开罚单</Original>
+			<Russian>Выписать штраф</Russian>
+		</Key>
+		<Key ID="STR_pInAct_Arrest">
+			<Original>送进监狱</Original>
+			<Russian>В тюрьму</Russian>
+		</Key>
+		<Key ID="STR_pInAct_Repair">
+			<Original>修理门</Original>
+			<Russian>Починить дверь</Russian>
+		</Key>
+		<Key ID="STR_pInAct_CloseOpen">
+			<Original>开关</Original>
+			<Russian>Открыть / Закрыть</Russian>
+		</Key>
+		<Key ID="STR_pInAct_BreakDown">
+			<Original>破门</Original>
+			<Russian>Взломать дверь</Russian>
+		</Key>
+		<Key ID="STR_pInAct_SearchHouse">
+			<Original>搜索房子</Original>
+			<Russian>Обыск дома</Russian>
+		</Key>
+		<Key ID="STR_pInAct_LockHouse">
+			<Original>把房子锁起来</Original>
+			<Russian>Запереть дом</Russian>
+		</Key>
+		<Key ID="STR_pInAct_BuyHouse">
+			<Original>买房</Original>
+			<Russian>Купить дом</Russian>
+		</Key>
+		<Key ID="STR_pInAct_SellGarage">
+			<Original>卖车库</Original>
+			<Russian>Продать гараж</Russian>
+		</Key>
+		<Key ID="STR_pInAct_AccessGarage">
+			<Original>车库</Original>
+			<Russian>Гараж</Russian>
+		</Key>
+		<Key ID="STR_pInAct_StoreVeh">
+			<Original>存储车辆</Original>
+			<Russian>Поставить в гараж</Russian>
+		</Key>
+		<Key ID="STR_pInAct_SellHouse">
+			<Original>卖房子</Original>
+			<Russian>Продать дом</Russian>
+		</Key>
+		<Key ID="STR_pInAct_UnlockStorage">
+			<Original>解锁存储</Original>
+			<Russian>Хранилище ОТКР</Russian>
+		</Key>
+		<Key ID="STR_pInAct_LockStorage">
+			<Original>锁定存储</Original>
+			<Russian>Хранилище ЗАКР</Russian>
+		</Key>
+		<Key ID="STR_pInAct_LightsOff">
+			<Original>关灯</Original>
+			<Russian>Освещение ВЫКЛ</Russian>
+		</Key>
+		<Key ID="STR_pInAct_LightsOn">
+			<Original>打开灯</Original>
+			<Russian>Освещение ВКЛ</Russian>
+		</Key>
+		<Key ID="STR_pInAct_DepositToGang">
+			<Original>存款给帮派</Original>
+			<Russian>Внести в общак банды</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Vehicle_Interaction">
+		<Key ID="STR_vInAct_Title">
+			<Original>车辆交互菜单</Original>
+			<Russian>Взаимодействие с техникой</Russian>
+		</Key>
+		<Key ID="STR_vInAct_Unflip">
+			<Original>翻转载具</Original>
+			<Russian>Перевернуть</Russian>
+		</Key>
+		<Key ID="STR_vInAct_GetInKart">
+			<Original>进入卡丁车</Original>
+			<Russian>Сесть в карт</Russian>
+		</Key>
+		<Key ID="STR_vInAct_PushBoat">
+			<Original>推船</Original>
+			<Russian>Толкнуть лодку</Russian>
+		</Key>
+		<Key ID="STR_vInAct_Repair">
+			<Original>修理车辆</Original>
+			<Russian>Починить</Russian>
+		</Key>
+		<Key ID="STR_vInAct_Registration">
+			<Original>查看车辆信息</Original>
+			<Russian>Регистрация</Russian>
+		</Key>
+		<Key ID="STR_vInAct_SearchVehicle">
+			<Original>搜查车辆</Original>
+			<Russian>Обыск</Russian>
+		</Key>
+		<Key ID="STR_vInAct_PullOut">
+			<Original>拖出玩家</Original>
+			<Russian>Высадить игроков</Russian>
+		</Key>
+		<Key ID="STR_vInAct_Impound">
+			<Original>扣押车辆</Original>
+			<Russian>Конфисковать</Russian>
+		</Key>
+		<Key ID="STR_vInAct_ImpoundParking">
+			<Original>停车罚款</Original>
+			<Russian>Штрафстоянка</Russian>
+		</Key>
+		<Key ID="STR_vInAct_DeviceMine">
+			<Original>开始挖矿</Original>
+			<Russian>Запустить добычу</Russian>
+		</Key>
+		<Key ID="STR_vInAct_HosBedIn">
+			<Original>放在床上</Original>
+			<Russian>Положить на койку</Russian>
+		</Key>
+		<Key ID="STR_vInAct_HosBedOut">
+			<Original>从床上起来</Original>
+			<Russian>Убрать с койки</Russian>
+		</Key>
+		<Key ID="STR_vInAct_HosBedRes">
+			<Original>复活</Original>
+			<Russian>Реанимировать</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Session_Strings">
+		<Key ID="STR_Session_Query">
+			<Original>向服务器发送请求以获取玩家信息 UID [%1]</Original>
+			<Russian>Отправка запроса на сервер для информации об игроке с UID [%1]</Russian>
+		</Key>
+		<Key ID="STR_Session_QueryFail">
+			<Original>服务器没有找到任何与你的UID匹配的玩家信息，试图将玩家添加到系统.</Original>
+			<Russian>Сервер не нашел информации об игроке с таким UID. Попытка добавть пользователя в систему.</Russian>
+		</Key>
+		<Key ID="STR_Session_Error">
+			<Original>尝试设置您的客户端时出错.</Original>
+			<Russian>При настройке вашего клиента возникла ошибка.</Russian>
+		</Key>
+		<Key ID="STR_Session_Received">
+			<Original>收到来自服务器的请求...正在验证...</Original>
+			<Russian>Получение данных от сервера…. Проверка...</Russian>
+		</Key>
+		<Key ID="STR_Session_SyncdAlready">
+			<Original>您已经使用了同步选项，您只能每 5 分钟使用一次此功能.</Original>
+			<Russian>Промежуток между сохранениями составляет 5 минут. Попробуйте повторить позже.</Russian>
+		</Key>
+		<Key ID="STR_Session_SyncCheater">
+			<Original>由于某些作弊者破坏了 BIS MP 框架，他们阻止了您享受我们的任务。\n\n如果您认为这是一个错误，您可以稍后再试一次.</Original>
+			<Russian>Because of some cheater corrupting the BIS MP Framework they have stopped you from enjoying our mission.\n\nYou can try this again in a minute if you feel it is a mistake.</Russian>
+		</Key>
+		<Key ID="STR_Session_SyncData">
+			<Original>正在将玩家信息同步到服务器。\n\n请等待 20 秒后再离开.</Original>
+			<Russian>Идет сохранение. Подождите 20 секунд прежде чем отключиться.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Shop_Strings">
+		<Key ID="STR_Shop_ATMRobbed">
+			<Original>10分钟内不能使用自动取款机，因为你抢劫了某人.</Original>
+			<Russian>После ограбления вы не можете использовать банкомат в течении 10 минут.</Russian>
+		</Key>
+		<Key ID="STR_Shop_NoClothes">
+			<Original>你没有选择你想买的衣服.</Original>
+			<Russian>Вы не выбрали вещи, которые хотите купить.</Russian>
+		</Key>
+		<Key ID="STR_Shop_NotEnoughClothes">
+			<Original>对不起先生，你没有足够的钱买那些衣服.</Original>
+			<Russian>Простите, но у вас нет необходимой суммы для покупки этих вещей. </Russian>
+		</Key>
+		<Key ID="STR_Shop_Total">
+			<Original>全部的:</Original>
+			<Russian>Итого:</Russian>
+		</Key>
+		<Key ID="STR_Shop_NoSelection">
+			<Original>没有选择</Original>
+			<Russian>Не выбрано</Russian>
+		</Key>
+		<Key ID="STR_Shop_NoDisplay">
+			<Original>无显示</Original>
+			<Russian>Нет экрана</Russian>
+		</Key>
+		<Key ID="STR_Shop_NoVehNear">
+			<Original>附近没有车辆可卖.</Original>
+			<Russian>Поблизости нет техники для продажи.</Russian>
+		</Key>
+		<Key ID="STR_Shop_ChopShopError">
+			<Original>打开排骨店菜单时出现问题.</Original>
+			<Russian>Возникли проблемы при открытии меню магазина ворованной техники</Russian>
+		</Key>
+		<Key ID="STR_Shop_ChopShopSelling">
+			<Original>出售车辆...请稍候.</Original>
+			<Russian>Техника продается. Пожалуйста подождите...</Russian>
+		</Key>
+		<Key ID="STR_Shop_NotaCiv">
+			<Original>您需要成为平民才能使用这家商店!</Original>
+			<Russian>Вы должны быть гражданским, чтобы покупать в этом магазине!</Russian>
+		</Key>
+		<Key ID="STR_Shop_NotaCop">
+			<Original>您需要成为警察才能使用这家商店!</Original>
+			<Russian>Вы должны быть полицейским, чтобы покупать в этом магазине!</Russian>
+		</Key>
+		<Key ID="STR_Shop_NotaReb">
+			<Original>你还没有接受叛逆训练!</Original>
+			<Russian>给你 необходима лицензия повстанца!</Russian>
+		</Key>
+		<Key ID="STR_Shop_NotaDive">
+			<Original>您需要潜水执照才能使用这家商店!</Original>
+			<Russian>给你 необходима лицензия дайвера, чтобы покупать в этом магазине!</Russian>
+		</Key>
+		<Key ID="STR_Shop_YouNeed">
+			<Original>您需要 %1 才能从这家商店购买!</Original>
+			<Russian>给你 необходимо %1 для покупки из этого магазина!</Russian>
+		</Key>
+		<Key ID="STR_Shop_UI_Clothing">
+			<Original>衣服</Original>
+			<Russian>Одежда</Russian>
+		</Key>
+		<Key ID="STR_Shop_UI_Hats">
+			<Original>帽子</Original>
+			<Russian>Шляпы</Russian>
+		</Key>
+		<Key ID="STR_Shop_UI_Glasses">
+			<Original>眼镜</Original>
+			<Russian>Очки</Russian>
+		</Key>
+		<Key ID="STR_Shop_UI_Vests">
+			<Original>背心</Original>
+			<Russian>Жилеты</Russian>
+		</Key>
+		<Key ID="STR_Shop_UI_Backpack">
+			<Original>背包</Original>
+			<Russian>Рюкзак</Russian>
+		</Key>
+		<Key ID="STR_Shop_Unimpound_VehExist">
+			<Original>目前那里有一辆车.</Original>
+			<Russian>В настоящие время автомобиль уже существует.</Russian>
+		</Key>
+		<Key ID="STR_Shop_Unimpound_NotEnough">
+			<Original>你身上或银行里没有足够的钱来取回你的车.</Original>
+			<Russian>У вас недостаточно средств для выкупа машины.</Russian>
+		</Key>
+		<Key ID="STR_Shop_Unimpound_Success">
+			<Original>你已经解除了你的 %1 为了 $%3</Original>
+			<Russian>Вы конфискуете свой автомобиль в гараж %1 для $%3</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_DidntPick">
+			<Original>您没有选择车辆!</Original>
+			<Russian>Вы не выбрали технику!</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_NotEnough">
+			<Original>您没有足够的现金购买这辆车。\n\n缺少的金额: $%1</Original>
+			<Russian>У вас недостаточно средств для покупки этой техники. 给你 нехватает: $%1</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_NoLicense">
+			<Original>您没有所需的许可证!</Original>
+			<Russian>У вас нет необходимой лицензии!</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_Block">
+			<Original>当前有一辆载具挡住了重生点</Original>
+			<Russian>Точка выдачи уже занята техникой</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_Bought">
+			<Original>你买了一个 %1 for $%2.\n车牌: %3</Original>
+			<Russian>Вы купили %1 за $%2.\nРегистрационный номер: %3</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Rental">
+			<Original>租金价格:</Original>
+			<Russian>Цена аренды:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Ownership">
+			<Original>所有权价格:</Original>
+			<Russian>Цена покупки:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_MaxSpeed">
+			<Original>最大速度:</Original>
+			<Russian>Макс скорость:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_HPower">
+			<Original>马力:</Original>
+			<Russian>Мощность (л/с):</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_PSeats">
+			<Original>乘客座位:</Original>
+			<Russian>Мест для пассажиров:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Trunk">
+			<Original>中继容量:</Original>
+			<Russian>Вместимость багажника:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Fuel">
+			<Original>燃料容量:</Original>
+			<Russian>Объем бензобака:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Armor">
+			<Original>护甲等级:</Original>
+			<Russian>Рейтинг брони:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_RetrievalP">
+			<Original>检索价格:</Original>
+			<Russian>Цена выдачи:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_SellP">
+			<Original>售价:</Original>
+			<Russian>Цена продажи:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_UI_Color">
+			<Original>颜色:</Original>
+			<Russian>Цвет:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Veh_NotAllowed">
+			<Original>您不能使用这家商店!</Original>
+			<Russian>Вы не можете использовать этот магазин!</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_Nothing">
+			<Original>您需要选择要购买的商品.</Original>
+			<Russian>Вы должны выбрать предмет для покупки</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_NoNum">
+			<Original>您没有输入实际数字</Original>
+			<Russian>Вы ввели неверное количество</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_NotEnough">
+			<Original>你没有那么多东西要卖!</Original>
+			<Russian>У вас нет такого количества предметов для продажи</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_Gang_FundsMSG">
+			<Original>帮派有足够的资金来支付这个，你想用帮派的资金还是你自己的钱来支付?</Original>
+			<Russian>В общаке банды достаточно средств для покупки. Вы хотите купить за счет банды или за свои деньги?</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_Gang_Funds">
+			<Original>帮派基金:</Original>
+			<Russian>Общак банды:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_YourFunds">
+			<Original>你的现金:</Original>
+			<Russian>Наличные:</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_YourorGang">
+			<Original>用现金或帮派资金支付</Original>
+			<Russian>Расплатиться наличными или общаком</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_UI_GangFunds">
+			<Original>帮派基金</Original>
+			<Russian>Общак банды</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_UI_YourCash">
+			<Original>你的现金</Original>
+			<Russian>Наличные</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_BoughtGang">
+			<Original>你买了 %1 %2 为了 $%3 用帮派的资金</Original>
+			<Russian>Вы купили %1 %2 за $%3 на деньги общака</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_BoughtItem">
+			<Original>你买了 %1 %2 for $%3</Original>
+			<Russian>Вы купили %1 %2 за $%3</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_SellItem">
+			<Original>你卖了 %1 %2 为了 $%3</Original>
+			<Russian>Вы продали %1 %2 за $%3</Russian>
+		</Key>
+		<Key ID="STR_Shop_Virt_SellItem_Tax">
+			<Original>你卖了 %1 %2 为了 $%3</Original>
+			<Russian>Вы продали %1 %2 за $%3 (с учетом $%6 налог в %4%5)</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_NoSelect">
+			<Original>您需要选择要购买/出售的商品.</Original>
+			<Russian>Необходимо выбрать предмет для покупки или продажи</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_SoldFew">
+			<Original>你卖了一个 %1 (%3/%4) 为了 $%2</Original>
+			<Russian>Вы продали %1 (%3/%4) за $%2</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_Sold">
+			<Original>你卖了一个 %1 为了 $%2</Original>
+			<Russian>Вы продали %1 за $%2</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_BoughtGang">
+			<Original>你买了一个 %1 为了 $%2 用帮派的资金.</Original>
+			<Russian> Вы купили %1 за $%2 на деньги общака</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_BoughtItems">
+			<Original>你买了一个 %1 (%3/%4) 为了 $%2</Original>
+			<Russian>Вы купили %1 (%3/%4) за $%2</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_BoughtItem">
+			<Original>你买了一个 %1 为了 $%2</Original>
+			<Russian>Вы купили %1 за $%2</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_ShopInv">
+			<Original>商店库存</Original>
+			<Russian>Инвентарь магазина</Russian>
+		</Key>
+		<Key ID="STR_Shop_Weapon_YourInv">
+			<Original>您的库存</Original>
+			<Russian>Ваш инвентарь</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="FSM_Strings">
+		<Key ID="STR_FSM_Paycheck">
+			<Original>您将收到下一份薪水 %1 分钟</Original>
+			<Russian>Следующая выплата по безработице через %1 минут</Russian>
+		</Key>
+		<Key ID="STR_FSM_MissedPay">
+			<Original>你错过了薪水，因为你死了.</Original>
+			<Russian>Вы не получили выплату, т.к. были мертвы</Russian>
+		</Key>
+		<Key ID="STR_FSM_ReceivedPay">
+			<Original>您收到的薪水为 $%1</Original>
+			<Russian>Вы получили пособие по безработице в размере $%1</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Player_Actions">
+		<Key ID="STR_pAct_DropFishingNet">
+			<Original>掉落渔网</Original>
+			<Russian>Бросить рыболовную сеть</Russian>
+		</Key>
+		<Key ID="STR_pAct_DropDraggedBody">
+			<Original>放下身体</Original>
+			<Russian>Бросить тело</Russian>
+		</Key>
+		<Key ID="STR_pAct_RobPerson">
+			<Original>抢人</Original>
+			<Russian>&lt;t color='#ff2929'&gt;Ограбить цель&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_pAct_NotFromVehicle">
+			<Original>车辆无法执行此操作</Original>
+			<Russian>Это действие недоступно из техники</Russian>
+		</Key>
+		<Key ID="STR_pAct_CaptureInProg">
+			<Original>捕获已在进行中</Original>
+			<Russian>Захват уже начат</Russian>
+		</Key>
+		<Key ID="STR_pAct_ChairSit">
+			<Original>&lt;img image='\sunrise_pack\icons\ui\s_icon_chair.paa' /&gt; 坐在椅子上</Original>
+			<Russian>&lt;img image='\sunrise_pack\icons\ui\s_icon_chair.paa' /&gt; Сесть на стул</Russian>
+		</Key>
+		<Key ID="STR_pAct_GangBoxInv">
+			<Original>&lt;img image='\sunrise_pack\icons\ui\s_icon_box.paa' /&gt; 帮派装备</Original>
+			<Russian>&lt;img image='\sunrise_pack\icons\ui\s_icon_box.paa' /&gt; Cнаряжение банды</Russian>
+		</Key>
+		<Key ID="STR_pAct_GangBoxRes">
+			<Original>&lt;img image='\sunrise_pack\icons\ui\s_icon_box.paa' /&gt; 帮派资源</Original>
+			<Russian>&lt;img image='\sunrise_pack\icons\ui\s_icon_box.paa' /&gt; Ресурсы банды</Russian>
+		</Key>
+
+	</Package>
+
+
+
+
+	<Package name="Cope_Vehicle_Actions">
+		<Key ID="STR_pAct_DriverSeat">
+			<Original>driver's seat</Original>
+			<Russian>&lt;t color='#00FF00'&gt;坐在驾驶座上&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_pAct_PassengerSeat">
+			<Original>passenger seat</Original>
+			<Russian>&lt;t color='#00FF00'&gt;坐在副驾驶座&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_pAct_GunnerSeat">
+			<Original>gunner seat</Original>
+			<Russian>&lt;t color='#00FF00'&gt;坐在射手的位置（如果有的话）&lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_pAct_GoOut">
+			<Original>Go out of vehicle</Original>
+			<Russian>&lt;t color='#bc0000'&gt;出口&lt;/t&gt;</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Smartphone">
+		<Key ID="STR_PM_Smartphone">
+			<Original>手机</Original>
+			<Russian>Смартфон</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
+			<Original>联系人</Original>
+			<Russian>Контакты</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
+			<Original>从:                 信息:</Original>
+			<Russian>来自于:                 信息:</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_SELTITLE">
+			<Original>选择要阅读的消息</Original>
+			<Russian>Выберите 信息 для прочтения</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_SCHREIBEN">
+			<Original>新消息</Original>
+			<Russian>Новое 信息</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NOTRUF">
+			<Original>紧急电话</Original>
+			<Russian>Экстренный вызов</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Absenden">
+			<Original>发送</Original>
+			<Russian>Отправить</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
+			<Original>信息:</Original>
+			<Russian>信息:</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_DELMESSAGES">
+			<Original>删除消息</Original>
+			<Russian>Удалить сообщения</Russian>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NoPhone">
+			<Original>通信不可用，因为您没有在相应插槽中的电话。 在百货公司或 24-7 加油站购买。 您只能联系管理员.</Original>
+			<Russian>Связь недоступна, так как у вас нет телефона в соответствующем слоте. Купите его в универсальном магазине или на заправках 24-7. Вы можете связаться только с администратором.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Craft">
+		<Key ID="STR_CRAFT_Title">
+			<Original>工艺菜单</Original>
+ 			<Russian>Система крафта</Russian>
+		</Key>
+		<Key ID="STR_PM_CraftStats">
+			<Original>制作对象</Original>
+ 			<Russian>Рецепты</Russian>
+		</Key>
+		<Key ID="STR_PM_CraftMaterials">
+			<Original>所需材料</Original>
+ 			<Russian>Нужные материалы</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_Button">
+			<Original>工艺</Original>
+ 			<Russian>Создать</Russian>
+		</Key>
+		<Key ID="STR_PM_NoMaterial">
+			<Original>您没有所有必需的材料!</Original>
+ 			<Russian>У вас нет нужных компонентов</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_Process">
+			<Original>你已经精心制作 : %1</Original>
+			<Russian>Вы создали: %1</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_PrimWeapon">
+			<Original>武器</Original>
+ 			<Russian>Основное оружие</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_HandWeapon">
+			<Original>手枪</Original>
+ 			<Russian>Пистолеты</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Uniform">
+			<Original>制服</Original>
+ 			<Russian>Форма</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Vest">
+			<Original>背心</Original>
+ 			<Russian>Жилеты</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Backpack">
+			<Original>背包</Original>
+ 			<Russian>Рюкзаки</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Ammo">
+			<Original>弹药</Original>
+ 			<Russian>Патроны</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_devices">
+			<Original>设备</Original>
+			<Russian>Приборы</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_pharmacy">
+			<Original>药品商店</Original>
+			<Russian>Препараты</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Item">
+			<Original>项目</Original>
+ 			<Russian>Предметы</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Resources">
+			<Original>资源</Original>
+ 			<Russian>Ресурсы</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Medical">
+			<Original>医疗用品</Original>
+ 			<Russian>Медикаменты</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_FILTER_Food">
+			<Original>食物</Original>
+ 			<Russian>Продукты</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_AR_Backpack">
+			<Original>你已经有一个背包了！ 在制作一个新的之前把它放在地上.</Original>
+ 			<Russian>У вас уже есть рюкзак! Выложите свой на землю перед крафтом.</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_AR_Uniform">
+			<Original>你已经有制服了！ 在制作一个新的之前把它放在地上.</Original>
+ 			<Russian>У вас уже есть форма! Выложите свою на землю перед крафтом.</Russian>
+		</Key>
+		<Key ID="STR_CRAFT_AR_Vest">
+			<Original>你已经有背心了！ 在制作一个新的之前把它放在地上.</Original>
+ 			<Russian>У вас уже есть бронежилет! Выложите свой на землю перед крафтом.</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="ADAC">
+		<Key ID="STR_ADAC_Title">
+			<Original>装备升级: %1</Original>
+			<Russian>Апгрейд техники: %1</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehCantUpgrade">
+			<Original>这种技术无法改进</Original>
+			<Russian>Эта техника не может быть улучшена</Russian>
+		</Key>
+		<Key ID="STR_ADAC_BoxesCant">
+			<Original>货箱：无法安装</Original>
+			<Russian>Ящики для груза: нельзя установить</Russian>
+		</Key>
+		<Key ID="STR_ADAC_BoxesCount">
+			<Original>货箱: %1 从 %2</Original>
+			<Russian>Ящики для груза: %1 из %2</Russian>
+		</Key>
+		<Key ID="STR_ADAC_NitroSet">
+			<Original>安装</Original>
+			<Russian>Установить</Russian>
+		</Key>
+		<Key ID="STR_ADAC_NitroRemove">
+			<Original>收起来</Original>
+			<Russian>Убрать</Russian>
+		</Key>
+		<Key ID="STR_ADAC_NitroAvialable">
+			<Original>一氧化二氮：无（可用）</Original>
+			<Russian>Закись азота: Отсутствует (доступно)</Russian>
+		</Key>
+		<Key ID="STR_ADAC_NitroAlreadySet">
+			<Original>一氧化二氮：已安装</Original>
+			<Russian>Закись азота: Установлена</Russian>
+		</Key>
+		<Key ID="STR_ADAC_NitroCantBe">
+			<Original>一氧化二氮：无法安装</Original>
+			<Russian>Закись азота: нельзя установить</Russian>
+		</Key>
+		<Key ID="STR_ADAC_UpgradesNoneButCan">
+			<Original>此技术不包含升级，但您可以安装它们</Original>
+			<Russian>Эта техника не содержит апгрейдов, но вы можете их установить</Russian>
+		</Key>
+		<Key ID="STR_ADAC_UpgradesList">
+			<Original>车辆包含以下升级:</Original>
+			<Russian>Техника содержит следующие апгрейды:</Russian>
+		</Key>
+		<Key ID="STR_ADAC_NoColorSelect">
+			<Original>你没有选择颜色</Original>
+			<Russian>Вы не выбрали цвет</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehDontHaveColor">
+			<Original>科技没有颜色</Original>
+			<Russian>У техники нет своего цвета</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehColorAlready">
+			<Original>车辆已经有这个颜色</Original>
+			<Russian>У техники уже установлен этот цвет</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehColorGov">
+			<Original>不能重新粉刷服务车辆</Original>
+			<Russian>Нельзя перекрасить служебную технику</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehColorDone">
+			<Original>你重绘了技术</Original>
+			<Russian>Вы перекрасили технику</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehBoxDisable">
+			<Original>此车辆不能安装盒子</Original>
+			<Russian>На эту технику нельзя установить коробки</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehNitroDisable">
+			<Original>该车辆不能安装一氧化二氮</Original>
+			<Russian>На эту технику нельзя установить закись азота</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehTrunkNotEmpty">
+			<Original>在安装修改之前，您必须卸载设备</Original>
+			<Russian>Перед установкой модификаций необходимо разгрузить технику</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehItemNeed">
+			<Original>您需要购买套件来安装修改</Original>
+			<Russian>给你 необходимо приобрести комплект для установки модификации</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehBoxDone">
+			<Original>你安装了盒子!</Original>
+			<Russian>Вы установили коробку!</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehBoxMaxed">
+			<Original>已设置此运输的最大箱子数!</Original>
+			<Russian>Уже установлено максимальное количество коробок для этого транспорта!</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehNoBox">
+			<Original>这台机器上没有盒子!</Original>
+			<Russian>На этой технике нет коробок!</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehBoxRemoved">
+			<Original>你删除了盒子!</Original>
+			<Russian>Вы убрали коробку!</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehNitroDone">
+			<Original>你安装了一氧化二氮!</Original>
+			<Russian>Вы установили закись азота!</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehNitroAlready">
+			<Original>一氧化二氮已经安装</Original>
+			<Russian>Закись азота уже установлена</Russian>
+		</Key>
+		<Key ID="STR_ADAC_VehNitroRemoved">
+			<Original>你去除了一氧化二氮!</Original>
+			<Russian>Вы убрали закись азота!</Russian>
+		</Key>
+	</Package>
+
+
+
+
+	<Package name="Surgery">
+		<Key ID="STR_SURGERY_Title">
+			<Original>整形外科</Original>			
+			<Russian>Пластическая хирургия</Russian>
+		</Key>
+		<Key ID="STR_SURGERY_NewFaceDone">
+			<Original>你改变了你的样子</Original>			
+			<Russian>Вы изменили свою внешность</Russian>
+		</Key>
+		<Key ID="STR_SURGERY_NewFaceVIP">
+			<Original>整形手术只对贵宾俱乐部会员开放</Original>			
+			<Russian>Пластическая хирургия доступна только членам вип-клуба</Russian>
+		</Key>
+		<Key ID="STR_SURGERY_FaceRemove">
+			<Original>删除所有更改</Original>			
+			<Russian>Убрать все изменения</Russian>
+		</Key>
+		<Key ID="STR_SURGERY_FaceRemoved">
+			<Original>已删除更改</Original>			
+			<Russian>Изменения убраны. После перезахода на остров вы вернете себе лицо из профиля.</Russian>
+		</Key>
+	</Package>
+
+
+
+	
+	<Package name="Parking">
+		<Key ID="STR_PARKING_Title">
+			<Original>拖带 %1</Original>
+			<Russian>Звакуация %1</Russian>
+		</Key>
+		<Key ID="STR_PARKING_Total">
+			<Original>全部的:</Original>			
+			<Russian>Сумма:</Russian>
+		</Key>
+		<Key ID="STR_PARKING_TotalMax">
+			<Original>最大: $100,000</Original>			
+			<Russian>Максимум: $100,000</Russian>
+		</Key>
+		<Key ID="STR_PARKING_Message">
+			<Original>信息:</Original>			
+			<Russian>信息:</Russian>
+		</Key>
+		<Key ID="STR_PARKING_Send">
+			<Original>罚款扣车</Original>			
+			<Russian>Эвакуация</Russian>
+		</Key>
+	</Package>
+
+
+
+	<Package name="Kaboom">
+		<Key ID="STR_KABOOM_MySuperString">
+			<Original>拉拉拉拉拉!</Original>			
+			<Russian>лалалалала</Russian>
+		</Key>
+	</Package>
+
+	<Package name="DHL">
+		<Key ID="STR_DHL_MapTitle">
+			<Original>DHL 办公室</Original>			
+			<Russian>Офис DHL</Russian>
+		</Key>
+		<Key ID="STR_DHL_Menu">
+			<Original>DHL 送货</Original>			
+			<Russian>DHL доставка</Russian>
+		</Key>
+		<Key ID="STR_DHL_Cloth">
+			<Original>DHL 制服</Original>			
+			<Russian>DHL униформа</Russian>
+		</Key>
+		<Key ID="STR_DHL_TakeOrder">
+			<Original>开始送货</Original>			
+			<Russian>Взять заказ</Russian>
+		</Key>
+		<Key ID="STR_DHL_GetCar">
+			<Original>获取 DHL 的送货车辆</Original>			
+			<Russian>Получить служебный автомобиль DHL</Russian>
+		</Key>
+		<Key ID="STR_DHL_CheckError">
+			<Original>您必须穿着 DHL 制服。 也没有武器在手或在眼前.</Original>			
+			<Russian>Вы должны быть одеты в комплект формы компании DHL. А так же никакого оружия в руках или на виду.</Russian>
+		</Key>
+	</Package>
+</Project>
