@@ -1,0 +1,108 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, Server Monitor">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Updata_Gov_INFO",4,4314,773.961548,-445.594482,873.961609,-395.594482,2.000000,"Updata Gov" \n "INFO"};
+item1[] = {"Init",0,250,602.689575,-621.394836,702.689575,-571.394775,0.000000,"Init"};
+item2[] = {"_",8,218,603.361877,-497.982819,703.361877,-447.982819,0.000000,""};
+item3[] = {"Process",2,250,603.727722,-354.868134,703.727722,-304.868134,0.000000,"Process"};
+item4[] = {"Economy_Updata",4,218,779.725586,-352.332397,879.725769,-302.332428,8.000000,"Economy" \n "Updata"};
+link0[] = {0,3};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {3,0};
+link4[] = {3,4};
+link5[] = {4,3};
+globals[] = {0.000000,0,0,0,0,640,480,1,12,6316128,1,347.564911,972.165222,-129.663879,-703.349976,898,704,1};
+window[] = {2,-1,-1,-1,-1,786,26,1318,26,3,916};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "Server Monitor";
+        class States
+        {
+                /*%FSM<STATE "Init">*/
+                class Init
+                {
+                        name = "Init";
+                        itemno = 1;
+                        init = /*%FSM<STATEINIT""">*/"diag_log ""Loaded Server FSM"";" \n
+                         "" \n
+                         "private [""_GetPrices"",""_GetGovInfo""];" \n
+                         "" \n
+                         "private _sell_array = [];" \n
+                         "private _buy_array = [];" \n
+                         "private _illegal_items = [];" \n
+                         "private _GovTimeUpdata = diag_tickTime;" \n
+                         "private _PriceTimeLood = diag_tickTime;" \n
+                         "private _PriceTimeUpdata = diag_tickTime;" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "_">*/
+                                class _
+                                {
+                                        itemno = 2;
+                                        priority = 0.000000;
+                                        to="Process";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Process">*/
+                class Process
+                {
+                        name = "Process";
+                        itemno = 3;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Economy_Updata">*/
+                                class Economy_Updata
+                                {
+                                        itemno = 4;
+                                        priority = 8.000000;
+                                        to="Process";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((diag_tickTime - _PriceTimeUpdata) > (30 * 60))"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_PriceTimeUpdata = diag_tickTime;" \n
+                                         "" \n
+                                         "[] call SunriseServer_system_UpdataPrices;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Updata_Gov_INFO">*/
+                                class Updata_Gov_INFO
+                                {
+                                        itemno = 0;
+                                        priority = 2.000000;
+                                        to="Process";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((diag_tickTime - _GovTimeUpdata) > 60)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_GovTimeUpdata = diag_tickTime;" \n
+                                         "" \n
+                                         "_GetGovInfo = ""GetGovernInfo"" call SunriseServer_database_selectSingle;" \n
+                                         "missionNamespace setVariable [""server_bank"",_GetGovInfo select 0,true];" \n
+                                         "missionNamespace setVariable [""server_tax"",_GetGovInfo select 1,true];" \n
+                                         "missionNamespace setVariable [""server_creditTax"",_GetGovInfo select 2,true];" \n
+                                         "missionNamespace setVariable [""server_mar_legal"",_GetGovInfo select 3,true];" \n
+                                         "missionNamespace setVariable [""server_slavery"",_GetGovInfo select 4,true];" \n
+                                         "missionNamespace setVariable [""server_poor"",_GetGovInfo select 5,true];" \n
+                                         "" \n
+                                         "missionNamespace setVariable [""server_timeText"",(call SunriseServer_system_getRealTime),true];"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="Init";
+        finalStates[] =
+        {
+        };
+};
+/*%FSM</COMPILE>*/
